@@ -1,0 +1,1067 @@
+[ 2019-06-04T16:18:51+08:00 ] ::1 /approach/index.php/Applist/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+ERR: 无法加载控制器:Index
+
+[ 2019-06-04T16:19:19+08:00 ] ::1 /approach/index.php/Applist/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+ERR: 无法加载控制器:Index
+
+[ 2019-06-04T16:19:22+08:00 ] ::1 /approach/index.php/Applist/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+ERR: 无法加载控制器:Index
+
+[ 2019-06-04T16:20:49+08:00 ] ::1 /approach/index.php/Applist/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+ERR: 无法加载控制器:Index
+
+[ 2019-06-04T16:25:13+08:00 ] ::1 /approach/index.php/Applist/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+ERR: 无法加载控制器:Index
+
+[ 2019-06-04T16:25:14+08:00 ] ::1 /approach/index.php/Applist/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+ERR: 无法加载控制器:Index
+
+[ 2019-06-04T16:25:14+08:00 ] ::1 /approach/index.php/Applist/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+ERR: 无法加载控制器:Index
+
+[ 2019-06-04T16:25:15+08:00 ] ::1 /approach/index.php/Applist/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+ERR: 无法加载控制器:Index
+
+[ 2019-06-04T16:26:15+08:00 ] ::1 /approach/index.php/Applist/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000949s ]
+
+[ 2019-06-04T16:26:21+08:00 ] ::1 /approach/index.php/Applist/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+
+[ 2019-06-04T16:28:38+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+
+[ 2019-06-04T16:31:10+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2019-06-04T16:32:31+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002607s ]
+
+[ 2019-06-04T16:33:29+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002070s ]
+
+[ 2019-06-04T16:35:06+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2019-06-04T16:35:22+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2019-06-04T16:35:28+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2019-06-04T16:35:29+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2019-06-04T16:37:44+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2019-06-04T16:37:45+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2019-06-04T17:11:42+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001365s ]
+
+[ 2019-06-04T17:15:00+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2019-06-04T17:15:58+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2019-06-04T17:15:59+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2019-06-04T17:16:22+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2019-06-04T17:17:14+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2019-06-04T17:19:14+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2019-06-04T17:27:18+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2019-06-04T17:34:38+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2019-06-04T17:34:39+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2019-06-04T17:38:23+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001619s ]
+
+[ 2019-06-04T17:49:03+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2019-06-04T17:49:09+08:00 ] ::1 /approach/index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2019-06-04T17:50:01+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+ERR: 模板不存在:./Application/Applist/View/Index/product.html
+
+[ 2019-06-04T18:16:22+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 88 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 88 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2019-06-04T18:16:25+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 88 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 88 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001831s ]
+
+[ 2019-06-04T18:16:58+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 88 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 88 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2019-06-04T18:17:19+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 88 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 88 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001549s ]
+
+[ 2019-06-04T18:20:07+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001927s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2019-06-04T18:26:26+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2019-06-04T18:26:33+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2019-06-04T18:26:35+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2019-06-04T18:26:38+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2019-06-04T18:26:52+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 83 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2019-06-04T18:29:01+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 83 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2019-06-04T18:29:02+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 83 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2019-06-04T18:29:03+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 83 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2019-06-04T18:30:05+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 97 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 98 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 99 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001755s ]
+
+[ 2019-06-04T18:30:48+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 97 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 98 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 99 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 104 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 116 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 117 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 118 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001887s ]
+
+[ 2019-06-04T18:30:56+08:00 ] ::1 /approach/index.php/Applist/Index/product.html?department=&grade=%E6%B0%B4%E6%B0%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 97 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 98 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 99 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 104 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 116 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 117 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 118 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2019-06-04T18:32:02+08:00 ] ::1 /approach/index.php/Applist/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+ERR: 非法操作:add
+
+[ 2019-06-04T18:32:03+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 97 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 98 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 99 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 104 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 116 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 117 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 118 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001409s ]
+
+[ 2019-06-04T18:34:47+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 97 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 98 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 99 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 104 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 116 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 117 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 118 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001487s ]
+
+[ 2019-06-04T18:35:21+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 97 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 98 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 99 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 104 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 116 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 117 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 118 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2019-06-04T18:35:22+08:00 ] ::1 /approach/index.php/Applist/Index/product_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001528s ]
+
+[ 2019-06-04T18:36:47+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 97 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 98 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 99 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 104 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 116 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 117 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 118 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2019-06-04T18:36:49+08:00 ] ::1 /approach/index.php/Applist/Index/product_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2019-06-04T18:36:58+08:00 ] ::1 /approach/index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 85 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 97 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 98 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 99 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 104 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 116 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 117 行.
+NOTIC: [8] Undefined variable: v F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 118 行.
+NOTIC: [8] Undefined variable: page F:\wamp\www\approach\Application\Runtime\Cache\Applist\2e7db29ac21c7415fb9f68fa88326a39.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001462s ]
+

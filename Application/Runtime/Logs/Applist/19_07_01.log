@@ -1,0 +1,48 @@
+[ 2019-07-01T16:29:10+08:00 ] ::1 /index.php/Applist/Index/server_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: one_data D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\Applist\e7dd4f79db00fb8e2d6301efb946287f.php 第 39 行.
+NOTIC: [8] Undefined variable: one_data D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\Applist\e7dd4f79db00fb8e2d6301efb946287f.php 第 42 行.
+NOTIC: [8] Undefined variable: one_data D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\Applist\e7dd4f79db00fb8e2d6301efb946287f.php 第 43 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\Applist\e7dd4f79db00fb8e2d6301efb946287f.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2019-07-01T16:29:12+08:00 ] ::1 /index.php/Applist/Index/hospital.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: dep_data D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\Applist\e4effbf28d4b9b339f45adb1113c8f7a.php 第 61 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\Applist\e4effbf28d4b9b339f45adb1113c8f7a.php 第 91 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\Applist\e4effbf28d4b9b339f45adb1113c8f7a.php 第 91 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\Applist\e4effbf28d4b9b339f45adb1113c8f7a.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001556s ]
+

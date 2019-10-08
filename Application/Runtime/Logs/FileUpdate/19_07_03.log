@@ -1,0 +1,2817 @@
+[ 2019-07-03T14:24:18+08:00 ] ::1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `file_pack_infor` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2019-07-03T14:24:20+08:00 ] ::1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2019-07-03T14:24:22+08:00 ] ::1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+SQL: SHOW COLUMNS FROM `file_pack_infor` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2019-07-03T14:24:22+08:00 ] ::1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001797s ]
+
+[ 2019-07-03T14:24:23+08:00 ] ::1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `file_pack_infor` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2019-07-03T14:41:54+08:00 ] ::1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `file_pack_infor` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2019-07-03T14:41:55+08:00 ] ::1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2019-07-03T14:42:00+08:00 ] ::1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `file_pack_infor` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2019-07-03T14:42:01+08:00 ] ::1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2019-07-03T14:43:11+08:00 ] ::1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `file_pack_infor` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2019-07-03T14:43:12+08:00 ] ::1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2019-07-03T14:43:13+08:00 ] ::1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `file_pack_infor` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2019-07-03T14:43:14+08:00 ] ::1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2019-07-03T14:43:15+08:00 ] ::1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `file_pack_infor` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2019-07-03T15:10:38+08:00 ] ::1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020574s ]
+
+[ 2019-07-03T15:11:00+08:00 ] ::1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SELECT id, path FROM `file_pack_infor`  [ RunTime:0.0159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Undefined index: pack_name D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\FileUpdate\1808adcb6ef5a0f8077389734a17242f.php 第 89 行.
+NOTIC: [8] Undefined index: pack_name D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\FileUpdate\1808adcb6ef5a0f8077389734a17242f.php 第 89 行.
+NOTIC: [8] Undefined index: pack_name D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\FileUpdate\1808adcb6ef5a0f8077389734a17242f.php 第 89 行.
+NOTIC: [8] Undefined index: pack_name D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\FileUpdate\1808adcb6ef5a0f8077389734a17242f.php 第 89 行.
+NOTIC: [8] Undefined index: pack_name D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\FileUpdate\1808adcb6ef5a0f8077389734a17242f.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015979s ]
+
+[ 2019-07-03T15:12:13+08:00 ] ::1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2019-07-03T15:18:58+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2019-07-03T15:18:59+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2019-07-03T15:19:17+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `file_pack_infor` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-03T15:19:23+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2019-07-03T15:19:30+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `file_pack_infor` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T15:21:25+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2019-07-03T15:21:28+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `file_pack_infor` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T15:24:21+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2019-07-03T15:24:25+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+SQL: SHOW COLUMNS FROM `file_pack_infor` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T15:26:51+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2019-07-03T15:26:53+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `file_pack_infor` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T15:45:47+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031165s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.191418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.191574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012013s ]
+
+[ 2019-07-03T16:12:40+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+
+[ 2019-07-03T16:13:15+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2019-07-03T16:13:17+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+ERR: Think\Controller:getDataOne方法不存在！
+
+[ 2019-07-03T16:14:10+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2019-07-03T16:14:13+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+ERR: Think\Controller:getDataOne方法不存在！
+
+[ 2019-07-03T16:15:03+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2019-07-03T16:15:05+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: packInfo D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 42 行.
+
+[ 2019-07-03T16:15:28+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2019-07-03T16:15:30+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: packInfo D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 42 行.
+
+[ 2019-07-03T16:16:21+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002376s ]
+
+[ 2019-07-03T16:16:21+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+
+[ 2019-07-03T16:16:28+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2019-07-03T16:16:30+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: packInfo D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 43 行.
+
+[ 2019-07-03T16:16:55+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2019-07-03T16:16:58+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: packInfo D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 43 行.
+
+[ 2019-07-03T16:17:55+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2019-07-03T16:17:57+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T16:19:10+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2019-07-03T17:07:03+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021854s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0131s ]
+NOTIC: [2] Missing argument 2 for FileUpdate\Service\Index\IndexService::myreaddir(), called in D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 50 行.
+NOTIC: [8] Undefined variable: arrName D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 54 行.
+
+[ 2019-07-03T17:08:30+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+
+[ 2019-07-03T17:08:34+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.186448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.186541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.043898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044030s ]
+
+[ 2019-07-03T17:08:34+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+
+[ 2019-07-03T17:08:49+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2019-07-03T17:08:50+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for FileUpdate\Service\Index\IndexService::myreaddir(), called in D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php on line 38 and defined D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 55 行.
+NOTIC: [8] Undefined variable: arrName D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 59 行.
+
+[ 2019-07-03T17:11:15+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2019-07-03T17:11:19+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for FileUpdate\Service\Index\IndexService::myreaddir(), called in D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php on line 38 and defined D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 55 行.
+NOTIC: [8] Undefined variable: arrName D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 59 行.
+
+[ 2019-07-03T17:11:40+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2019-07-03T17:11:41+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for FileUpdate\Service\Index\IndexService::myreaddir(), called in D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php on line 38 and defined D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 55 行.
+NOTIC: [8] Undefined variable: arrName D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 59 行.
+
+[ 2019-07-03T17:12:42+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2019-07-03T17:12:44+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T17:13:03+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2019-07-03T17:13:05+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T17:13:37+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2019-07-03T17:13:38+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T17:13:58+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2019-07-03T17:13:59+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T17:14:15+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2019-07-03T17:14:16+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:13:06+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2019-07-03T18:13:08+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-03T18:14:40+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2019-07-03T18:14:41+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:15:01+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2019-07-03T18:15:02+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:19:29+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2019-07-03T18:19:31+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:19:51+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2019-07-03T18:19:53+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-03T18:19:59+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2019-07-03T18:20:01+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-03T18:20:25+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2019-07-03T18:20:26+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:20:50+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2019-07-03T18:20:51+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-03T18:21:11+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2019-07-03T18:21:13+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:21:58+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+
+[ 2019-07-03T18:22:07+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2019-07-03T18:22:09+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:23:20+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2019-07-03T18:23:21+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:23:58+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2019-07-03T18:24:01+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:28:09+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2019-07-03T18:28:11+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:28:55+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001464s ]
+
+[ 2019-07-03T18:28:57+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-03T18:30:08+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2019-07-03T18:30:09+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: fileOperation D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 47 行.
+NOTIC: [8] Undefined variable: fileOperation D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 47 行.
+NOTIC: [2] array_intersect(): Argument #1 is not an array D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 47 行.
+NOTIC: [8] Undefined variable: fileOperation D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 50 行.
+NOTIC: [8] Undefined variable: fileOperation D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 50 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 50 行.
+
+[ 2019-07-03T18:31:10+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2019-07-03T18:31:11+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-03T18:37:23+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2019-07-03T18:37:25+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:40:11+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2019-07-03T18:40:13+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:46:43+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2019-07-03T18:46:45+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:55:05+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2019-07-03T18:55:07+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-03T18:55:43+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2019-07-03T18:55:44+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:55:57+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2019-07-03T18:55:59+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:56:12+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2019-07-03T18:56:14+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-03T18:56:45+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2019-07-03T18:56:47+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:58:38+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001530s ]
+
+[ 2019-07-03T18:58:40+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-03T18:59:17+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2019-07-03T18:59:18+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T18:59:52+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2019-07-03T18:59:56+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-03T19:00:12+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2019-07-03T19:00:14+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T20:09:38+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023512s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013701s ]
+
+[ 2019-07-03T20:09:39+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T20:11:03+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2019-07-03T20:11:03+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2019-07-03T20:11:05+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T20:13:44+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2019-07-03T20:13:48+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+
+[ 2019-07-03T20:13:58+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2019-07-03T20:13:59+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+NOTIC: [8] Undefined variable: paht D:\phpStudy\PHPTutorial\WWW\approach\Application\FileUpdate\Service\Index\IndexService.class.php 第 84 行.
+
+[ 2019-07-03T20:14:11+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001866s ]
+
+[ 2019-07-03T20:14:12+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T20:14:28+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2019-07-03T20:14:29+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T20:15:06+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2019-07-03T20:15:07+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-03T20:15:22+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2019-07-03T20:15:23+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-03T20:16:43+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2019-07-03T20:16:44+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T20:17:01+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2019-07-03T20:17:02+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T20:17:35+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2019-07-03T20:17:36+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2019-07-03T20:19:38+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2019-07-03T20:19:39+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T20:20:13+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2019-07-03T20:20:14+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T20:22:02+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2019-07-03T20:22:03+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-03T20:37:38+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2019-07-03T20:37:39+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+

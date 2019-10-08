@@ -1,0 +1,1262 @@
+[ 2019-08-21T17:50:41+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2019-08-21T17:50:42+08:00 ] ::1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2019-08-21T17:50:43+08:00 ] ::1 /index.php/Home/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2019-08-21T17:50:44+08:00 ] ::1 /index.php/Home/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2019-08-21T17:50:45+08:00 ] ::1 /index.php/Home/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2019-08-21T17:50:45+08:00 ] ::1 /index.php/Home/Update/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2019-08-21T17:50:46+08:00 ] ::1 /index.php/Home/Update/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2019-08-21T17:50:47+08:00 ] ::1 /index.php/Home/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2019-08-21T17:50:48+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 50 行.
+
+[ 2019-08-21T18:23:06+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+
+[ 2019-08-21T18:23:12+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+
+[ 2019-08-21T18:23:13+08:00 ] ::1 /index.php/Home/Update/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2019-08-21T18:23:14+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+
+[ 2019-08-21T18:23:38+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+
+[ 2019-08-21T18:24:51+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+
+[ 2019-08-21T18:24:58+08:00 ] ::1 /index.php/Home/Index/main.html?id=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2019-08-21T18:24:59+08:00 ] ::1 /index.php/Home/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2019-08-21T18:25:00+08:00 ] ::1 /index.php/Home/Update/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2019-08-21T18:25:00+08:00 ] ::1 /index.php/Home/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2019-08-21T18:25:07+08:00 ] ::1 /index.php/Home/Index/main.html/?id=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2019-08-21T18:25:07+08:00 ] ::1 /index.php/Home/Index/main.html/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+ERR: 非法操作:main.html
+
+[ 2019-08-21T18:25:07+08:00 ] ::1 /index.php/Home/Index/main.html/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+ERR: 非法操作:main.html
+
+[ 2019-08-21T18:25:07+08:00 ] ::1 /index.php/Home/Index/Update/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+ERR: 非法操作:Update
+
+[ 2019-08-21T18:25:14+08:00 ] ::1 /index.php/Home/Update/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002417s ]
+
+[ 2019-08-21T18:25:15+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+
+[ 2019-08-21T18:25:38+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+
+[ 2019-08-21T18:25:43+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id-123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+
+[ 2019-08-21T18:25:46+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+
+[ 2019-08-21T18:26:09+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+
+[ 2019-08-21T18:26:21+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+
+[ 2019-08-21T18:26:42+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+
+[ 2019-08-21T18:26:51+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+
+[ 2019-08-21T18:32:36+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=asdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+
+[ 2019-08-21T18:32:39+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=asdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+
+[ 2019-08-21T18:32:49+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=asdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+
+[ 2019-08-21T18:32:51+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+
+[ 2019-08-21T18:32:56+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=1233333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+
+[ 2019-08-21T18:33:04+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=1233333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+
+[ 2019-08-21T18:33:09+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=1233333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+
+[ 2019-08-21T18:33:11+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=1233333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+
+[ 2019-08-21T18:33:13+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=1233333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+
+[ 2019-08-21T18:33:14+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=1233333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+
+[ 2019-08-21T18:33:18+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+
+[ 2019-08-21T18:33:25+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+
+[ 2019-08-21T18:34:50+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+
+[ 2019-08-21T18:35:05+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+
+[ 2019-08-21T18:35:06+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+
+[ 2019-08-21T18:35:06+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+
+[ 2019-08-21T18:35:10+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+
+[ 2019-08-21T18:35:11+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+
+[ 2019-08-21T18:35:12+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+
+[ 2019-08-21T18:35:13+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+
+[ 2019-08-21T18:35:13+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+
+[ 2019-08-21T18:35:14+08:00 ] ::1 /index.php/Home/UpdateData/index.html?id=123321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 35 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: pDatabaseType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pDatabaseParams D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 23 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 47 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 51 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+

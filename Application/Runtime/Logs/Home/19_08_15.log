@@ -1,0 +1,459 @@
+[ 2019-08-15T09:42:34+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2019-08-15T09:43:04+08:00 ] ::1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2019-08-15T09:43:06+08:00 ] ::1 /index.php/Home/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2019-08-15T09:43:06+08:00 ] ::1 /index.php/Home/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2019-08-15T09:43:07+08:00 ] ::1 /index.php/Home/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2019-08-15T09:43:07+08:00 ] ::1 /index.php/Home/Update/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002228s ]
+
+[ 2019-08-15T09:43:34+08:00 ] ::1 /index.php/Home/Update/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2019-08-15T09:43:35+08:00 ] ::1 /index.php/Home/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2019-08-15T09:43:36+08:00 ] ::1 /index.php/Home/Update/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2019-08-15T09:43:38+08:00 ] ::1 /index.php/Home/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2019-08-15T09:43:38+08:00 ] ::1 /index.php/Home/Update/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2019-08-15T09:43:38+08:00 ] ::1 /index.php/Home/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001884s ]
+
+[ 2019-08-15T09:43:40+08:00 ] ::1 /index.php/Home/Update/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2019-08-15T09:43:41+08:00 ] ::1 /index.php/Home/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2019-08-15T09:44:01+08:00 ] ::1 /index.php/Home/Update/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2019-08-15T09:44:03+08:00 ] ::1 /index.php/Home/Update/update.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [2048] Non-static method Home\Common\Utility\PclZipController::unpackZip() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 70 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 131 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 217 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 217 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkDirFiles() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Supply\File\FileBase.class.php 第 209 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [8] Undefined index: extension D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateFileService.class.php 第 201 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFileAll() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFileAll() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFileAll() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 54 行.
+NOTIC: [2] odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][ODBC SQL Server Driver][SQL Server]������ 'logs' ��Ч��, SQL state S0002 in SQLExecDirect D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataBaseUtility.class.php 第 44 行.
+NOTIC: [2] odbc_fetch_array() expects parameter 1 to be resource, boolean given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataBaseUtility.class.php 第 49 行.
+

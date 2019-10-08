@@ -1,0 +1,2783 @@
+[ 2019-08-23T08:44:51+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2019-08-23T08:44:52+08:00 ] ::1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2019-08-23T08:44:53+08:00 ] ::1 /index.php/Home/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2019-08-23T08:44:53+08:00 ] ::1 /index.php/Home/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2019-08-23T08:44:54+08:00 ] ::1 /index.php/Home/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2019-08-23T08:44:55+08:00 ] ::1 /index.php/Home/Update/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2019-08-23T08:47:22+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2019-08-23T08:47:26+08:00 ] ::1 /index.php/Home/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2019-08-23T08:47:26+08:00 ] ::1 /index.php/Home/Update/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2019-08-23T08:47:27+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2019-08-23T08:50:34+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2019-08-23T08:50:43+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2019-08-23T08:50:59+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2019-08-23T08:51:19+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2019-08-23T08:53:07+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T08:53:28+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T08:53:34+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T08:53:52+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T08:54:26+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2019-08-23T08:54:52+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2019-08-23T08:55:51+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2019-08-23T08:56:00+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2019-08-23T08:56:17+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2019-08-23T08:56:34+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2019-08-23T08:56:38+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2019-08-23T08:56:39+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2019-08-23T08:56:40+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2019-08-23T08:56:40+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2019-08-23T08:57:05+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2019-08-23T08:57:05+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2019-08-23T08:57:06+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2019-08-23T08:57:06+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2019-08-23T08:57:06+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2019-08-23T08:57:11+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2019-08-23T08:57:31+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 102 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, null given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 102 行.
+
+[ 2019-08-23T08:57:54+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 102 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, null given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 102 行.
+
+[ 2019-08-23T08:58:12+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 102 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, null given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 102 行.
+
+[ 2019-08-23T08:58:27+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 102 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, null given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 102 行.
+
+[ 2019-08-23T08:58:54+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:01:07+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:01:17+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:01:18+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:01:18+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:01:19+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:01:22+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:01:35+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:02:27+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:02:38+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:02:41+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:38:59+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+
+[ 2019-08-23T09:43:25+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+
+[ 2019-08-23T09:43:32+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+
+[ 2019-08-23T09:43:35+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+NOTIC: [8] Undefined variable: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 36 行.
+NOTIC: [8] Undefined variable: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 37 行.
+
+[ 2019-08-23T09:43:42+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+NOTIC: [8] Undefined variable: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 36 行.
+NOTIC: [8] Undefined variable: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 37 行.
+
+[ 2019-08-23T09:43:46+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+NOTIC: [8] Undefined variable: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 36 行.
+NOTIC: [8] Undefined variable: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 37 行.
+
+[ 2019-08-23T09:49:15+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:49:52+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:49:52+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:49:52+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:50:40+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:50:52+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:50:52+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:51:27+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:51:28+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:51:32+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:51:37+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:52:29+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:52:36+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:52:37+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:52:56+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:53:10+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T09:53:10+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T09:53:21+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+NOTIC: [8] Undefined variable: aaa D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 36 行.
+
+[ 2019-08-23T09:53:32+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+NOTIC: [8] Undefined variable: aaa D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 36 行.
+
+[ 2019-08-23T09:53:32+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+NOTIC: [8] Undefined variable: aaa D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 36 行.
+
+[ 2019-08-23T09:53:32+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+NOTIC: [8] Undefined variable: aaa D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 36 行.
+
+[ 2019-08-23T09:53:44+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:55:55+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:56:33+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:57:23+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:57:44+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:57:45+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:57:46+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:57:46+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:57:59+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:58:10+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:59:19+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T09:59:35+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:00:19+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:00:19+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:00:19+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:00:20+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:00:40+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:00:58+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:00:59+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:00:59+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:01:00+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:01:00+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:01:28+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:01:31+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:01:55+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:02:25+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:02:30+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:02:35+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:02:37+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:02:41+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:02:59+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:03:05+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:04:07+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:05:00+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:05:37+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::connectDatabase() must be an instance of Home\Common\Utility\DataTypeUtility, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 59 行.
+
+[ 2019-08-23T10:06:10+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:06:17+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::connectDatabase() must be an instance of Home\Common\Utility\DataTypeUtility, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 59 行.
+
+[ 2019-08-23T10:06:23+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::connectDatabase() must be an instance of Home\Common\Utility\DataTypeUtility, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 59 行.
+
+[ 2019-08-23T10:06:37+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:07:35+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:07:39+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:07:40+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:07:40+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:07:40+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:07:41+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:07:41+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:07:43+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:07:44+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:09:50+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:16:10+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:26:11+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:26:11+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:26:11+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:26:12+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:27:07+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:27:57+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:27:57+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:27:57+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:27:58+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:27:58+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:27:58+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:27:58+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:27:58+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:28:40+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:29:05+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:30:00+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:32:13+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:32:14+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:32:14+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] Missing argument 1 for Home\Common\Utility\DataTypeUtility::__construct() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\DataTypeUtility.class.php 第 35 行.
+
+[ 2019-08-23T10:36:11+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+
+[ 2019-08-23T10:36:34+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+
+[ 2019-08-23T10:36:35+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+
+[ 2019-08-23T10:36:35+08:00 ] ::1 /index.php/Home/Update/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2019-08-23T10:36:36+08:00 ] ::1 /index.php/Home/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002672s ]
+
+[ 2019-08-23T10:36:36+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+
+[ 2019-08-23T10:37:21+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+
+[ 2019-08-23T10:37:56+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+
+[ 2019-08-23T10:38:11+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+
+[ 2019-08-23T10:38:24+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+
+[ 2019-08-23T10:38:40+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+
+[ 2019-08-23T10:38:42+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+
+[ 2019-08-23T10:38:42+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+
+[ 2019-08-23T10:38:43+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+
+[ 2019-08-23T10:38:43+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+
+[ 2019-08-23T10:38:44+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+
+[ 2019-08-23T10:38:44+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+
+[ 2019-08-23T10:38:44+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+
+[ 2019-08-23T10:38:44+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+
+[ 2019-08-23T10:38:44+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+
+[ 2019-08-23T10:38:45+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+
+[ 2019-08-23T10:38:45+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+
+[ 2019-08-23T10:38:45+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+
+[ 2019-08-23T10:38:45+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+
+[ 2019-08-23T10:38:45+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+
+[ 2019-08-23T10:38:46+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+
+[ 2019-08-23T10:38:46+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+
+[ 2019-08-23T10:38:46+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+
+[ 2019-08-23T10:38:46+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+
+[ 2019-08-23T10:38:46+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+
+[ 2019-08-23T10:38:47+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+
+[ 2019-08-23T10:38:57+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+
+[ 2019-08-23T10:40:46+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+
+[ 2019-08-23T10:40:48+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+
+[ 2019-08-23T10:40:48+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+
+[ 2019-08-23T10:40:59+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:41:03+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:41:12+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:41:55+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:07+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:08+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:08+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:09+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:09+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:09+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:09+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:09+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:09+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:10+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:10+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:10+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:10+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:10+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:11+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:11+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:13+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:24+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:42:39+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:43:10+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:43:53+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:44:05+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:44:05+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:44:05+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:44:06+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:44:06+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:44:06+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:44:06+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:44:06+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:44:07+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:44:43+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:44:44+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:44:52+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:45:05+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:45:05+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:45:06+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:45:06+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:45:07+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:47:17+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:47:18+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:47:21+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, integer given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 94 行.
+
+[ 2019-08-23T10:47:22+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, integer given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 94 行.
+
+[ 2019-08-23T10:48:03+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+
+[ 2019-08-23T10:48:15+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, integer given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 94 行.
+
+[ 2019-08-23T10:49:07+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, integer given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 96 行.
+
+[ 2019-08-23T10:49:31+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, integer given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 96 行.
+
+[ 2019-08-23T10:49:45+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, integer given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 96 行.
+
+[ 2019-08-23T10:49:49+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [2] call_user_func_array() expects parameter 2 to be array, integer given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 96 行.
+
+[ 2019-08-23T10:50:13+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+
+[ 2019-08-23T10:51:05+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] Undefined index: \Home\Service\Data\DataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+NOTIC: [8] Undefined index: Home\Common\Utility\DataTypeUtility D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Utility\Container.class.php 第 60 行.
+

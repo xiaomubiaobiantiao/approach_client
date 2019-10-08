@@ -1,0 +1,6 @@
+[ 2019-08-20T16:42:53+08:00 ] ::1 /index.php/Applist/Index/hospital_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:Applist
+

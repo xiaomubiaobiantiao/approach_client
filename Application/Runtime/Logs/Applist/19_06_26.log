@@ -1,0 +1,228 @@
+[ 2019-06-26T18:13:05+08:00 ] 127.0.0.1 /index.php/Applist/Interface/interface_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2019-06-26T18:13:15+08:00 ] 127.0.0.1 /index.php/Applist/File/file_type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2019-06-26T18:13:19+08:00 ] 127.0.0.1 /index.php/Applist/File/file_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2019-06-26T18:13:56+08:00 ] 127.0.0.1 /index.php/Applist/Daily/daily_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2019-06-26T18:14:48+08:00 ] 127.0.0.1 /index.php/Applist/File/file_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2019-06-26T18:14:58+08:00 ] 127.0.0.1 /index.php/Applist/File/file_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2019-06-26T18:23:17+08:00 ] 127.0.0.1 /index.php/Applist/Event/event_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `event`
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `event`
+
+[ 2019-06-26T18:23:23+08:00 ] 127.0.0.1 /index.php/Applist/Index/server_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `server`
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `server`
+
+[ 2019-06-26T18:23:26+08:00 ] 127.0.0.1 /index.php/Applist/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `server`
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `server`
+
+[ 2019-06-26T18:23:28+08:00 ] 127.0.0.1 /index.php/Applist/Index/pro_type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `product_type`
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `product_type`
+
+[ 2019-06-26T18:23:30+08:00 ] 127.0.0.1 /index.php/Applist/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `product`
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `product`
+
+[ 2019-06-26T18:23:31+08:00 ] 127.0.0.1 /index.php/Applist/Index/hospital.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `hospital`
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `hospital`
+
+[ 2019-06-26T18:23:34+08:00 ] 127.0.0.1 /index.php/Applist/Interface/interface_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `interface`
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `interface`
+
+[ 2019-06-26T18:23:43+08:00 ] 127.0.0.1 /index.php/Applist/File/file_type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `file_type`
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `file_type`
+
+[ 2019-06-26T18:23:45+08:00 ] 127.0.0.1 /index.php/Applist/File/file_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `file`
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `file`
+
+[ 2019-06-26T18:23:49+08:00 ] 127.0.0.1 /index.php/Applist/Daily/daily_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `daily`
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `daily`
+
+[ 2019-06-26T18:23:51+08:00 ] 127.0.0.1 /index.php/Applist/Event/event_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `event`
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `event`
+
+[ 2019-06-26T18:51:39+08:00 ] 127.0.0.1 /index.php/Applist/Daily/daily_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `daily`
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `daily`
+
+[ 2019-06-26T18:51:43+08:00 ] 127.0.0.1 /index.php/Applist/Daily/daily_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `daily`
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `daily`
+
+[ 2019-06-26T19:20:50+08:00 ] 127.0.0.1 /index.php/Applist/Index/server_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `server`
+ERR: 1046:No database selected
+ [ SQL璇彞 ] : SHOW COLUMNS FROM `server`
+

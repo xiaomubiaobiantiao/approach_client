@@ -1,0 +1,2388 @@
+[ 2019-07-07T00:09:47+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0011s ]
+
+[ 2019-07-07T00:09:49+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001543s ]
+
+[ 2019-07-07T00:09:50+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+
+[ 2019-07-07T00:09:59+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2019-07-07T15:55:03+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003354s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0493s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+ERR: Think\Controller:copyFiles方法不存在！
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\PHPTutorial\www\zzhy\approach_new\ThinkPHP\Common\functions.php:850) D:\phpStudy\PHPTutorial\www\zzhy\approach_new\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\PHPTutorial\www\zzhy\approach_new\ThinkPHP\Common\functions.php:850) D:\phpStudy\PHPTutorial\www\zzhy\approach_new\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2019-07-07T15:56:40+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000636s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000736s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021473s ]
+
+[ 2019-07-07T15:56:43+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002171s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+
+[ 2019-07-07T15:57:44+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002044s ]
+
+[ 2019-07-07T15:57:45+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+
+[ 2019-07-07T15:58:20+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001658s ]
+
+[ 2019-07-07T15:58:21+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+
+[ 2019-07-07T19:38:44+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001672s ]
+
+[ 2019-07-07T19:38:45+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+
+[ 2019-07-07T19:48:16+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2019-07-07T19:48:18+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 157 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+
+[ 2019-07-07T19:49:09+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2019-07-07T19:49:11+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+
+[ 2019-07-07T19:49:44+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2019-07-07T19:49:45+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] mkdir(): File exists D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 158 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(): The first argument to copy() function cannot be a directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+
+[ 2019-07-07T19:51:18+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001567s ]
+
+[ 2019-07-07T19:51:20+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] copy(Public/files/backup_pack/Application/test_aaa/files/abc.txt): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(Public/files/backup_pack/Application/test_aaa/files/update/123123/filename.txt): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(Public/files/backup_pack/Application/test_aaa/files/update/123123/filename_1.txt): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(Public/files/backup_pack/Application/test_aaa/files/update/123123/filename_2.txt): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(Public/files/backup_pack/Application/test_aaa/files/update/55555/54540/filename.txt): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(Public/files/backup_pack/Application/test_aaa/files/update/55555/54540/filename_1.txt): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(Public/files/backup_pack/Application/test_aaa/files/update/55555/54540/filename_2.txt): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(Public/files/backup_pack/Application/test_aaa/files/update/55555/filename.txt): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(Public/files/backup_pack/Application/test_aaa/files/update/55555/filename_1.txt): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(Public/files/backup_pack/Application/test_aaa/files/update/55555/filename_2.txt): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(Public/files/backup_pack/Application/test_aaa/files/update/filename.txt): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(Public/files/backup_pack/Application/test_aaa/files/update/filename_1.txt): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+NOTIC: [2] copy(Public/files/backup_pack/Application/test_aaa/files/update/filename_2.txt): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 144 行.
+
+[ 2019-07-07T19:53:38+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2019-07-07T19:53:39+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-07T19:56:47+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2019-07-07T19:56:48+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-07T20:07:48+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2019-07-07T20:07:50+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-07T20:26:43+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001621s ]
+
+[ 2019-07-07T20:26:44+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant UNPACK_PATH - assumed 'UNPACK_PATH' D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Service\Index\IndexService.class.php 第 75 行.
+
+[ 2019-07-07T20:31:07+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2019-07-07T20:31:08+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+NOTIC: [8] Undefined variable: pPath D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Service\Index\IndexService.class.php 第 31 行.
+
+[ 2019-07-07T20:32:43+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2019-07-07T20:32:46+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+ERR: Think\Controller:plcZip方法不存在！
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\PHPTutorial\www\zzhy\approach_new\ThinkPHP\Common\functions.php:850) D:\phpStudy\PHPTutorial\www\zzhy\approach_new\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\PHPTutorial\www\zzhy\approach_new\ThinkPHP\Common\functions.php:850) D:\phpStudy\PHPTutorial\www\zzhy\approach_new\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2019-07-07T20:33:08+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2019-07-07T20:33:11+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [2] fopen(Public/files/backup_pack): failed to open stream: Permission denied D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZip.class.php 第 2410 行.
+
+[ 2019-07-07T20:34:13+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2019-07-07T20:34:16+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [2] fopen(Public/files/backup_pack): failed to open stream: Permission denied D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZip.class.php 第 2410 行.
+
+[ 2019-07-07T20:35:40+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2019-07-07T20:35:54+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [2] fopen(Public/files/backup_pack): failed to open stream: Permission denied D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZip.class.php 第 2410 行.
+
+[ 2019-07-07T20:41:14+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2019-07-07T20:41:17+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [2] fopen(Public/files/backup_pack): failed to open stream: Permission denied D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZip.class.php 第 2410 行.
+
+[ 2019-07-07T20:58:07+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001708s ]
+
+[ 2019-07-07T20:58:09+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [2] fopen(Public/files/backup_pack): failed to open stream: Permission denied D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZip.class.php 第 2410 行.
+
+[ 2019-07-07T21:18:50+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002045s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2019-07-07T21:18:52+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-07T21:19:33+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2019-07-07T21:19:35+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-07T21:20:53+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2019-07-07T21:20:55+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-07T21:21:17+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2019-07-07T21:21:20+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] fopen(./Public\files\backup_pack\Application\test_aaa\files): failed to open stream: Permission denied D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZip.class.php 第 2410 行.
+
+[ 2019-07-07T21:21:51+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2019-07-07T21:21:53+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] fopen(./Public/files/backup_pack/Application/test_aaa/files): failed to open stream: Permission denied D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZip.class.php 第 2410 行.
+
+[ 2019-07-07T21:22:47+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2019-07-07T21:22:48+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-07T21:24:53+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2019-07-07T21:24:55+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] fopen(./Public/): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZip.class.php 第 2410 行.
+
+[ 2019-07-07T21:25:10+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2019-07-07T21:25:12+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] fopen(./Public/files): failed to open stream: Permission denied D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZip.class.php 第 2410 行.
+
+[ 2019-07-07T21:25:25+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2019-07-07T21:25:27+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] fopen(./Public/files/): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZip.class.php 第 2410 行.
+
+[ 2019-07-07T21:25:39+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2019-07-07T21:25:41+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-07T21:26:48+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2019-07-07T21:26:50+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+
+[ 2019-07-07T21:27:44+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2019-07-07T21:27:48+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+
+[ 2019-07-07T21:30:52+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2019-07-07T21:30:55+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+
+[ 2019-07-07T21:31:47+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2019-07-07T21:31:50+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+
+[ 2019-07-07T22:50:04+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2019-07-07T22:50:07+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: time D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Service\Index\IndexService.class.php 第 46 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [2] fopen(Public/files/backup_pack/1970-01-01 08:00:00zip): failed to open stream: Invalid argument D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZip.class.php 第 2410 行.
+
+[ 2019-07-07T22:50:26+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2019-07-07T22:50:28+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: time D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Service\Index\IndexService.class.php 第 46 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [2] fopen(Public/files/backup_pack/1970-01-01 08:00:00.zip): failed to open stream: Invalid argument D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZip.class.php 第 2410 行.
+
+[ 2019-07-07T22:53:07+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001407s ]
+
+[ 2019-07-07T22:53:09+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-07T22:53:50+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2019-07-07T22:53:53+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+
+[ 2019-07-07T22:57:47+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2019-07-07T22:57:48+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant UNPACK_PATH - assumed 'UNPACK_PATH' D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Service\Index\IndexService.class.php 第 36 行.
+
+[ 2019-07-07T22:58:30+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2019-07-07T22:58:31+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-07T23:01:47+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2019-07-07T23:01:48+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-07T23:02:28+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2019-07-07T23:02:30+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.183537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.183655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002306s ]
+
+[ 2019-07-07T23:02:34+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2019-07-07T23:02:46+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: vlaue D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\PclZipController.class.php 第 22 行.
+
+[ 2019-07-07T23:16:11+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2019-07-07T23:16:12+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001848s ]
+
+[ 2019-07-07T23:16:17+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\PHPTutorial\www\zzhy\approach_new\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `file_pack_infor` (`pack_name`,`path`,`user`,`add_time`,`update_time`) VALUES ('Application.zip','D:/phpStudy/PHPTutorial/www/zzhy/approach_new/Public/files/uploads_pack/Application.zip','目前为空','1562512577','1562512577') [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2019-07-07T23:16:19+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-07-07T23:17:10+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001891s ]
+
+[ 2019-07-07T23:17:12+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001866s ]
+
+[ 2019-07-07T23:17:12+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2019-07-07T23:17:24+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2019-07-07T23:17:26+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002307s ]
+
+[ 2019-07-07T23:17:33+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2019-07-07T23:17:33+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001853s ]
+
+[ 2019-07-07T23:17:34+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2019-07-07T23:18:16+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2019-07-07T23:18:17+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001714s ]
+
+[ 2019-07-07T23:19:00+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004544s ]
+
+[ 2019-07-07T23:19:14+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001899s ]
+
+[ 2019-07-07T23:19:27+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002283s ]
+
+[ 2019-07-07T23:19:37+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001819s ]
+
+[ 2019-07-07T23:19:55+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002394s ]
+
+[ 2019-07-07T23:19:56+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001842s ]
+
+[ 2019-07-07T23:20:12+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001879s ]
+
+[ 2019-07-07T23:20:13+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001762s ]
+
+[ 2019-07-07T23:20:39+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002508s ]
+
+[ 2019-07-07T23:20:40+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2019-07-07T23:20:40+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2019-07-07T23:36:04+08:00 ] 127.0.0.1 /index.php/FileUpdate/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SELECT * FROM `file_pack_infor`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002593s ]
+
+[ 2019-07-07T23:36:08+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2019-07-07T23:36:16+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-07T23:45:02+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2019-07-07T23:45:04+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-07T23:45:12+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2019-07-07T23:45:16+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-07-07T23:45:25+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2019-07-07T23:45:32+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-07-07T23:57:18+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SELECT id, pack_name FROM `file_pack_infor`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2019-07-07T23:57:23+08:00 ] 127.0.0.1 /index.php/FileUpdate/Index/update.html?version_id=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SELECT * FROM `file_pack_infor` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Array to string conversion D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 154 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 154 行.
+NOTIC: [8] Undefined variable: pBackUpFileListArr D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\www\zzhy\approach_new\Application\FileUpdate\Common\Utility\FileUtility.class.php 第 155 行.
+

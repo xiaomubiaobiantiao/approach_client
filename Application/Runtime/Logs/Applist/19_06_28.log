@@ -1,0 +1,45 @@
+[ 2019-06-28T09:37:22+08:00 ] 127.0.0.1 /index.php/Applist/Daily/daily_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\Applist\5b74cc21fb9431cb8f8e4fb6d1707ffe.php 第 64 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\Applist\5b74cc21fb9431cb8f8e4fb6d1707ffe.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2019-06-28T09:37:24+08:00 ] 127.0.0.1 /index.php/Applist/File/file_type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\Applist\18e0e65bcf262612ee3d2d25fa877577.php 第 74 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\Applist\18e0e65bcf262612ee3d2d25fa877577.php 第 74 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\PHPTutorial\WWW\approach\Application\Runtime\Cache\Applist\18e0e65bcf262612ee3d2d25fa877577.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+

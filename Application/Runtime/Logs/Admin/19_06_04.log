@@ -1,0 +1,23 @@
+[ 2019-06-04T17:03:44+08:00 ] ::1 /approach/index.php/Admin/User/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `pks_user` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pks_user` WHERE ( 1 AND flag=1 OR flag=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pks_user` WHERE ( 1 AND flag=1 OR flag=2 ) LIMIT 0,25   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001571s ]
+

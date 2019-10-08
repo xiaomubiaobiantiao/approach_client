@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="__PUBLIC__/css/progress/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/progress/demo.css">
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+</head>
+<body>
+
+<!-- css部分 -->
+<style type="text/css">
+.progress-title{
+		font-size: 16px;
+		font-weight: 700;
+		color: #333;
+		margin: 0 0 20px;
+	}
+	.progress{
+		height: 10px;
+		background: #333;
+		border-radius: 0;
+		box-shadow: none;
+		margin-bottom: 30px;
+		overflow: visible;
+	}
+	.progress .progress-bar{
+		position: relative;
+		-webkit-animation: animate-positive 6s;
+		animation: animate-positive 6s;
+	}
+	.progress .progress-bar:after{
+		content: "";
+		display: inline-block;
+		width: 9px;
+		background: #fff;
+		position: absolute;
+		top: -10px;
+		bottom: -10px;
+		right: -1px;
+		z-index: 1;
+		transform: rotate(35deg);
+	}
+	.progress .progress-value{
+		display: block;
+		font-size: 16px;
+		font-weight: 600;
+		color: #333;
+		position: absolute;
+		top: -30px;
+		right: -25px;
+	}
+	@-webkit-keyframes animate-positive{
+		0%{ width: 0; }
+	}
+	@keyframes animate-positive {
+		0%{ width: 0; }
+	}
+
+}
+</style>
+<!-- html 部分 -->
+</head>
+<body style="magin:0px 0px ;padding:0px 0px;height:700px">
+<button id="but">按钮</button>
+
+	<div id="hide" style="width:100%;height:100%;top:0px;left:0px;position:absolute;background:white;z-index:9;display:none;border:0px solid orange
+	">
+		<!-- <button id="close"style="float:right">关闭</button> -->
+		<br /><br /><br />
+
+		<div class="demo">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6">
+
+					<h3 class="progress-title">更新文件...<div style="float:right;" id="number"></div></h3>
+					<div class="progress">
+						<div class="progress-bar" style="width:100%; background:#97c513; animation-timing-function: linear; animation-timing-function: forwards;">
+							<!--<div class="progress-value">100%</div>-->
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+	</div>
+
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';"> 
+
+<!-- jquery 部分 -->
+<script type="text/javascript">
+$(function()
+	
+	$("#but").click(function(){
+		// 获取当前页面的高度
+		var height=$('body').css('height');
+		//append遮罩层元素
+		$('body').append
+		("<div id=background style='height:"+height+"';></div>")
+		//显示弹出框
+		//$("#hide").slideDown("slow");
+		$("#hide").show();
+		/* 输入值 */
+		magic_number(101);
+	})
+
+	$("#close").click(function(){
+		//关闭弹出框
+		$(this).closest('div').hide();
+		$("#background").remove();
+	})
+
+})
+</script>
+
+<script type="text/javascript">
+/* 输入值 */
+//magic_number(101);
+
+/* 向 id=number的 div 同步时间 - 多少秒内读多少数字 */
+function magic_number(value) { 
+    var num = $("#number"); 
+    num.animate({count: value}, { 
+        duration: 6100, /* 秒数 */
+        step: function() { 
+        	var value = String(parseInt(this.count));
+            num.text( value + '%' );
+            if ( value == 100 ) {
+            	window.location.href = "/index.php/Home/Common/message.html";
+            }
+        } 
+    }); 
+};
+</script>
+
+
+</body>
+</html>

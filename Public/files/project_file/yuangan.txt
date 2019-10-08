@@ -1,0 +1,3 @@
+Application\Home\Supply\Detection\Detection.class.php
+Application\Home\Supply\File\FileBase.class.php
+Application\Home\Supply\Log\Logs.class.php
