@@ -1,5 +1,6 @@
 <?php
 /**
+ * 压缩包操作类
  * Created by Sublime Text
  * @author Michael
  * DateTime: 19-6-27 09:37:00
@@ -64,7 +65,38 @@ class PclZipController //extends Controller
 
 	}
 
+	// 获取压缩包文件列表
+	public function getZipFileList( $pPath ) {
 
+		$zip = new PclZip( $pPath );
+
+		if (( $list = $zip->listContent()) == 0 )
+        	return false;
+
+		return $list;
+
+  //       for ( $i=0; $i<sizeof($list); $i++ ) {
+  //           for ( reset($list[$i] ); $key = key( $list[$i] ); next( $list[$i] )) {
+  //               echo "File $i / [$key] = " . $list[$i][$key]."<br>";
+  //           }
+  //           echo "<br>";
+		// }
+
+	}
+
+
+	// 获取压缩包内单个文件的内容
+	public function getZipFileContent( $pPath, $pFilePath ) {
+
+		$zip = new PclZip( $pPath );
+
+		$list = $zip->extract( PCLZIP_OPT_BY_NAME, $pFilePath, PCLZIP_OPT_EXTRACT_AS_STRING );
+		if ( $list == 0 || empty( $list )) 
+			return false;
+
+		return $list[0]['content'];
+
+	}
 
 
 }

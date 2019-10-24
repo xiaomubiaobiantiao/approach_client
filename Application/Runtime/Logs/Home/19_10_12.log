@@ -1,0 +1,235 @@
+[ 2019-10-12T11:22:22+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002645s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002117s ]
+
+[ 2019-10-12T11:22:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2019-10-12T11:22:36+08:00 ] 127.0.0.1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2019-10-12T11:22:37+08:00 ] 127.0.0.1 /index.php/Home/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2019-10-12T11:22:37+08:00 ] 127.0.0.1 /index.php/Home/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2019-10-12T11:22:37+08:00 ] 127.0.0.1 /index.php/Home/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2019-10-12T11:22:38+08:00 ] 127.0.0.1 /index.php/Home/Update/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+
+[ 2019-10-12T11:22:38+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+NOTIC: [8] Undefined variable: dataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2019-10-12T11:22:40+08:00 ] 127.0.0.1 /index.php/Home/Update/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+
+[ 2019-10-12T11:22:40+08:00 ] 127.0.0.1 /index.php/Home/Pack/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 85 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 119 行.
+NOTIC: [8] Undefined index: relative_path D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\2d4b105cc3f28ce14a5e37983c2cdccc.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2019-10-12T11:22:41+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: [8] Undefined variable: dataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2019-10-12T16:07:11+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8] Undefined variable: dataService D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 45 行.
+NOTIC: [8] Undefined variable: databaselist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 49 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+

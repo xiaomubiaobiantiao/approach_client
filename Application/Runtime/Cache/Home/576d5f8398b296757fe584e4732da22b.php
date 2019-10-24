@@ -84,7 +84,7 @@ $(document).ready(function(e) {
     <span>位置：</span>
     <ul class="placeul">
     <li><a href="#">首页</a></li>
-    <li><a href="#">更新/还原</a></li>
+    <li><a href="#">文件更新/文件还原</a></li>
     </ul>
     </div>
     
@@ -95,8 +95,8 @@ $(document).ready(function(e) {
     
     <div class="itab">
     <ul> 
-    <li><a href="#tab1" class="selected">更新</a></li> 
-    <li><a href="#tab2">还原</a></li> 
+    <li><a href="#tab1" class="selected">文件更新</a></li> 
+    <li><a href="#tab2">文件还原</a></li> 
     </ul>
     </div> 
     

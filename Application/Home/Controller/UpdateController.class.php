@@ -59,7 +59,7 @@ class UpdateController extends Controller
 
 		// 更新数据库字段或其它信息
 		$this->updateData();
-		die();
+		// die();
 
 		$vid = I( 'version_id' );
 
@@ -70,8 +70,10 @@ class UpdateController extends Controller
 		$this->UpdateService->updatePackProcess( $vid );
 
 		//跳转到提示页面
-		$this->redirect('Common/message');
-		
+		//$this->redirect('Common/message');
+		echo 123;die();
+		$message = new \Home\Controller\CommonController();
+		$message->customMessage( array( 'ab','cd' ) );
 	}
 
 	//恢复备份文件 - 还原
@@ -85,7 +87,7 @@ class UpdateController extends Controller
 		//$this->redirect( 'Update/reductionBackup' );
 	}
 
-	//更新数据库
+	//更新数据库 - 暂时未用
 	public function updateData() {
 		$data = new DataService();
 		//$result = $data->execStatements( $sql );

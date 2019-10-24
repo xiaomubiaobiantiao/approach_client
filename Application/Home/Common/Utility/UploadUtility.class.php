@@ -40,6 +40,7 @@ array(1) {
   }
 }
 */
+
 namespace Home\Common\Utility;
 use Think\Controller;
 use Think\Upload;

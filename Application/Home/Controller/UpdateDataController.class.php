@@ -9,33 +9,35 @@ namespace Home\Controller;
 
 use Think\Controller;
 use Home\Service\Data\DataService as DataService;
-use Home\Common\Utility\ChildrenUtility as children;
-use COM;
+
 class UpdateDataController extends Controller
 {
 
-	public $dataService = '';
-
-	public function __construct( DataService $DataService ) {
+	public function __construct() {
 		parent::__construct();
-		// $DataService->test();
-		// $this->children = new children();
-		// $this->dataService = $this->children->make( 'DataService', array( $this->children ) );
+		$this->DataService = new DataService();
 	}
 
-	// 更新数据库首页
-	public function index( DataService $DataService ) {
-		
-		$DataService->test();
-		echo 8989;
-		// $this->detectionDatabaseConnect();
-		// echo 123;
-		
+	// 更新数据库-首页面
+	public function index() {
 
-		// $databaselist = $this->dataService->updateDataProcess();
-		// dump( $databaselist );
-		// $this->assign( 'databaselist', $databaselist );
+		//加载更新文件
+		$typeId = I( 'type_id' );
+
+		$dataList = $this->DataService->getZipList( $typeId );
+		
+		$this->assign( 'datalist', $dataList );
+
 		$this->display( 'UpdateData/index' );
+
+	}
+
+	// 解析压缩包内XML文件 并返回数据库类型列表
+	public function dataType() {
+
+		$vid = I( 'version_id' );
+		
+		$this->DataService->getXmlInfo( $vid );
 
 	}
 
@@ -43,7 +45,9 @@ class UpdateDataController extends Controller
 	public function detectionDatabaseConnect() {
 
 		$databaseType = I( 'database' );
+
 		$data = array( 'Sqlserver', 'Mysql' );
+
 		$this->dataService->connectDatabase( $data );
 
 	}

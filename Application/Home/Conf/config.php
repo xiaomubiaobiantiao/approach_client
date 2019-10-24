@@ -23,14 +23,14 @@ define( 'RESTORE_BACKUP_PATH', UPDATE_PATH.'Public/files/resore_backup_pack/' );
 define( 'LOCAL_LOG', UPDATE_PATH.'Public/files/logs/log.txt' );
 
 //记录更新信息错误的日志名称
-define( 'LOCAL_UPDATE_ERROR', UPDATE_PATH.'Public/files/logs/update/updat_error.txt' );
+define( 'LOCAL_UPDATE_ERROR', UPDATE_PATH.'Public/files/logs/update/update_error.txt' );
 //记录更新次数的日志名称
 define( 'LOCAL_UPDATE_RECORD', UPDATE_PATH.'Public/files/logs/update/update_record.txt' );
 
 //记录恢复信息错误的日志名称
 define( 'LOCAL_RESTORE_ERROR', UPDATE_PATH.'Public/files/logs/restore/restor_error.txt' );
 //记录恢复次数日志的名称
-define( 'LOCAL_RESTORE_RECORD', UPDATE_PATH.'Public/files/logs/restore/resto_record.txt' );
+define( 'LOCAL_RESTORE_RECORD', UPDATE_PATH.'Public/files/logs/restore/restor_record.txt' );
 
 //记录数据库相关操作的日志
 define( 'DATABASE_LOG', UPDATE_PATH.'Public/files/logs/data_log.txt' );
@@ -68,18 +68,20 @@ define( 'IGNORE_FILES', '.git,version.txt' );
 
 
 
+/* 数据库字段更新配置信息 */
 
-//数据文本的存放位置
-define( 'DATABASE_TEXT', 'Public/data/database.txt' );
+// XML文件在更新包中的位置 -- 暂时未用
+define( 'Database/' );
 
 //下面这两项是不能更改的, 或者说根据 更新包 的数据库更新路径而更改的
 //因为没有判定数据库目录的方式, 所以要手动设定, 不需要更改
 //数据库更新目录的名称
-define( 'DATABASE_UPDATE_NAME', 'data_base' );
+define( 'DATABASE_UPDATE_NAME', 'data_base' );//暂时未用
 //数据库更新目录的存放位置
-define( 'DATABASE_UPDATE', rtrim( UNPACK_TMP_PATH, '/' ).'/'.DATABASE_UPDATE_NAME );
+define( 'DATABASE_UPDATE', rtrim( UNPACK_TMP_PATH, '/' ).'/'.DATABASE_UPDATE_NAME );//暂时未用
 
 
+/* end */
 
 
 //新的版本文件默认位置信息
@@ -91,3 +93,9 @@ define( 'OLD_VERSION_PATH', rtrim( UPDATE_PATH, '/' ).'/'.'version.txt' );
 //版本信息默认值
 define( 'VERSION_DEFAULT_INFO', 'no version' );
 
+
+
+
+
+//数据文本的存放位置
+define( 'DATABASE_TEXT', 'Public/data/database.txt' );

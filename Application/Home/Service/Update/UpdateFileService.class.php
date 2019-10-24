@@ -126,11 +126,11 @@ class UpdateFileService
 	        if (( $file == "." || $file == ".." || in_array( $file, $this->strConversionArr( IGNORE_FILES ) )))
 	        	continue;
 	        
-	        //如果是数据库目录, 单独放到一个元素里, 不与需要更新的文件在同一列表
-	        if ( $dir == DATABASE_UPDATE ) {
-	        	$this->fileOperation['update']['data'] = FileBase::checkDirFiles( $dir );
-	        	break;
-	        }
+	        //如果是数据库目录, 单独放到一个元素里, 不与需要更新的文件在同一列表 - 暂时未用
+	        // if ( $dir == DATABASE_UPDATE ) {
+	        // 	$this->fileOperation['update']['data'] = FileBase::checkDirFiles( $dir );
+	        // 	break;
+	        // }
 
 	        //跳过不需要检测的 原有文件的 目录
 	        if ( $arrName == 'old' && in_array( $dir, $this->strConversionArr( IGNORE_DIRS ) ))

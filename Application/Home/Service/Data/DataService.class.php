@@ -9,9 +9,12 @@ namespace Home\Service\Data;
 
 use Home\Common\Utility\DataTypeUtility as DataType;
 use Home\Common\Utility\FileBaseUtility as FileBase;
+use Home\Service\Data\DataExtractService as DE;
+use Home\Common\Utility\PclZipController as Pclzip;
 
 class DataService
 {
+
 
 	//初始化数据库名称
 	public $data = '';
@@ -25,14 +28,78 @@ class DataService
 	//数据库文件需要更新的目录结构
 	public $dataStructure = '';
 
-	public function __construct( $pChildren ) {
-		// dump( $pChildren );
-		// if ( is_object( current( $pChildren )))
-		// 	$this->children = array_shift( $pChildren );
-
-		// dump( $this->children );
+	// 提取压缩包列表
+	public function getZipList( $pTypeId ) {
+		$DataExtract = new DE();
+		empty( $pTypeId )
+			? $dataList = $DataExtract->getDefaultType()
+			: $dataList = $DataExtract->dataCollection( $pTypeId );
+		return $dataList;
 	}
 
+	// 获取XML文件信息
+	public function getXmlInfo( $pVid ) {
+
+		// 打开文件数据库 取出更新包信息
+		$DataExtract = new DE();
+		$packInfo = $DataExtract->packInfo( $pVid );
+		dump( $packInfo );
+
+		// 获取更新包中文件的列表
+		$Zip = new PclZip();
+		$files = $Zip->getZipFileList( $packInfo['download'] );
+		
+		// 获取 xml 列表
+		$list = $this->getXmlList( $files );
+		dump( $list );
+		// 获取 xml 文件数量
+		$xmlSum = count( $list );
+		dump( $xmlSum );
+
+		// 获取 xml 文件内容
+		switch ( $xmlSum ) {
+			case '1':
+				$xmlContent = $Zip->getZipFileContent( $packInfo['download'], array_shift( $list ));
+				break;
+
+			default:
+				foreach ( $list as $value )
+					$xmlContent = $Zip->getZipFileContent( $packInfo['download'], $value );
+				break;
+		}
+		
+		// 解析xml文件
+		$ary = json_decode( json_encode((array) simplexml_load_string( $xmlContent )), 1 );
+
+		// 计算需要修改的表数量
+		$tableCount = count( $ary['table'] );
+		
+		// dump( $ary );
+		foreach ( $ary['table'] as $key=>$value ) {
+			// $name[] = $value['@attributes']['name'];
+			foreach ( $value['column'] as $val ) {
+				// dump( $val['@attributes'] );
+				$name[$value['@attributes']['name']][] = $val['@attributes'];
+			}
+		}
+
+		dump($name);
+		
+	}
+
+	// 获取 xml 文件列表
+	public function getXmlList( $pArr ) {
+		$list = array_map( 'reset', $pArr );
+		return array_filter( array_map( array( $this, 'xmlCallback'), $list));
+	}
+
+	// getXmlList 的回调函数
+	private function xmlCallback( $pVar ) {
+		if ( strpos( $pVar, 'Database' ) !== false && 'xml' == end( explode( '.', $pVar )))
+			return $pVar;
+	}
+
+//------------------------------------------------------------------------------------------------
 	public function test() {
 		echo 444;
 	}
@@ -65,6 +132,7 @@ class DataService
 	 * @return [type]            [null]
 	 */
 	public function connectDatabase( array $pDatabaseType ) {
+
 		dump( $pDatabaseType );
 
 		// 拼接完整数据库名称
@@ -87,12 +155,12 @@ class DataService
 		return $data;
 	}
 
-	//返回需要修改的数据库名称和对应sql文件 - 暫時未用
+	//返回需要修改的数据库名称和对应sql文件 - 暂時未用
 	private function loadDataFile( $pDataDir ) {
 		return array_filter( $pDataDir );
 	}
 
-	//返回数组键名 - 一维 - 暫時未用
+	//返回数组键名 - 一维 - 暂時未用
 	private function getArrayKeys( $pArr ) {
 		return array_keys( $pArr );
 	}

@@ -72,6 +72,9 @@ class UpdateParentService
 			: $this->Proc->inforReceive( __METHOD__.' '.__LINE__.' '.$pZipPath.'|'.$pToPath, 3 );
 	}
 
+	// 检查更新文件的目录是否存在
+	// public function 
+
 	//初始化程序运行需要的目录
 	public function initializeDir( $pDirArr ) {
 		foreach ( $pDirArr as $value ) {
@@ -249,6 +252,12 @@ class UpdateParentService
 			: $this->Detection->inforReceive( __METHOD__.' '.__LINE__.' '.date("Y-m-d H:i:s",$mTime).'|'.date("Y-m-d H:i:s"), 9 );
 	}
 
+	//检测更新文件的目录是否存在, 目录名称默认为 zz_files - 暂时未用
+	public function scanFileDir( $pFileDir ) {
+		FileBase::checkDir( $pFileDir )
+			? $this->Detection->successReceive()
+			: $this->Detection->inforReceive(  );
+	}
 	//--------------------------------------------------------------------------------------
 
 }
