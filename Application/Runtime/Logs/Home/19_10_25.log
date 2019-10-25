@@ -2034,3 +2034,1288 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001908s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002054s ]
 
+[ 2019-10-25T16:53:33+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2019-10-25T16:53:35+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] array_map() [<a href='function.array-map'>function.array-map</a>]: Argument #2 should be an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [2] array_map() [<a href='function.array-map'>function.array-map</a>]: Argument #2 should be an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 91 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pZip D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 23 行.
+NOTIC: [8] Undefined variable: pZipPath D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 23 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, null given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 23 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 44 行.
+NOTIC: [8] Undefined variable: pXml D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 49 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 49 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 49 行.
+NOTIC: [8] Undefined variable: xmlContent D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 53 行.
+NOTIC: [8] Undefined variable: xmlArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 75 行.
+
+[ 2019-10-25T16:54:57+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001754s ]
+
+[ 2019-10-25T16:54:58+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+NOTIC: [2] array_map() [<a href='function.array-map'>function.array-map</a>]: Argument #2 should be an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [2] array_map() [<a href='function.array-map'>function.array-map</a>]: Argument #2 should be an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 91 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pZip D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 23 行.
+NOTIC: [8] Undefined variable: pZipPath D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 23 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, null given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 23 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 44 行.
+NOTIC: [8] Undefined variable: pXml D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 49 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 49 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 49 行.
+NOTIC: [8] Undefined variable: xmlContent D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 53 行.
+
+[ 2019-10-25T16:55:54+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2019-10-25T16:55:55+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [2] array_map() [<a href='function.array-map'>function.array-map</a>]: Argument #2 should be an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 91 行.
+NOTIC: [2] array_map() [<a href='function.array-map'>function.array-map</a>]: Argument #2 should be an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 92 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 92 行.
+
+[ 2019-10-25T16:56:05+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2019-10-25T16:56:06+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [2] array_map() [<a href='function.array-map'>function.array-map</a>]: Argument #2 should be an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 91 行.
+NOTIC: [2] array_map() [<a href='function.array-map'>function.array-map</a>]: Argument #2 should be an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 92 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 92 行.
+
+[ 2019-10-25T16:56:48+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2019-10-25T16:56:48+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 100 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 100 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, none given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [2] Missing argument 2 for Home\Common\Utility\XmlOperationUtility::_secondPerForm(), called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [8] Undefined variable: pZip D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 35 行.
+NOTIC: [8] Undefined variable: pZipPath D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 35 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, null given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 35 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 45 行.
+NOTIC: [8] Undefined variable: pXml D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 50 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 50 行.
+NOTIC: [8] Undefined variable: xmlContent D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 54 行.
+NOTIC: [8] Undefined variable: xmlArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2019-10-25T16:57:03+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2019-10-25T16:57:04+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 100 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 100 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, none given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [2] Missing argument 2 for Home\Common\Utility\XmlOperationUtility::_secondPerForm(), called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [8] Undefined variable: pZip D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 35 行.
+NOTIC: [8] Undefined variable: pZipPath D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 35 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, null given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 35 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 45 行.
+NOTIC: [8] Undefined variable: pXml D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 50 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 50 行.
+NOTIC: [8] Undefined variable: xmlContent D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 54 行.
+NOTIC: [8] Undefined variable: xmlArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2019-10-25T16:57:49+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2019-10-25T16:57:50+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, none given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [2] Missing argument 2 for Home\Common\Utility\XmlOperationUtility::_secondPerForm(), called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pZip D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [8] Undefined variable: pZipPath D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, null given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 43 行.
+NOTIC: [8] Undefined variable: pXml D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 48 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 48 行.
+NOTIC: [8] Undefined variable: xmlContent D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2019-10-25T16:58:42+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2019-10-25T16:58:44+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, none given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [2] Missing argument 2 for Home\Common\Utility\XmlOperationUtility::_secondPerForm(), called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pZip D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [8] Undefined variable: pZipPath D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, null given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 43 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 48 行.
+NOTIC: [8] Undefined variable: xmlContent D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2019-10-25T16:58:54+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2019-10-25T16:58:55+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, none given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [2] Missing argument 2 for Home\Common\Utility\XmlOperationUtility::_secondPerForm(), called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pZip D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [8] Undefined variable: pZipPath D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, null given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 43 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 48 行.
+NOTIC: [8] Undefined variable: xmlContent D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2019-10-25T16:59:34+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2019-10-25T16:59:35+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, none given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [2] Missing argument 2 for Home\Common\Utility\XmlOperationUtility::_secondPerForm(), called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pZip D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [8] Undefined variable: pZipPath D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, null given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 43 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 48 行.
+NOTIC: [8] Undefined variable: xmlContent D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2019-10-25T17:00:37+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2019-10-25T17:00:38+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, none given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [2] Missing argument 2 for Home\Common\Utility\XmlOperationUtility::_secondPerForm(), called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pZip D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [8] Undefined variable: pZipPath D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, null given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 43 行.
+NOTIC: [8] Undefined property: Home\Common\Utility\XmlOperationUtility::$zip D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 49 行.
+
+[ 2019-10-25T17:01:10+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2019-10-25T17:01:10+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, none given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [2] Missing argument 2 for Home\Common\Utility\XmlOperationUtility::_secondPerForm(), called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pZip D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [8] Undefined variable: pZipPath D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, null given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 43 行.
+
+[ 2019-10-25T17:02:21+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2019-10-25T17:02:21+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, none given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [2] Missing argument 2 for Home\Common\Utility\XmlOperationUtility::_secondPerForm(), called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pZip D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [8] Undefined variable: pZipPath D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, null given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 43 行.
+
+[ 2019-10-25T17:02:35+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2019-10-25T17:02:35+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, none given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [2] Missing argument 2 for Home\Common\Utility\XmlOperationUtility::_secondPerForm(), called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pZip D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [8] Undefined variable: pZipPath D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 33 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, null given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 43 行.
+NOTIC: [8] Undefined variable: xmlContent D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2019-10-25T17:03:09+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2019-10-25T17:03:10+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+
+[ 2019-10-25T17:03:58+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2019-10-25T17:03:59+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+NOTIC: [2] array_map() [<a href='function.array-map'>function.array-map</a>]: Argument #2 should be an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 89 行.
+NOTIC: [2] array_map() [<a href='function.array-map'>function.array-map</a>]: Argument #2 should be an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+
+[ 2019-10-25T17:08:04+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2019-10-25T17:08:04+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 43 行.
+NOTIC: [8] Undefined variable: xmlContent D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2019-10-25T17:08:37+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2019-10-25T17:08:38+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2019-10-25T17:08:45+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2019-10-25T17:08:46+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 98 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2019-10-25T17:24:25+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2019-10-25T17:24:27+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002059s ]
+
+[ 2019-10-25T17:24:53+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001939s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001750s ]
+
+[ 2019-10-25T17:24:54+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 29 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002010s ]
+
+[ 2019-10-25T17:33:34+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2019-10-25T17:33:36+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 108 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 108 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 108 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 108 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 108 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 30 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 34 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 57 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002089s ]
+
+[ 2019-10-25T17:34:59+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001742s ]
+
+[ 2019-10-25T17:35:00+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+
+[ 2019-10-25T17:35:04+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002072s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001759s ]
+
+[ 2019-10-25T17:35:05+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 30 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 34 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002094s ]
+
+[ 2019-10-25T17:40:33+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2019-10-25T17:40:34+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 30 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 34 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002068s ]
+
+[ 2019-10-25T17:40:49+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2019-10-25T17:40:50+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 109 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 30 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 34 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001867s ]
+
+[ 2019-10-25T17:41:51+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001916s ]
+
+[ 2019-10-25T17:41:52+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 30 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 34 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002324s ]
+
+[ 2019-10-25T17:41:59+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2019-10-25T17:42:00+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 30 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 34 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2019-10-25T17:42:32+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001903s ]
+
+[ 2019-10-25T17:42:33+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 30 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 34 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001866s ]
+
+[ 2019-10-25T17:42:58+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2019-10-25T17:42:59+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 30 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 34 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2019-10-25T17:44:13+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2019-10-25T17:44:14+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 107 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 63 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 30 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 34 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+

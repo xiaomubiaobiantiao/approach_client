@@ -53,14 +53,14 @@ class DataService
 		return $this->zip->getZipFileList( $pZipPath );
 	}
 
-	// 搜索 xml 文件信息
+	// 搜索列表中 xml 文件信息
 	private function searchXmlInfo( $pFiles ) {
 		return $this->xml->_perForm( $pFiles );
 	}
 
-	// 解析 xml 获取数据库信息
-	private function getXmlDataInfo() {
-		return $this->xml->_secondPerForm(  );
+	// 解析更新包内 xml 获取数据库信息
+	private function getXmlDataInfo( $pZipPath ) {
+		return $this->xml->_secondPerForm( $this->zip, $pZipPath );
 	}
 
 	// 获取XML文件信息
@@ -71,16 +71,17 @@ class DataService
 
 		$files = $this->getZipFileList( $packInfo['download'] );
 
-		$list = $this->searchXmlInfo( $this->zip, $packInfo['download'], $files );
-		if ( $xmlArr['xmlCount'] < 1 ) die( '这个版本没有数据库需要更新' );
+		$list = $this->searchXmlInfo( $files );
+		if ( $list['xmlCount'] < 1 ) die( '这个版本没有数据库需要更新' );
 
-		$dataList = $this->getXmlDataInfo( $this->zip, $packInfo['download'] );
+		dump( $list );
+
+		$dataList = $this->getXmlDataInfo( $packInfo['download'] );
 
 		// $xmlContent = $this->getFileContent( $this->xml, $packInfo['download'] );
 
 		// $xmlArr = $this->parsXmlContent( $xmlContent );
 
-		dump( $xmlArr );
 
 		
 		

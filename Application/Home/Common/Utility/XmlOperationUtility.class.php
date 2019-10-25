@@ -20,8 +20,8 @@ class XmlOperationUtility
 
 		$this->xml['list'] = $this->getXmlList( $pFiles );
 		$this->xml['xmlCount'] = $this->getXmlCount( $this->xml['list'] );
-		dump($this->getFileContent( $pZip, $pZipPath, $this->xml['list'] ));
-		// dump( $this->xml );
+		$this->xml['xmlType'] = $this->xmlType( $this->xml['list'] );
+		return $this->xml;
 
 	}
 
@@ -29,24 +29,34 @@ class XmlOperationUtility
 
 	public function _secondPerForm( Pclzip $pZip, $pZipPath, $xmlList = '' ) {
 
-		if ( $xmlList = '' ) $xmlList = $this->xml['list'];
+		if ( empty( $xmlList )) $xmlList = $this->xml['list'];
+		
+		$list = $this->getFileContent( $pZip, $pZipPath, $xmlList );
+		// dump( $list );
 
-		$this->getFileContent( $pZip, $pZipPath, $xmlList );
 
 		// return $this->getFileContent( $pZip, $pZipPath, $this->xmlCovArr( $this->parsXml( $pXmlContent )));
 
 	}
 
+	// xml 数据库文件分类
+
+	private function xmlType( $pFiles ) {
+		foreach ( $pFiles as $key=>$value ) {
+			$list = explode( '.', $value );
+			$str = substr( $list[0], -1 );
+			$dataType[$str][] = $pFiles[$key];
+		}
+		return $dataType;
+	}
+
+
 	// 获取压缩包内文件的内容
 	
 	private function getFileContent( Pclzip $pZip, $pZipPath, $pXmlList ) {
-			
-		// if ( $pXml->xml['xmlCount'] == 1 ) {
-		// 	$xmlContent = $this->zip->getZipFileContent( $pZipPath, array_shift( $pXml->xml['list'] ));
-		// } else {
-			foreach ( $pXml->xml['list'] as $value )
-				$xmlContent = $this->zip->getZipFileContent( $pZipPath, $value );
-		// }
+
+		foreach ( $pXmlList as $value )
+			$xmlContent = $pZip->getZipFileContent( $pZipPath, $value );
 
 		return $xmlContent;
 
