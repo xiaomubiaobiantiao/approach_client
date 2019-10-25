@@ -9,13 +9,15 @@ namespace Home\Controller;
 
 use Think\Controller;
 use Home\Service\Data\DataService as DataService;
+use Home\Supply\Supply;
+
 
 class UpdateDataController extends Controller
 {
 
 	public function __construct() {
 		parent::__construct();
-		$this->DataService = new DataService();
+		$this->DataService = new DataService( new Supply() );
 	}
 
 	// 更新数据库-首页面
@@ -36,7 +38,7 @@ class UpdateDataController extends Controller
 	public function dataType() {
 
 		$vid = I( 'version_id' );
-		
+
 		$this->DataService->getXmlInfo( $vid );
 
 	}

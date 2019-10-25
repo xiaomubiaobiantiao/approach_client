@@ -9,8 +9,8 @@ namespace Home\Service\Data;
 
 use Home\Common\Utility\DataTypeUtility as DataType;
 use Home\Common\Utility\FileBaseUtility as FileBase;
-use Home\Service\Data\DataExtractService as DE;
-use Home\Common\Utility\PclZipController as Pclzip;
+// use Home\Service\Data\DataExtractService as DE;
+// use Home\Common\Utility\PclZipController as Pclzip;
 
 class DataService
 {
@@ -28,75 +28,79 @@ class DataService
 	//数据库文件需要更新的目录结构
 	public $dataStructure = '';
 
+	public function __construct( $pContainer ) {
+		$this->dataExtract = $pContainer->DataExtract();
+		$this->zip = $pContainer->zip();
+		$this->xml = $pContainer->xml();
+	}
+
 	// 提取压缩包列表
 	public function getZipList( $pTypeId ) {
-		$DataExtract = new DE();
+		// $DataExtract = new DE();
 		empty( $pTypeId )
-			? $dataList = $DataExtract->getDefaultType()
-			: $dataList = $DataExtract->dataCollection( $pTypeId );
+			? $dataList = $this->dataExtract->getDefaultType()
+			: $dataList = $this->dataExtract->dataCollection( $pTypeId );
 		return $dataList;
+	}
+
+	// 打开文件数据库 取出更新包信息
+	private function getZipInfo( $pVid ) {
+		return $this->dataExtract->packInfo( $pVid );
+	}
+
+	// 获取更新包中文件的列表
+	private function getZipFileList( $pZipPath ) {
+		return $this->zip->getZipFileList( $pZipPath );
+	}
+
+	// 搜索 xml 文件信息
+	private function searchXmlInfo( $pFiles ) {
+		return $this->xml->_perForm( $pFiles );
+	}
+
+	// 解析 xml 获取数据库信息
+	private function getXmlDataInfo() {
+		return $this->xml->_secondPerForm(  );
 	}
 
 	// 获取XML文件信息
 	public function getXmlInfo( $pVid ) {
 
-		// 打开文件数据库 取出更新包信息
-		$DataExtract = new DE();
-		$packInfo = $DataExtract->packInfo( $pVid );
+		$packInfo = $this->getZipInfo( $pVid );
 		dump( $packInfo );
 
-		// 获取更新包中文件的列表
-		$Zip = new PclZip();
-		$files = $Zip->getZipFileList( $packInfo['download'] );
+		$files = $this->getZipFileList( $packInfo['download'] );
+
+		$list = $this->searchXmlInfo( $this->zip, $packInfo['download'], $files );
+		if ( $xmlArr['xmlCount'] < 1 ) die( '这个版本没有数据库需要更新' );
+
+		$dataList = $this->getXmlDataInfo( $this->zip, $packInfo['download'] );
+
+		// $xmlContent = $this->getFileContent( $this->xml, $packInfo['download'] );
+
+		// $xmlArr = $this->parsXmlContent( $xmlContent );
+
+		dump( $xmlArr );
+
 		
-		// 获取 xml 列表
-		$list = $this->getXmlList( $files );
-		dump( $list );
-		// 获取 xml 文件数量
-		$xmlSum = count( $list );
-		dump( $xmlSum );
-
-		// 获取 xml 文件内容
-		switch ( $xmlSum ) {
-			case '1':
-				$xmlContent = $Zip->getZipFileContent( $packInfo['download'], array_shift( $list ));
-				break;
-
-			default:
-				foreach ( $list as $value )
-					$xmlContent = $Zip->getZipFileContent( $packInfo['download'], $value );
-				break;
-		}
 		
-		// 解析xml文件
-		$ary = json_decode( json_encode((array) simplexml_load_string( $xmlContent )), 1 );
 
-		// 计算需要修改的表数量
-		$tableCount = count( $ary['table'] );
-		
-		// dump( $ary );
-		foreach ( $ary['table'] as $key=>$value ) {
-			// $name[] = $value['@attributes']['name'];
-			foreach ( $value['column'] as $val ) {
-				// dump( $val['@attributes'] );
-				$name[$value['@attributes']['name']][] = $val['@attributes'];
-			}
-		}
-
-		dump($name);
+		// dump($name);
 		
 	}
+	// 应该将XML操作都放到XML包里面, XML文件的路径也应该传到 xml 类, 由 xml 类来操作
+	// 获取压缩包内 xml 文件的内容
+	private function getFileContent( $pXml, $pZipPath ) {
+			
+		if ( $pXml->xml['xmlCount'] == 1 ) {
+			$xmlContent = $this->zip->getZipFileContent( $pZipPath, array_shift( $pXml->xml['list'] ));
+		} else {
+			foreach ( $pXml->xml['list'] as $value )
+				$xmlContent = $this->zip->getZipFileContent( $pZipPath, $value );
+		}
 
-	// 获取 xml 文件列表
-	public function getXmlList( $pArr ) {
-		$list = array_map( 'reset', $pArr );
-		return array_filter( array_map( array( $this, 'xmlCallback'), $list));
-	}
+		return $xmlContent;
 
-	// getXmlList 的回调函数
-	private function xmlCallback( $pVar ) {
-		if ( strpos( $pVar, 'Database' ) !== false && 'xml' == end( explode( '.', $pVar )))
-			return $pVar;
 	}
 
 //------------------------------------------------------------------------------------------------
