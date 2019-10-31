@@ -9,8 +9,6 @@ namespace Home\Service\Data;
 
 use Home\Common\Utility\DataTypeUtility as DataType;
 use Home\Common\Utility\FileBaseUtility as FileBase;
-// use Home\Service\Data\DataExtractService as DE;
-// use Home\Common\Utility\PclZipController as Pclzip;
 
 class DataService
 {
@@ -28,15 +26,17 @@ class DataService
 	//数据库文件需要更新的目录结构
 	public $dataStructure = '';
 
-	public function __construct( $pContainer ) {
-		$this->dataExtract = $pContainer->DataExtract();
-		$this->zip = $pContainer->zip();
-		$this->xml = $pContainer->xml();
+	public function __construct( Array $pContainer ) {
+		$this->container = $pContainer;
+		$this->dataExtract = $pContainer->dataExtract;
+		$this->zip = $pContainer->zip;
+		$this->xml = $pContainer->xml;
+		$this->data = $pContainer->dataType;
 	}
 
 	// 提取压缩包列表
 	public function getZipList( $pTypeId ) {
-		// $DataExtract = new DE();
+		// $dataExtract = new DE();
 		empty( $pTypeId )
 			? $dataList = $this->dataExtract->getDefaultType()
 			: $dataList = $this->dataExtract->dataCollection( $pTypeId );
@@ -67,26 +67,27 @@ class DataService
 	public function getXmlInfo( $pVid ) {
 
 		$packInfo = $this->getZipInfo( $pVid );
-		dump( $packInfo );
+		// dump( $packInfo );
 
 		$files = $this->getZipFileList( $packInfo['download'] );
 
 		$list = $this->searchXmlInfo( $files );
 		if ( $list['xmlCount'] < 1 ) die( '这个版本没有数据库需要更新' );
 
-		dump( $list );
+		// dump( $list );
 
+		if ( empty( $list['xmlType'] )) die( 'xml 文件中没有数据库需要更新' );
+
+		return $list['xmlType'];
+
+		// 打开压缩包内
 		$dataList = $this->getXmlDataInfo( $packInfo['download'] );
+		dump( $dataList );
 
 		// $xmlContent = $this->getFileContent( $this->xml, $packInfo['download'] );
 
 		// $xmlArr = $this->parsXmlContent( $xmlContent );
-
-
-		
-		
-
-		// dump($name);
+		// dump($xmlArr);
 		
 	}
 	// 应该将XML操作都放到XML包里面, XML文件的路径也应该传到 xml 类, 由 xml 类来操作
@@ -105,6 +106,27 @@ class DataService
 	}
 
 //------------------------------------------------------------------------------------------------
+
+// 测试连接数据库 --------------------------------------------------------------------------------
+
+    // 连接数据库
+    public function linkDatabase( $pParams ) {
+    	dump($this->data->$pParams['type']);
+    	dump( $pParams );
+    }
+
+    // 判断数据库类型
+    public function if_type( $pType ) {
+    	$aa = 'sqlServer' + 'Data';
+    	// $test = $this->container->$pType['type'];
+    	$test = $this->container->$aa;
+    	echo 123;
+    	dump( $test );
+    }
+
+//------------------------------------------------------------------------------------------------
+
+
 	public function test() {
 		echo 444;
 	}

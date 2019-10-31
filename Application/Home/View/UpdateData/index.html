@@ -110,8 +110,8 @@
         <label>选择类别<b>*</b></label>  
         <div class="vocation">
             <select id="type" name="type_id" class="select1">
-                <foreach name="datalist[0]" item="vo">
-                    <if condition="$vo.type eq $datalist[2]">
+                <foreach name="ziplist[0]" item="vo">
+                    <if condition="$vo.type eq $ziplist[2]">
                         <option value="{$vo.type}" selected >{$vo.type_name}</option>
                     <else />
                         <option value="{$vo.type}" >{$vo.type_name}</option>
@@ -126,7 +126,7 @@
             <label>选择版本<b>*</b></label>
             <div class="vocation">
                 <select id="version" name="version_id" class="select1">
-                    <foreach name="datalist[1]" item="vo">
+                    <foreach name="ziplist[1]" item="vo">
                         <option value="{$vo.id}">{$vo.pack_name}</option>
                     </foreach>
                 </select>

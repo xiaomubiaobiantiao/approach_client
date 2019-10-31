@@ -28,7 +28,7 @@ class UpdateDataController extends Controller
 
 		$dataList = $this->DataService->getZipList( $typeId );
 		
-		$this->assign( 'datalist', $dataList );
+		$this->assign( 'ziplist', $dataList );
 
 		$this->display( 'UpdateData/index' );
 
@@ -39,8 +39,18 @@ class UpdateDataController extends Controller
 
 		$vid = I( 'version_id' );
 
-		$this->DataService->getXmlInfo( $vid );
+		$list = $this->DataService->getXmlInfo( $vid );
 
+		$this->assign( 'datalist', $list );
+
+		$this->display( 'UpdateData/dataConf' );
+
+	}
+
+	// 测试连接数据库
+	public function testLinkData() {
+		$params = I( 'post.' );
+		$this->DataService->if_type( $params );
 	}
 
 	// 接收数据库类型参数并检测对应数据库连接

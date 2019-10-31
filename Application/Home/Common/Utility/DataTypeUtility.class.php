@@ -8,7 +8,7 @@
 namespace Home\Common\Utility;
 
 use Home\Common\Data\SqlServerData;
-use Home\Interfaces\Database;
+// use Home\Interfaces\Database;
 
 class DataTypeUtility // implements Database
 {
@@ -19,11 +19,17 @@ class DataTypeUtility // implements Database
 	// 数据库参数
 	public $params = '';
 
-	public function __construct( Database $pDatabase, $pParams ) {
-		$this->database = $pDatabase;
-		$this->params = $pParams;
-		$this->database->setParam( $pParams );
-		$this->database->connection();
+	// public function __construct( Database $pDatabase, $pParams ) {
+	// 	$this->database = $pDatabase;
+	// 	dump($pDatabase);
+	// 	dump($this->database);
+		// $this->params = $pParams;
+		// $this->database->setParam( $pParams );
+		// $this->database->connection();
+	// }
+
+	public function if_type( $pType ) {
+		
 	}
 
 	/* ------------------------------------------------------------------------------------*/

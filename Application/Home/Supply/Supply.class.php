@@ -6,23 +6,52 @@
  */
 namespace Home\Supply;
 
-use Home\Service\Data\DataExtractService as DE;
-use Home\Common\Utility\PclZipController as Pclzip;
-use Home\Common\Utility\XmlOperationUtility as Xml;
-
 class Supply
 {
 
-	public function dataExtract() {
-		return new DE();
+	private static $classCollection = array(
+		'dataExtract' => '\Home\Service\Data\DataExtractService',
+		'zip' => '\Home\Common\Utility\PclZipController',
+		'xml' => '\Home\Common\Utility\XmlOperationUtility',
+		'dataType' => '\Home\Common\Utility\DataTypeUtility',
+		'sqlServerData' => '\Home\Common\Data\SqlserverData',
+		'mysqlData' => '\Home\Common\Data\MysqlData',
+		'oracleData' => '\Home\Common\Data\OracleData'
+	);
+
+	public function  __get( $pClassName ) {
+
+		$value = self::$classCollection[$pClassName];
+
+        return isset( $value ) ? self::getInstance( $value ) : null;
+
+    }
+
+	private static function getInstance( $pInstancePath ) {
+
+		return new $pInstancePath;
+
 	}
 
-	public function zip() {
-		return new PclZip();
+	// 未完待续
+	public function specifiedInstance( $pClassName ) {
+
+		$value = self::$classCollection[$pClassName];
+		self::getInstance( $value );
+
 	}
 
-	public function xml() {
-		return new Xml();
+	public function getClassConf( $pInstanceName ) {
+
+		return self::$classCollection;
+
 	}
+
+	private static function in_conf( $className ) {
+		return 
+	}
+
+
+
 
 }

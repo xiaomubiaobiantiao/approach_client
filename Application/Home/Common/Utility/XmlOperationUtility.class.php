@@ -20,34 +20,42 @@ class XmlOperationUtility
 
 		$this->xml['list'] = $this->getXmlList( $pFiles );
 		$this->xml['xmlCount'] = $this->getXmlCount( $this->xml['list'] );
-		$this->xml['xmlType'] = $this->xmlType( $this->xml['list'] );
+		$this->xml['xmlGroup'] = $this->xmlType( $this->xml['list'] );
+		$this->xml['xmlType'] = array_keys( $this->xml['xmlGroup'] );
 		return $this->xml;
 
 	}
 
-	// 第二入口函数 2 - 传入 xml 文件内容, 解析成数组
+	// 入口函数 2 - 传入 xml 文件内容, 解析成数组
 
-	public function _secondPerForm( Pclzip $pZip, $pZipPath, $xmlList = '' ) {
+	public function _secondPerForm( Pclzip $pZip, $pZipPath ) {
 
-		if ( empty( $xmlList )) $xmlList = $this->xml['list'];
-		
-		$list = $this->getFileContent( $pZip, $pZipPath, $xmlList );
-		// dump( $list );
+		$list = $this->getFileContent( $pZip, $pZipPath, $this->xml['list'] );
 
+		count( $list ) > 1
+			? $contentList = $this->parsXmlArr( $list )
+			: $contentList = $this->parsXml( $list );
 
-		// return $this->getFileContent( $pZip, $pZipPath, $this->xmlCovArr( $this->parsXml( $pXmlContent )));
+		count( $list ) > 1
+			? $overList = $this->xmlCovArr( $contentList )
+			: $overList = $this->xmlCov( $contentList );
+
+		return $overList;
 
 	}
 
 	// xml 数据库文件分类
 
 	private function xmlType( $pFiles ) {
+		
 		foreach ( $pFiles as $key=>$value ) {
-			$list = explode( '.', $value );
-			$str = substr( $list[0], -1 );
+			$tmpList = explode( '.', $value );
+			$str = $this->cut_str( $tmpList[0], '_', -1 );
 			$dataType[$str][] = $pFiles[$key];
 		}
+
 		return $dataType;
+
 	}
 
 
@@ -56,7 +64,7 @@ class XmlOperationUtility
 	private function getFileContent( Pclzip $pZip, $pZipPath, $pXmlList ) {
 
 		foreach ( $pXmlList as $value )
-			$xmlContent = $pZip->getZipFileContent( $pZipPath, $value );
+			$xmlContent[] = $pZip->getZipFileContent( $pZipPath, $value );
 
 		return $xmlContent;
 
@@ -70,9 +78,21 @@ class XmlOperationUtility
 
 	}
 
+	// 解析多个 xml 内容
+
+	public function parsXmlArr( $pXmlContent ) {
+
+		foreach ( $pXmlContent as $value )
+			$parsArr[] = json_decode( json_encode((array) simplexml_load_string( $value )), 1 );
+
+		return $parsArr;
+
+	}
+
 	// 去掉 xml 标识符的数组
 
-	public function xmlCovArr( $pArr ) {
+	public function xmlCov( $pArr ) {
+
 		foreach ( $pArr['table'] as $key=>$value ) {
 			// $name[] = $value['@attributes']['name'];
 			foreach ( $value['column'] as $val ) {
@@ -80,7 +100,20 @@ class XmlOperationUtility
 				$tmpArr[$value['@attributes']['name']][] = $val['@attributes'];
 			}
 		}
+
 		return $tmpArr;
+
+	}
+
+	// 去掉多个 xml 文件中的 xml 标识符的数组
+
+	public function xmlCovArr( $pArr ) {
+
+		foreach ( $pArr as $value )
+			$tmpArr[] = $this->xmlCov( $value );
+
+		return $tmpArr;
+
 	}
 
 	// 获取 xml 文件数目
@@ -107,6 +140,27 @@ class XmlOperationUtility
 		if ( strpos( $pVar, 'Database' ) !== false && 'xml' == end( explode( '.', $pVar )))
 			return $pVar;
 
+	}
+
+	/**
+	 * 按符号截取字符串的指定部分
+	 * @param string $str 需要截取的字符串
+	 * @param string $sign 需要截取的符号
+	 * @param int $number 如是正数以0为起点从左向右截  负数则从右向左截
+	 * @return string 返回截取的内容
+	 */
+	public function cut_str( $str, $sign, $number ){
+
+	    $array = explode( $sign, $str );
+	    $length = count( $array );
+
+	    if( $number < 0 ){
+	        $new_array = array_reverse( $array );
+	        $abs_number = abs( $number );
+	        return $abs_number > $length ? 'error' : $new_array[$abs_number-1];
+	    }
+
+	    return $number >= $length ? 'error' : $array[$number];
 	}
 
 
