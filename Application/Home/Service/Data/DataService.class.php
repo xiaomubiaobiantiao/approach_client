@@ -31,7 +31,7 @@ class DataService
 		$this->dataExtract = $pContainer->dataExtract;
 		$this->zip = $pContainer->zip;
 		$this->xml = $pContainer->xml;
-		$this->data = $pContainer->dataType;
+		// $this->data = $pContainer->dataType;
 	}
 
 	// 提取压缩包列表
@@ -109,144 +109,122 @@ class DataService
 
 // 测试连接数据库 --------------------------------------------------------------------------------
 
-    // 连接数据库
-    public function linkDatabase( $pParams ) {
-    	dump($this->data->$pParams['type']);
-    	dump( $pParams );
+    // 连接单个数据库
+    public function linkData( $pParams ) {
+    	$params = $this->jsonConv( $pParams );
+    	$data = $this->getDataInstance( $params['type'] );
+    	$data->setParam( $params );
+    	// dump($params);
+    	// dump($data);
+    	$data->connection() ? $bool = true : $bool = false;
+    	$ajaxReturn[$params['type']] = $bool;
+    	dump( $ajaxReturn );
+    	return $ajaxReturn;
     }
 
-    // 判断数据库类型
-    public function if_type( $pType ) {
-    	$aa = 'sqlServer' + 'Data';
-    	// $test = $this->container->$pType['type'];
-    	$test = $this->container->$aa;
-    	echo 123;
-    	dump( $test );
+    // 连接多个数据库
+    public function linkMoreData( $pParams ) {
+    	$ajaxReturn = array();
+    	$params = $this->jsonConv( $pParams );
+    	foreach ( $params as $value ) {
+    		$return = $this->linkData( $value );
+    		$ajaxReturn[key($return)] = $return[key($return)];
+    	}
+    	// dump( $ajaxReturn );
+    	return $ajaxReturn;
     }
+
+    // 获取数据库实例
+    public function getDataInstance( $pClassName ) {
+    	// dump( $pClassName );
+    	$className = $pClassName.'Data';
+    	return $this->container->$className;
+    }
+
+    // json 转换数组
+	private function jsonConv( $pJson ) {
+		return is_array( $pJson ) ? $pJson : json_decode( $pJson, true );
+	}
+
+	// 判断是否为 json 格式 - 暂时未用
+ //    private function is_not_json($str){ 
+ //    	return is_null(json_decode($str));
+	// }
+
+
+//------------------------------------------------------------------------------------------------
+	
+// Json ------------------------------------------------------------------------------------------
+
+	// 返回数据
+	private function returnData() {
+
+	}
+
+
 
 //------------------------------------------------------------------------------------------------
 
 
-	public function test() {
-		echo 444;
-	}
-
 	//读取数据库文件目录
-	private function readDataDir( $pDir ) {
-		return FileBase::checkDirFiles( $pDir );
-	}
-
-	/**
-	 * [updateDataProcess 更新文件流程]
-	 * @param  [string] $pDataType     [database type]
-	 * @param  [array] $pDataFilePath [database file path]
-	 * @return [type]                [null]
-	 */
-	public function updateDataProcess() {
-		$this->dataStructure = $this->loadDataFile( $this->dataDir );
-		// dump( $this->dataStructure );
-		return $this->dataStructure;
-	}
-
-	//返回首页信息
-	public function indexInfo() {
-		return $this->dataStructure();
-	}
-
-	/**
-	 * [connectData 连接数据库]
-	 * @param  [string] $pDataType [database type]
-	 * @return [type]            [null]
-	 */
-	public function connectDatabase( array $pDatabaseType ) {
-
-		dump( $pDatabaseType );
-
-		// 拼接完整数据库名称
-		$databaseType = ucfirst( $pDatabaseType[1].'Data' );
-		
-		$database = $this->children->make( 'DataType', $databaseType, $this->loadDataParam() );
-		dump( $database );
-
-		// $sql = "select * from a_nnis";
-		// $resources = $database->exec( $sql );
-		// $nums = $database->numRows( $resources );
-		// dump( $nums );
-		
-	}
-
-	//遍历数组连接数据库
-	public function connectDatabases( array $pDatabaseTypeArr ) {
-		foreach ( $pDatabaseTypeArr as $value )
-			$this->connectDatabase( $value ) ? $data[$value] = true : $data[$value] = false;
-		return $data;
-	}
-
-	//返回需要修改的数据库名称和对应sql文件 - 暂時未用
-	private function loadDataFile( $pDataDir ) {
-		return array_filter( $pDataDir );
-	}
-
-	//返回数组键名 - 一维 - 暂時未用
-	private function getArrayKeys( $pArr ) {
-		return array_keys( $pArr );
-	}
-
-	//加载数据库文件
-	// public function loadDataFile( $pDataFilePathArr ) {
-	// 	foreach ( $pDataFilePathArr as $value ) {
-	// 		$connect = FileBase::readFileAll( $value );
-	// 		$this->sqlFiles[basename($value)] = $connect;
-	// 	}
+	// private function readDataDir( $pDir ) {
+	// 	return FileBase::checkDirFiles( $pDir );
 	// }
 
-	//分类数据库类型和文件
-	public function typeDistinguish( $pFileArr ) {
-		$keys = array_keys( $pFileArr );
-		foreach ( $keys as $value ) {
-			if ( false == empty( $pFileArr[$value] ))
-				// $this->updateDataProcess( $value, $pFileArr[$value] );
-				dump( $pFileArr[$value] );
-		}
-	}
+	// /**
+	//  * [updateDataProcess 更新文件流程]
+	//  * @param  [string] $pDataType     [database type]
+	//  * @param  [array] $pDataFilePath [database file path]
+	//  * @return [type]                [null]
+	//  */
+	// public function updateDataProcess() {
+	// 	$this->dataStructure = $this->loadDataFile( $this->dataDir );
+	// 	// dump( $this->dataStructure );
+	// 	return $this->dataStructure;
+	// }
+
+	// //返回首页信息
+	// public function indexInfo() {
+	// 	return $this->dataStructure();
+	// }
 	
-	//执行 SQL 语句
-	public function execStatements( $pSql ) {
-		//执行Sql语句
-		dump( $this->data );
-		//return $this->data->odbcExec( $pSql );
-	}
+	// //执行 SQL 语句
+	// public function execStatements( $pSql ) {
+	// 	//执行Sql语句
+	// 	dump( $this->data );
+	// 	//return $this->data->odbcExec( $pSql );
+	// }
 
-	//检测 SQL 是否更新成功
-	public function checkSqlStatus() {
+	// //检测 SQL 是否更新成功
+	// public function checkSqlStatus() {
 
-	}
+	// }
 
-	//加载数据库配置参数 - 临时用
-	public function loadDataParam() {
+	// //加载数据库配置参数 - 临时用
+	// public function loadDataParam() {
 
-		$dbconf['server'] 		= '.';
-		$dbconf['user'] 		= 'sa';
-		$dbconf['pass'] 		= '123123';
-		$dbconf['database'] 	= 'hicisdata_new_test';
-		$dbconf['connect'] 		= 'DRIVER={SQL Server};SERVER='.$dbconf['server'].';DATABASE='.$dbconf['database'];
+	// 	$dbconf['server'] 		= '.';
+	// 	$dbconf['user'] 		= 'sa';
+	// 	$dbconf['pass'] 		= '123123';
+	// 	$dbconf['database'] 	= '';
+	// 	$dbconf['connect'] 		= 'DRIVER={SQL Server};SERVER='.$dbconf['server'].';DATABASE='.$dbconf['database'];
 
-		return $dbconf;
+	// 	return $dbconf;
 
-	}
+	// }
 
-	//字符串拼接 - 暂时未用
-	public function connectStr( $pTableName, $pField, $pType ) {
-		// $str = "select * from syscolumns where id=object_id('qgsh_report') and name='shsjwpmca'";
-		$str = 'select * from syscolumns where id=object_id(' . $tableName . ') and name=' . $field;
-		// $sql = 'alter table qgsh_report add shsjwpmca varchar(50)';
-		$sql = 'alter table '.$tableName.' add '.$field.' '.$type;
-	}
+	// //字符串拼接 - 暂时未用
+	// public function connectStr( $pTableName, $pField, $pType ) {
+	// 	// $str = "select * from syscolumns where id=object_id('qgsh_report') and name='shsjwpmca'";
+	// 	$str = 'select * from syscolumns where id=object_id(' . $tableName . ') and name=' . $field;
+	// 	// $sql = 'alter table qgsh_report add shsjwpmca varchar(50)';
+	// 	$sql = 'alter table '.$tableName.' add '.$field.' '.$type;
+	// }
 
-	//循环遍历内容 - 临时用
-	public function fetchTest( $pArr ) {
-		$this->data->fetchConnect( $pArr );
-	}
+	// //循环遍历内容 - 临时用
+	// public function fetchTest( $pArr ) {
+	// 	$this->data->fetchConnect( $pArr );
+	// }
 
 
 

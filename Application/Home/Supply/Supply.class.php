@@ -14,16 +14,14 @@ class Supply
 		'zip' => '\Home\Common\Utility\PclZipController',
 		'xml' => '\Home\Common\Utility\XmlOperationUtility',
 		'dataType' => '\Home\Common\Utility\DataTypeUtility',
-		'sqlServerData' => '\Home\Common\Data\SqlserverData',
+		'sqlserverData' => '\Home\Common\Data\SqlserverData',
 		'mysqlData' => '\Home\Common\Data\MysqlData',
 		'oracleData' => '\Home\Common\Data\OracleData'
 	);
 
 	public function  __get( $pClassName ) {
 
-		$value = self::$classCollection[$pClassName];
-
-        return isset( $value ) ? self::getInstance( $value ) : null;
+		return $this->specifiedInstance( $pClassName );
 
     }
 
@@ -33,11 +31,12 @@ class Supply
 
 	}
 
-	// 未完待续
+	// 指定实例名称
 	public function specifiedInstance( $pClassName ) {
 
 		$value = self::$classCollection[$pClassName];
-		self::getInstance( $value );
+
+        return isset( $value ) ? self::getInstance( $value ) : null;
 
 	}
 
@@ -45,10 +44,6 @@ class Supply
 
 		return self::$classCollection;
 
-	}
-
-	private static function in_conf( $className ) {
-		return 
 	}
 
 

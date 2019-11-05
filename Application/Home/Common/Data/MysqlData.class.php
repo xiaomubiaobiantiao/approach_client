@@ -32,12 +32,12 @@ class MysqlData implements Database
 		$this->user = $pParams['user'];
 		$this->pass = $pParams['pass'];
 		$this->database = $pParams['database'];
-		$this->connect = $pParams['connect'];
+		$this->connect = 'DRIVER={SQL Server};SERVER='.$dbconf['server'].';DATABASE='.$dbconf['database'];
 	}
 
 	//连接数据库
 	public function connection() {
-		echo __CLASS__;
+		// echo __CLASS__;
 		$this->dataConnect = odbc_connect( $this->connect, $this->user, $this->pass );
 		return $this->dataConnect;
 	}

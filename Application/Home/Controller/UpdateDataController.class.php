@@ -40,7 +40,7 @@ class UpdateDataController extends Controller
 		$vid = I( 'version_id' );
 
 		$list = $this->DataService->getXmlInfo( $vid );
-
+		dump( $list );
 		$this->assign( 'datalist', $list );
 
 		$this->display( 'UpdateData/dataConf' );
@@ -48,9 +48,29 @@ class UpdateDataController extends Controller
 	}
 
 	// 测试连接数据库
-	public function testLinkData() {
-		$params = I( 'post.' );
-		$this->DataService->if_type( $params );
+	public function testLink() {
+		$abc = odbc_connect( 'DRIVER={SQL Server};SERVER=;DATABASE=','','' );
+		dump( $abc );
+		die();
+		// new \Home\Model\NewModel('blog','think_','mysql://root:1234@localhost/demo');
+		// $abc = M( '','','sqlsrv://sa:123123@localhost/hicisdata_new_test' );
+		// $abc = new \Home\Common\Data\SqlserverData();
+		// $abc = new \Home\Common\Data\MysqlData();
+		// $abc = new \Home\Common\Data\OracleData();
+		// dump( $abc );
+		// $cc = $abc->connection();
+		// dump( $cc );
+		// die();
+		$returnAjax = $this->DataService->linkData( $this->getJson() );
+		dump($returnAjax);
+		// $this->ajaxReturn( $returnAjax );
+	}
+
+	// 测试连接多个数据库
+	public function testLinkAll() {
+
+		$this->DataService->linkMoreData( $this->getJson() );
+
 	}
 
 	// 接收数据库类型参数并检测对应数据库连接
@@ -75,5 +95,14 @@ class UpdateDataController extends Controller
 
 	}
 
+	public function getJson() {
+
+		return file_get_contents( 'php://input' );
+		
+	}
+
+	public function paramValidat() {
+
+	}
 
 }
