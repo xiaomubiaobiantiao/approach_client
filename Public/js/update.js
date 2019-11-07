@@ -1,78 +1,80 @@
 
 
-var update = {
+var Update = function( url, id ) {
+    this.url = url;
+    this.id = id;
+    this.is_submit();
+}
 
-    linkData:function( url, id ){
-        var str = this.getFromData( id );
-        if( str == false ) { 
-            alert( str );
-            alert( '信息输入不完整' );
-            return false;
-        };
-        // var url = "{:U('UpdateData/testLink')}";
-        this.submitAjax( str, url );
+Update.prototype = {
+
+    is_submit:function() {
+        typeof( this.id ) !== 'undefined' ? this.linkData() : this.linkDataAll();
     },
 
 
-    linkDataAll:function( url ){
+    linkData:function() {
+
+        var str = this.getFromData( this.id );
+        if ( str === false ) {
+            this.updateMessage( '信息输入不完整' );
+        } else {
+            new SendAjax( this.url, str );
+            // alert(cc);
+        }
+        
+    },
+
+
+    linkDataAll:function() {
         var str = this.getFromAllData();
-        if( str == false ) { 
-            alert( '信息输入不完整' );
-            return false;
-        };
-        // var url = "{:U('UpdateData/testLinkAll')}";
-        this.submitAjax( str, url );
+        str === false ? this.updateMessage( '信息输入不完整' ) : new SendAjax( this.url, str );
     },
 
 
     getFromData:function( id ) {
 
         var str = '';
-        var frmObj = $("#"+id);
-        var input_Obj = frmObj.find("input:text");
+        var input_Obj = $( "#"+id ).find( "input:text" );
         var result = true;
-
-        //由上面的表单获取里面的值
         var input_length = input_Obj.length;
 
         input_Obj.each(function(i){
 
-            var thisName = $(this).attr('name');
+            var thisName = $(this).attr( 'name' );
             var thisVal = $(this).val();
 
-            if ( thisVal == '' ) {
-                // alert( id +'下的'+ thisName +'不能为空' );
-                $(this).siblings('i').css("color","red");
+            if ( thisVal === '' ) {
+                $( this ).siblings( 'i' ).css( "color", "red" );
                 result = false;
             } else {
-                $(this).siblings('i').css("color","gray");
+                $( this ).siblings( 'i' ).css( "color", "gray" );
             }
 
-            str += '"'+(thisName+'":"'+thisVal)+'"';
+            str += '"'+( thisName+'":"'+thisVal )+'"';
+
             if ( i+1 < input_length ) {
                 str += ',';
             }
-            // alert( result ); // 未完待续
+
         });
 
-        if ( result == false ) { return false; } 
-
-        return '{'+str+'}';
+        return result === false ? false : '{'+str+'}';
 
     },
+
 
     getFromAllData:function() {
 
         var str = '';
         var value = '';
-        var fomObj = $('from');
-        // var value = new Array();
+        var fomObj = $( 'from' );
         var input_length = fomObj.length;
         var result = true;
 
-        fomObj.each(function(i){
+        fomObj.each( function( i ){
 
-            value = window.update.getFromData( $(this).attr('id') );
+            value = Update.prototype.getFromData( $(this).attr('id') );
 
             if ( value === false ) {
                 result = false;
@@ -86,150 +88,17 @@ var update = {
 
         });
 
-        if ( result == false ) { return false };
+        return result === false ? false : '['+str+']';
         // return JSON.stringify('['+str+']');
-        return '['+str+']';
+
     },
 
-    submitAjax:function( str, url ) { 
-        $.ajax({
-            type: "POST",
-            dataType: "json",
-            url: url,
-            data: str,
-            // traditional: true,
-            success: function (data) {
 
-                alert(JSON.stringify(data))
-                alert( data.sqlserver );
-                // if ( data = true )
-                // console.log(result);    //打印服务端返回的数据(调试用)
-                // if (result.resultCode == 200) {
-                //     alert("SUCCESS");
-                // }; 
-                // alert(data.username);
-            },
-            error : function() {
-                alert("提交异常！");
-            }
-        });
+    updateMessage:function( str ) {
+        alert( str );
     }
+
 
 }
 
-
-
-        // function linkData( id ){
-        //     var str = getFromData( id );
-        //     if( str == false ) { 
-        //         alert( str );
-        //         alert( '信息输入不完整' );
-        //         return false;
-        //     };
-        //     var url = "{:U('UpdateData/testLink')}";
-        //     submitAjax( str, url );
-        // }
-
-
-        // function linkDataAll(){
-        //     var str = getFromAllData();
-        //     alert( str );
-        //     if( str == false ) { 
-        //         alert( '信息输入不完整' );
-        //         return false;
-        //     };
-        //     var url = "{:U('UpdateData/testLinkAll')}";
-        //     submitAjax( str, url );
-        // }
-
-
-        // function getFromData( id ) {
-
-        //     var str = '';
-        //     var frmObj = $("#"+id);
-        //     var input_Obj = frmObj.find("input:text");
-            
-        //     //由上面的表单获取里面的值
-        //     var input_length = input_Obj.length;
-
-        //     input_Obj.each(function(i){
-
-        //         var thisName = $(this).attr('name');
-        //         var thisVal = $(this).val();
-
-        //         if ( thisVal == '' ) {
-        //             // alert( id +'下的'+ thisName +'不能为空' );
-        //             $(this).siblings('i').css("color","red");
-        //             result = false;
-        //         } else {
-        //             $(this).siblings('i').css("color","gray");
-        //         }
-
-        //         str += '"'+(thisName+'":"'+thisVal)+'"';
-        //         if ( i+1 < input_length ) {
-        //             str += ',';
-        //         }
-        //         // alert( result ); // 未完待续
-        //     });
-
-        //     if ( result == false ) { return false; } 
-
-        //     return '{'+str+'}';
-
-        // }
- 
-        // function getFromAllData () {
-
-        //     var str = '';
-        //     var value = '';
-        //     var fomObj = $('from');
-        //     var value = new Array();
-        //     var input_length = fomObj.length;
-
-        //     fomObj.each(function(i){
-
-        //         value = getFromData( $(this).attr('id') );
-
-        //         if ( value == false ) {
-        //             result = false;
-        //         }
-
-        //         str += value;
-
-        //         if ( i+1 < input_length ) {
-        //             str += ',';
-        //         }
-
-        //     });
-
-        //     if ( result == false ) { return false };
-        //     // return JSON.stringify('['+str+']');
-        //     return '['+str+']';
-        // }
-
-        // function submitAjax( str, url ) { 
-        //     $.ajax({
-        //         type: "POST",
-        //         dataType: "json",
-        //         url: url,
-        //         data: str,
-        //         // traditional: true,
-        //         success: function (data) {
-
-        //             alert(JSON.stringify(data))
-        //             alert( data.sqlserver );
-        //             // if ( data = true )
-        //             // console.log(result);    //打印服务端返回的数据(调试用)
-        //             // if (result.resultCode == 200) {
-        //             //     alert("SUCCESS");
-        //             // }; 
-        //             // alert(data.username);
-        //         },
-        //         error : function() {
-        //             alert("提交异常！");
-        //         }
-        //     });
-        // }
-
-    
 

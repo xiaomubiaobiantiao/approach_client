@@ -40,7 +40,7 @@ class UpdateDataController extends Controller
 		$vid = I( 'version_id' );
 
 		$list = $this->DataService->getXmlInfo( $vid );
-		dump( $list );
+
 		$this->assign( 'datalist', $list );
 
 		$this->display( 'UpdateData/dataConf' );
@@ -49,9 +49,10 @@ class UpdateDataController extends Controller
 
 	// 测试连接数据库
 	public function testLink() {
-		$abc = odbc_connect( 'DRIVER={SQL Server};SERVER=;DATABASE=','','' );
-		dump( $abc );
-		die();
+		
+		// $abc = odbc_connect( 'DRIVER={SQL Server};SERVER=;DATABASE=','','' );
+		// dump( $abc );
+		// die();
 		// new \Home\Model\NewModel('blog','think_','mysql://root:1234@localhost/demo');
 		// $abc = M( '','','sqlsrv://sa:123123@localhost/hicisdata_new_test' );
 		// $abc = new \Home\Common\Data\SqlserverData();
@@ -62,8 +63,8 @@ class UpdateDataController extends Controller
 		// dump( $cc );
 		// die();
 		$returnAjax = $this->DataService->linkData( $this->getJson() );
-		dump($returnAjax);
-		// $this->ajaxReturn( $returnAjax );
+		// dump($returnAjax);
+		$this->ajaxReturn( $returnAjax );
 	}
 
 	// 测试连接多个数据库

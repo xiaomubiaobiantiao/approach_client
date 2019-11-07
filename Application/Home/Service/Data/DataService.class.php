@@ -67,14 +67,12 @@ class DataService
 	public function getXmlInfo( $pVid ) {
 
 		$packInfo = $this->getZipInfo( $pVid );
-		// dump( $packInfo );
 
 		$files = $this->getZipFileList( $packInfo['download'] );
 
 		$list = $this->searchXmlInfo( $files );
-		if ( $list['xmlCount'] < 1 ) die( '这个版本没有数据库需要更新' );
 
-		// dump( $list );
+		if ( $list['xmlCount'] < 1 ) die( '这个版本没有数据库需要更新' );
 
 		if ( empty( $list['xmlType'] )) die( 'xml 文件中没有数据库需要更新' );
 
@@ -114,11 +112,8 @@ class DataService
     	$params = $this->jsonConv( $pParams );
     	$data = $this->getDataInstance( $params['type'] );
     	$data->setParam( $params );
-    	// dump($params);
-    	// dump($data);
     	$data->connection() ? $bool = true : $bool = false;
     	$ajaxReturn[$params['type']] = $bool;
-    	dump( $ajaxReturn );
     	return $ajaxReturn;
     }
 
