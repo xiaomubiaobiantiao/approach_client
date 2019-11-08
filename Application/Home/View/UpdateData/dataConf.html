@@ -19,7 +19,11 @@
 .forminfo li i { padding-left: 0px; margin-left: 20px; }
 /*.forminfo li label { line-height: 50px; }*/
 li label { margin-top:8px; color:gray;}
-.li_o label { margin-left: 45%; color:blue }
+.forminfo .li_o label { margin-left: 30%; color:red; width:120px; }
+.forminfo .btn { width:100px; }
+#bottom-buttons { float:left;height:100%;width:100%;padding:40px 0px 100px 35% }
+#bottom-buttons #update { background:#ea68a2; }
+#bottom-buttons #preview { background:gray; }
 </style>
 
 </head>
@@ -28,7 +32,7 @@ li label { margin-top:8px; color:gray;}
     <div class="place">
     <span>位置：</span>
     <ul class="placeul">
-    <li><a href="#">首页 __PUBLIC__/js/update.js </a></li>
+    <li><a href="#">首页</a></li>
     <li><a href="#">更新/还原</a></li>
     </ul>
     </div>
@@ -49,40 +53,45 @@ li label { margin-top:8px; color:gray;}
     <div id="tab1" class="tabson">
     
     <!-- <div class="formtext">系统 <b>当前版本</b> {$datalist[3]}</div> -->
-    
+    <div id="zipPath" style="display: none" >{$datalist['zipPath']}</div>
     <ul class="forminfo" >
 
-        <foreach name="datalist" item="vo">
+        <foreach name="datalist['xmlType']" item="vo">
         <from id="{$vo}" action="" method='POST' >
             <div class="datadiv" >
             <li class="li_o" >
-                <label>{$vo}</label><!-- <label></label> -->
+                <label class="type" >{$vo}</label><!-- <label></label> -->
                 <input name="type" type="text" class="dfinput" value="{$vo}" style="display:none" />
             </li>
             <li>
                 <label>服务器：</label>
-                <input name="server" type="text" class="dfinput" value="" /><i>123</i>
+                <input name="server" type="text" class="dfinput" value="" /><i></i>
             </li>
             <li>
                 <label>登陆名：</label>
-                <input name="user" type="text" class="dfinput" value="" /><i>123</i>
+                <input name="user" type="text" class="dfinput" value="" /><i></i>
             </li>
             <li>
                 <label>密码：</label>
-                <input name="pass" type="text" class="dfinput" value="" /><i>123</i>
+                <input name="pass" type="text" class="dfinput" value="" /><i></i>
             </li>
 
             <li class="button" >
                 <label><b></b></label>
-                <button id="update" class="btn" value="{$vo}" onclick="submitData('{:U('UpdateData/testLink')}', this.value);" >检测连接数据库</button></li>
+                <button id="update" class="btn" value="{$vo}" onclick="submitData('{:U('UpdateData/testLink')}', this.value);" >连接数据库</button></li>
                 <!-- <input id="update" type="button" value="检测连接数据库" class="btn" ></li> -->
             </div>
         </from>
         </foreach>
-        <button id="update" class="btn" onclick="submitData('{:U('UpdateData/testLinkAll')}');" >一键检测连接</button></li>
+        
 <!--         <button id="update" class="btn" onclick="update.linkDataAll(update.url='{:U(UpdateData/testLink)}');" >一键检测连接</button></li> -->
     </ul>
     
+
+    <div id="bottom-buttons" >
+        <button id="update" class="btn" onclick="submitData('{:U('UpdateData/testLinkAll')}');" >一键连接</button></li>
+        <button id="preview" class="btn" onclick="updatePreview();" >更新预览</button></li>
+    </div>
 
     </div> 
     
@@ -108,6 +117,13 @@ li label { margin-top:8px; color:gray;}
     <script type="text/javascript">
         function submitData( url, id ){
             new Update( url, id );
+        }
+    </script>
+
+    <script type="text/javascript">
+        function updatePreview() {
+            var datalist = $('#zipPath').text();
+            alert( datalist ); 未完待续 ------------------------ 开始写js了
         }
     </script>
 

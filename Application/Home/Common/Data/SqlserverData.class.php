@@ -38,12 +38,7 @@ class SqlserverData implements Database
 
 	// 连接数据库
 	public function connection() {
-		// echo __CLASS__;
-		// $this->dataConnect = odbc_connect( $this->connect, $this->user, $this->pass );
-		$this->dataConnect = odbc_connect( 'DRIVER={SQL Server};SERVER=;DATABASE=','','' );
-		dump( $this->user );
-		dump( $this->pass );
-		// dump( $this->dataConnect );
+		$this->dataConnect = odbc_connect( $this->connect, $this->user, $this->pass );
 		return $this->dataConnect;
 	}
 

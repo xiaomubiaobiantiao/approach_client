@@ -45,10 +45,10 @@ Update.prototype = {
             var thisVal = $(this).val();
 
             if ( thisVal === '' ) {
-                $( this ).siblings( 'i' ).css( "color", "red" );
+                $( this ).siblings( 'i' ).css( "color", "red" ).html('必填项');
                 result = false;
             } else {
-                $( this ).siblings( 'i' ).css( "color", "gray" );
+                $( this ).siblings( 'i' ).html('');
             }
 
             str += '"'+( thisName+'":"'+thisVal )+'"';

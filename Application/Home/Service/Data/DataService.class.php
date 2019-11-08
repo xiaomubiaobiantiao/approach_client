@@ -70,13 +70,15 @@ class DataService
 
 		$files = $this->getZipFileList( $packInfo['download'] );
 
-		$list = $this->searchXmlInfo( $files );
+		$list = $this->searchXmlInfo( $files, $packInfo['download'] );
 
 		if ( $list['xmlCount'] < 1 ) die( '这个版本没有数据库需要更新' );
 
 		if ( empty( $list['xmlType'] )) die( 'xml 文件中没有数据库需要更新' );
 
-		return $list['xmlType'];
+		$list['zipPath'] = $packInfo['download'];
+dump($list);
+		return $list;
 
 		// 打开压缩包内
 		$dataList = $this->getXmlDataInfo( $packInfo['download'] );
@@ -113,7 +115,9 @@ class DataService
     	$data = $this->getDataInstance( $params['type'] );
     	$data->setParam( $params );
     	$data->connection() ? $bool = true : $bool = false;
-    	$ajaxReturn[$params['type']] = $bool;
+    	$return[$params['type']] = $bool;
+    	$ajaxReturn['code'] = 200;
+    	$ajaxReturn['data'] = $return;
     	return $ajaxReturn;
     }
 
@@ -123,9 +127,9 @@ class DataService
     	$params = $this->jsonConv( $pParams );
     	foreach ( $params as $value ) {
     		$return = $this->linkData( $value );
-    		$ajaxReturn[key($return)] = $return[key($return)];
+    		$ajaxReturn['data'][key($return['data'])] = $return['data'][key($return['data'])];
     	}
-    	// dump( $ajaxReturn );
+    	$ajaxReturn['code'] = 200;
     	return $ajaxReturn;
     }
 
@@ -151,9 +155,11 @@ class DataService
 	
 // Json ------------------------------------------------------------------------------------------
 
-	// 返回数据
-	private function returnData() {
+	// 获取 JSON 数据
+	public function getJson() {
 
+		return file_get_contents( 'php://input' );
+		
 	}
 
 

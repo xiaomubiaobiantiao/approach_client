@@ -15,33 +15,13 @@ SendAjax.prototype = {
             url: this.url,
             data: this.data,
             success: function ( data ) {
+                // var dataLength = Object.keys(data).length;
+                // alert( this.url );
+                // alert(data.code);
+                if ( data.code == 200 ) {
+                    SendAjax.prototype.ajaxSingle( data.data );    
+                }
 
-                switch( Object.keys(data).length ) {
-                    case 1:
-                       SendAjax.prototype.ajaxb( data );
-                       break;
-                    case 2:
-                       alert( 'hello word!' );
-                       break;
-                    default:
-                       alert('啥也没有啊');
-                } 
-
-
-                // var num = Object.keys(data).length;
-                // if ( num === 1 ) {
-                //     SendAjax.prototype.ajaxb( data );
-                // }
-                // return result;
-                // alert( JSON.stringify( result ));
-                // alert( result.sqlserver );
-                // if ( data = true )
-                // console.log(result);    //打印服务端返回的数据(调试用)
-                // if (result.resultCode == 200) {
-                //     alert("SUCCESS");
-                // }; 
-                // alert(data.username);
-                未完待续
             },
             error : function() {
                 alert("提交异常！");
@@ -49,10 +29,67 @@ SendAjax.prototype = {
         });
     },
 
-    ajaxb:function( data ) {
-        alert( JSON.stringify( data ) );
-        alert( 213123 );
-    }
+    ajaxSingle:function( data ) {
+
+        var status = true;
+        var num = 0;
+
+        $.each( data, function( k, v ){
+
+            $(".li_o .type").each(function(){
+                var thisText = $.trim( $(this).text() );
+                var str = new RegExp(k);
+                if ( str.test(thisText) ) {
+                    if ( v === false ) {
+                        $(this).css( 'color', 'red' );
+                        $(this).html( k+' 连接失败' );
+                        status = false;
+                    } else {
+                        num += 1;
+                        $(this).css( 'color', 'blue' );
+                        $(this).html( k+' 连接成功' );
+                    }
+                }
+            });
+
+        });
+        
+        var dataLength = $(".li_o  .type").length;
+
+        if ( status === false ) {
+            $( '#preview' ).css( 'background', 'gray' );
+            alert( '连接失败' );
+        } else if ( dataLength !== num ){
+            alert( '连接成功' );
+        } else {
+            $( '#preview' ).css( 'background', '#ea68a2' );
+            alert( '全部连接成功' );
+        }
+
+    },
+
+
+
+    // ajaxMore:function( data ) {
+    //     alert(data);
+    //     $.each( data, function( k, v ){
+
+    //         $(".li_o .type").each(function(){
+    //             var thisText = $.trim( $(this).text() );
+    //             var str = new RegExp(k);
+    //             if ( str.test(thisText) ) {
+    //                 if ( v === false ) {
+    //                     $(this).css( 'color', 'red' );
+    //                     $(this).html( k+' 连接失败' );
+    //                 } else {
+    //                     $(this).css( 'color', 'blue' );
+    //                     $(this).html( k );
+    //                 }
+    //             }
+    //         });
+
+    //     });
+    // }
 
 }
 

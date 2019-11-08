@@ -49,61 +49,30 @@ class UpdateDataController extends Controller
 
 	// 测试连接数据库
 	public function testLink() {
-		
-		// $abc = odbc_connect( 'DRIVER={SQL Server};SERVER=;DATABASE=','','' );
-		// dump( $abc );
-		// die();
-		// new \Home\Model\NewModel('blog','think_','mysql://root:1234@localhost/demo');
-		// $abc = M( '','','sqlsrv://sa:123123@localhost/hicisdata_new_test' );
-		// $abc = new \Home\Common\Data\SqlserverData();
-		// $abc = new \Home\Common\Data\MysqlData();
-		// $abc = new \Home\Common\Data\OracleData();
-		// dump( $abc );
-		// $cc = $abc->connection();
-		// dump( $cc );
-		// die();
-		$returnAjax = $this->DataService->linkData( $this->getJson() );
+
+		$returnAjax = $this->DataService->linkData( $this->DataService->getJson() );
 		// dump($returnAjax);
 		$this->ajaxReturn( $returnAjax );
+
 	}
 
 	// 测试连接多个数据库
 	public function testLinkAll() {
 
-		$this->DataService->linkMoreData( $this->getJson() );
+		$returnAjax = $this->DataService->linkMoreData( $this->DataService->getJson() );
+		// dump( $returnAjax );
+		$this->ajaxReturn( $returnAjax );
 
 	}
 
-	// 接收数据库类型参数并检测对应数据库连接
-	public function detectionDatabaseConnect() {
-
-		$databaseType = I( 'database' );
-
-		$data = array( 'Sqlserver', 'Mysql' );
-
-		$this->dataService->connectDatabase( $data );
+	// 更新数据库预览
+	public function dataPreview() {
 
 	}
 
-	// 检测数据库库名是否存在
-	public function detectionDatabaseName() {
+	
 
-	}
 
-	// 测试
-	public function test( DataService $DataService ) {
-		$DataService->test();
 
-	}
-
-	public function getJson() {
-
-		return file_get_contents( 'php://input' );
-		
-	}
-
-	public function paramValidat() {
-
-	}
 
 }
