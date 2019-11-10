@@ -1,6 +1,6 @@
 <?php
 /**
- * æ•°æ®åº“è¿æ¥ç±»
+ * Êı¾İ¿âÁ¬½ÓÀà
  * Created by Sublime Text
  * @author Michael
  * DateTime: 19-6-27 09:37:00
@@ -11,22 +11,22 @@ use Home\Interfaces\Database;
 class SqlserverData implements Database
 {
 
-	// åˆå§‹åŒ–æ•°æ®åº“å‚æ•°
+	// ³õÊ¼»¯Êı¾İ¿â²ÎÊı
 	// public $server = '';
 	// public $user = '';
 	// public $pass = '';
 	// public $database = '';
 	// public $connect = '';
 
-	// // æ•°æ®åº“è¿æ¥
+	// // Êı¾İ¿âÁ¬½Ó
 	public $dataConnect = '';
 
-	// åˆå§‹åŒ– - å¤‡ç”¨
+	// ³õÊ¼»¯ - ±¸ÓÃ
 	// public function __construct( array $pParams ) {
 	// 	$this->setParam( $pParams );
 	// }
 
-	// è®¾ç½®æ•°æ®åº“å‚æ•°
+	// ÉèÖÃÊı¾İ¿â²ÎÊı
 	public function setParam( array $pParams ) {
 		// dump( $pParams );
 		$this->server = $pParams['server'];
@@ -36,30 +36,30 @@ class SqlserverData implements Database
 		$this->connect = 'DRIVER={SQL Server};SERVER='.$pParams['server'].';DATABASE='.$pParams['database'];
 	}
 
-	// è¿æ¥æ•°æ®åº“
+	// Á¬½ÓÊı¾İ¿â
 	public function connection() {
 		$this->dataConnect = odbc_connect( $this->connect, $this->user, $this->pass );
 		return $this->dataConnect;
 	}
 
-	// æ‰§è¡ŒSqlè¯­å¥
+	// Ö´ĞĞSqlÓï¾ä
 	public function exec( $pSql ) {
 		return odbc_exec( $this->dataConnect, $pSql );
 	}
 	
-	// å¾ªç¯éå†å†…å®¹
+	// Ñ­»·±éÀúÄÚÈİ
 	public function fetchConnect( $pResources ) {
 		while( $row = odbc_fetch_array( $pResources ))
 			$result[] = $row;
 		return $result;
 	}
 
-	// æŸ¥çœ‹æ€»è¡Œæ•°
+	// ²é¿´×ÜĞĞÊı
 	public function numRows( $pResources ) {
 		return odbc_num_rows( $pResources );
 	}
 
-	// æŸ¥çœ‹ æ•°æ®åº“ æ˜¯å¦å­˜åœ¨
+	// ²é¿´ Êı¾İ¿â ÊÇ·ñ´æÔÚ
 	public function in_database( string $pDataName ) {
 		dump($pDataName);
 		$sql = "select * from master.dbo.sysdatabases where name = '$pDataName'";
@@ -71,7 +71,7 @@ class SqlserverData implements Database
 		
 	}
 	
-	// æŸ¥çœ‹ æ•°æ®è¡¨ æ˜¯å¦å­˜åœ¨
+	// ²é¿´ Êı¾İ±í ÊÇ·ñ´æÔÚ
 	public function in_table( string $pTableName ) {
 		$sql = "select * from $pTableName";
 		$tmp = $this->exec( $sql );
@@ -80,20 +80,20 @@ class SqlserverData implements Database
 
 	}
 
-	// è·å–æŒ‡å®šæ•°æ®è¡¨ä¸­æ‰€æœ‰å­—æ®µ
+	// »ñÈ¡Ö¸¶¨Êı¾İ±íÖĞËùÓĞ×Ö¶Î
 	public function tableFiles( string $pTableName ) {
 
-		//è·å–æŒ‡å®šè¡¨ä¸‹æ‰€æœ‰å­—æ®µåå’Œä¿¡æ¯ - ç»™ xml æ‰“åŒ…ç”¨ - åœ¨è¿™é‡Œç”¨ä¸ä¸Š
+		//»ñÈ¡Ö¸¶¨±íÏÂËùÓĞ×Ö¶ÎÃûºÍĞÅÏ¢ - ¸ø xml ´ò°üÓÃ - ÔÚÕâÀïÓÃ²»ÉÏ
 		// $sql = "select * from syscolumns where id=object_id('$pTableName')";
 		// 
 		// $sql = "select name from syscolumns where id=object_id('$pTableName')";
-		// $sql = "select a.name è¡¨å, b.name å­—æ®µå,
+		// $sql = "select a.name ±íÃû, b.name ×Ö¶ÎÃû,
 
 		// 	    case c.name when 'numeric' 
-		// 		    then 'numeric(' + convert(varchar,b.length) + 'ï¼Œ' + convert(varchar,b.xscale) + ')'
+		// 		    then 'numeric(' + convert(varchar,b.length) + '£¬' + convert(varchar,b.xscale) + ')'
 		// 			when 'char' then 'char(' + convert(varchar,b.length) + ')'
 		// 		    when 'varchar' then 'varchar(' + convert(varchar,b.length) + ')'
-		// 	    	else c.name END AS å­—æ®µç±»å‹
+		// 	    	else c.name END AS ×Ö¶ÎÀàĞÍ
 
 		// 	from sysobjects a,syscolumns b,systypes c where a.id=b.id
 
@@ -102,30 +102,22 @@ class SqlserverData implements Database
 		// 	and b.xtype=c.xtype";
 
 
-		// $sql = "SELECT 
-		// 	name,type_name(xtype) AS type,
-		// 	length,
-		// 	(type_name(xtype)+'('+CONVERT(varchar,length)+')') as t,
-		// 	isnullable as isnull,
-		// 	type as a,
-		// 	cdefault
+		// $sql = "SELECT name,type_name(xtype) AS type,length,(type_name(xtype)+'('+CONVERT(varchar,length)+')') as t
 		// 	FROM syscolumns
 		// 	WHERE (id = OBJECT_ID('PAT_INFOR'))";
 
-		// --
-		// $sql = "Select d.Name tableName, isnull(e.value,'') descr From SysObjects dleft joinÂ  sys.extended_propertiesÂ  e on d.id = e.major_idÂ Â  andÂ Â  e.minor_id=0 Where d.XType='U' and d.name like ? order By d.Name";
-
-		$sql = "SELECT  c.TABLE_SCHEMA ,
-        c.TABLE_NAME ,
-        c.COLUMN_NAME ,
-        c.DATA_TYPE ,
-        c.CHARACTER_MAXIMUM_LENGTH ,
-        c.COLUMN_DEFAULT ,
-        c.IS_NULLABLE ,
-        c.NUMERIC_PRECISION ,
-        c.NUMERIC_SCALE
-FROM    [INFORMATION_SCHEMA].[COLUMNS] c
-WHERE   TABLE_NAME = 'hicisdata_new_test'";
+		$sql = "SELECT t1.name columnName,case when  t4.id is null then 'false' else 'true' end as pkColumn,
+    case when  COLUMNPROPERTY( t1.id,t1.name,'IsIdentity') = 1 then 'true' else 'false' end as  autoAdd
+    ,t5.name jdbcType
+    ,cast(isnull(t6.value,'') as varchar(2000)) descr
+FROM SYSCOLUMNS t1
+left join SYSOBJECTS t2 on  t2.parent_obj = t1.id  AND t2.xtype = 'PK'
+left join SYSINDEXES t3 on  t3.id = t1.id  and t2.name = t3.name 
+left join SYSINDEXKEYS t4 on t1.colid = t4.colid and t4.id = t1.id and t4.indid = t3.indid
+left join systypes  t5 on  t1.xtype=t5.xtype
+left join sys.extended_properties t6   on  t1.id=t6.major_id   and   t1.colid=t6.minor_id
+left join SYSOBJECTS tb  on  tb.id=t1.id
+where tb.name='APIInfo' and t5.name<>'sysname' <br>order by t1.colid asc";
 
 		$result = $this->exec( $sql );
 		$tmp = $this->fetchConnect( $result );
@@ -134,14 +126,14 @@ WHERE   TABLE_NAME = 'hicisdata_new_test'";
 
 	}
 
-	// å°†æ•°æ®ä¸€è‚¿è·å–çš„å­—æ®µ è½¬æ¢æˆ 1 ç»´æ•°ç»„
+	// ½«Êı¾İÒ»Ö×»ñÈ¡µÄ×Ö¶Î ×ª»»³É 1 Î¬Êı×é
 	public function tablesFileArray( array $pFiles ) {
 		foreach ( $pFiles as $value )
 			$tmp[$value['name']] = $value['name'];
 		dump( $tmp );
 	}
 
-	// æŸ¥è¯¢å­—æ®µæ˜¯å¦å­˜åœ¨
+	// ²éÑ¯×Ö¶ÎÊÇ·ñ´æÔÚ
 	public function in_files( string $pFieldName ) {
 		
 	}

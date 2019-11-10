@@ -20,6 +20,8 @@ SendAjax.prototype = {
                 // alert(data.code);
                 if ( data.code == 200 ) {
                     SendAjax.prototype.ajaxSingle( data.data );    
+                } else if ( data.code == 201 ) {
+                    alert( 'abc' );
                 }
 
             },

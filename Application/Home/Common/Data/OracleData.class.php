@@ -33,7 +33,7 @@ class OracleData implements Database
 		$this->user = $pParams['user'];
 		$this->pass = $pParams['pass'];
 		$this->database = $pParams['database'];
-		$this->connect = 'DRIVER={SQL Server};SERVER='.$dbconf['server'].';DATABASE='.$dbconf['database'];
+		$this->connect = 'DRIVER={SQL Server};SERVER='.$pParams['server'].';DATABASE='.$pParams['database'];
 	}
 
 	//连接数据库

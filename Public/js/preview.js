@@ -1,31 +1,19 @@
 
-
-var Update = function( url, id ) {
+var Preview = function( url, zipId ) 
+{
     this.url = url;
-    this.id = id;
-    this.is_submit();
+    this.zipId = zipId;
+    alert(this.url);
+    this.statPreview();
 }
 
-Update.prototype = {
+Preview.prototype = {
 
-    is_submit:function() {
-        typeof( this.id ) !== 'undefined' ? this.linkData() : this.linkDataAll();
-    },
-
-
-    linkData:function() {
-
-        var str = this.getFromData( this.id );
-        str === false ? this.updateMessage( '信息输入不完整' ) : new SendAjax( this.url, str );
-        
-    },
-
-
-    linkDataAll:function() {
+    statPreview:function() {
         var str = this.getFromAllData();
-        str === false ? this.updateMessage( '信息输入不完整' ) : new SendAjax( this.url, str );
+        // alert(str);
+        new SendAjax( this.url, str );
     },
-
 
     getFromData:function( id ) {
 
@@ -83,17 +71,10 @@ Update.prototype = {
 
         });
 
-        return result === false ? false : '['+str+']';
+        return result === false ? false : '[{"zipid":"'+this.zipId+'"},'+str+']';
         // return JSON.stringify('['+str+']');
 
     },
 
-
-    updateMessage:function( str ) {
-        alert( str );
-    }
-
-
 }
-
 

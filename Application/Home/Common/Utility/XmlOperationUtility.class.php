@@ -30,17 +30,16 @@ class XmlOperationUtility
 
 	public function _secondPerForm( Pclzip $pZip, $pZipPath ) {
 
-		$list = $this->getFileContent( $pZip, $pZipPath, $this->xml['list'] );
+		$list = $this->getFileContent( $pZip, $pZipPath, $this->xml['xmlGroup'] );
+		// if ( count( $list ) > 1 ) {
+			$contentList = $this->parsXmlArr( $list );
+			$arrContentList = $this->xmlCovArr( $contentList );//dump($overList);die();
+		// } else {
+		// 	$contentList = $this->parsXml( $list );
+		// 	$overList = $this->xmlCov( $contentList );
+		// }
 
-		count( $list ) > 1
-			? $contentList = $this->parsXmlArr( $list )
-			: $contentList = $this->parsXml( $list );
-
-		count( $list ) > 1
-			? $overList = $this->xmlCovArr( $contentList )
-			: $overList = $this->xmlCov( $contentList );
-
-		return $overList;
+		return $arrContentList;
 
 	}
 
@@ -51,7 +50,7 @@ class XmlOperationUtility
 		foreach ( $pFiles as $key=>$value ) {
 			$tmpList = explode( '.', $value );
 			$str = $this->cut_str( $tmpList[0], '_', -1 );
-			$dataType[$str][] = $pFiles[$key];
+			$dataType[$str] = $pFiles[$key];
 		}
 
 		return $dataType;
@@ -63,8 +62,8 @@ class XmlOperationUtility
 	
 	private function getFileContent( Pclzip $pZip, $pZipPath, $pXmlList ) {
 
-		foreach ( $pXmlList as $value )
-			$xmlContent[] = $pZip->getZipFileContent( $pZipPath, $value );
+		foreach ( $pXmlList as $key=>$value )
+			$xmlContent[$key] = $pZip->getZipFileContent( $pZipPath, $value );
 
 		return $xmlContent;
 
@@ -82,25 +81,21 @@ class XmlOperationUtility
 
 	public function parsXmlArr( $pXmlContent ) {
 
-		foreach ( $pXmlContent as $value )
-			$parsArr[] = json_decode( json_encode((array) simplexml_load_string( $value )), 1 );
-
+		foreach ( $pXmlContent as $key=>$value )
+			$parsArr[$key] = json_decode( json_encode((array) simplexml_load_string( $value )), 1 );
 		return $parsArr;
 
 	}
 
-	// 去掉 xml 标识符的数组
+	// 去掉单个 xml 标识符的数组
 
 	public function xmlCov( $pArr ) {
 
-		foreach ( $pArr['table'] as $key=>$value ) {
-			// $name[] = $value['@attributes']['name'];
+		foreach ( $pArr['table'] as $key=>$value ) {//dump($value);
 			foreach ( $value['column'] as $val ) {
-				// dump( $val['@attributes'] );
-				$tmpArr[$value['@attributes']['name']][] = $val['@attributes'];
+				$tmpArr[$value['@attributes']['name']][$val['@attributes']['cname']] = $val['@attributes'];
 			}
 		}
-
 		return $tmpArr;
 
 	}
@@ -109,8 +104,8 @@ class XmlOperationUtility
 
 	public function xmlCovArr( $pArr ) {
 
-		foreach ( $pArr as $value )
-			$tmpArr[] = $this->xmlCov( $value );
+		foreach ( $pArr as $key=>$value )
+			$tmpArr[$key] = $this->xmlCov( $value );
 
 		return $tmpArr;
 

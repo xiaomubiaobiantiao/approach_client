@@ -53,13 +53,13 @@ li label { margin-top:8px; color:gray;}
     <div id="tab1" class="tabson">
     
     <!-- <div class="formtext">系统 <b>当前版本</b> <?php echo ($datalist[3]); ?></div> -->
-    <div id="zipPath" style="display: none" ><?php echo ($datalist['zipPath']); ?></div>
-    <ul class="forminfo" >
 
+    <div id="zipId" style="display: none" ><?php echo ($datalist['zipId']); ?></div>
+    <ul class="forminfo" >
         <?php if(is_array($datalist['xmlType'])): foreach($datalist['xmlType'] as $key=>$vo): ?><from id="<?php echo ($vo); ?>" action="" method='POST' >
             <div class="datadiv" >
             <li class="li_o" >
-                <label class="type" ><?php echo ($vo); ?></label><!-- <label></label> -->
+                <label class="type" ><?php echo ($vo); ?></label>
                 <input name="type" type="text" class="dfinput" value="<?php echo ($vo); ?>" style="display:none" />
             </li>
             <li>
@@ -78,17 +78,23 @@ li label { margin-top:8px; color:gray;}
             <li class="button" >
                 <label><b></b></label>
                 <button id="update" class="btn" value="<?php echo ($vo); ?>" onclick="submitData('<?php echo U('UpdateData/testLink');?>', this.value);" >连接数据库</button></li>
-                <!-- <input id="update" type="button" value="检测连接数据库" class="btn" ></li> -->
             </div>
         </from><?php endforeach; endif; ?>
         
-<!--         <button id="update" class="btn" onclick="update.linkDataAll(update.url='<?php echo U(UpdateData/testLink);?>');" >一键检测连接</button></li> -->
     </ul>
-    
+
+<!--     <from action="<?php echo U('UpdateData/test');?>" method='POST'>
+            <input type="text" value="111"/>
+            <input type="submit" value='提交' />
+        </from> -->
+<form  name="form1"  method="post" action="<?php echo U('UpdateData/test');?>">     
+姓名:<input type="text" name="sname" size="25">    
+<input type="submit" value="提交" />  
+</form> 
 
     <div id="bottom-buttons" >
         <button id="update" class="btn" onclick="submitData('<?php echo U('UpdateData/testLinkAll');?>');" >一键连接</button></li>
-        <button id="preview" class="btn" onclick="updatePreview();" >更新预览</button></li>
+        <button id="preview" class="btn" onclick="updatePreview('<?php echo U('UpdateData/dataPreview');?>');" >更新预览</button></li>
     </div>
 
     </div> 
@@ -119,9 +125,9 @@ li label { margin-top:8px; color:gray;}
     </script>
 
     <script type="text/javascript">
-        function updatePreview() {
-            var datalist = $('#zipPath').text();
-            alert( datalist );
+        function updatePreview( url ) {
+            var zipId = $('#zipId').text();
+            new Preview( url, zipId );
         }
     </script>
 

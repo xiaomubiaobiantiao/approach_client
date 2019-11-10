@@ -7,36 +7,21 @@
  */
 namespace Home\Service\Data;
 
-use Home\Common\Utility\DataTypeUtility as DataType;
 use Home\Common\Utility\FileBaseUtility as FileBase;
 
 class DataService
 {
 
 
-	//初始化数据库名称
-	public $data = '';
-
-	//初始化sql文件数组 - 包含文件名与SQL语句
-	public $sqlFiles = array();
-
-	//数据库文件原始目录结构
-	public $dataDir = '';
-
-	//数据库文件需要更新的目录结构
-	public $dataStructure = '';
-
 	public function __construct( Array $pContainer ) {
 		$this->container = $pContainer;
 		$this->dataExtract = $pContainer->dataExtract;
 		$this->zip = $pContainer->zip;
 		$this->xml = $pContainer->xml;
-		// $this->data = $pContainer->dataType;
 	}
 
 	// 提取压缩包列表
 	public function getZipList( $pTypeId ) {
-		// $dataExtract = new DE();
 		empty( $pTypeId )
 			? $dataList = $this->dataExtract->getDefaultType()
 			: $dataList = $this->dataExtract->dataCollection( $pTypeId );
@@ -76,52 +61,111 @@ class DataService
 
 		if ( empty( $list['xmlType'] )) die( 'xml 文件中没有数据库需要更新' );
 
+		$list['zipId'] = $pVid;
 		$list['zipPath'] = $packInfo['download'];
-dump($list);
+
 		return $list;
-
-		// 打开压缩包内
-		$dataList = $this->getXmlDataInfo( $packInfo['download'] );
-		dump( $dataList );
-
-		// $xmlContent = $this->getFileContent( $this->xml, $packInfo['download'] );
-
-		// $xmlArr = $this->parsXmlContent( $xmlContent );
-		// dump($xmlArr);
-		
+		//库名 -- 未完待续
 	}
-	// 应该将XML操作都放到XML包里面, XML文件的路径也应该传到 xml 类, 由 xml 类来操作
-	// 获取压缩包内 xml 文件的内容
-	private function getFileContent( $pXml, $pZipPath ) {
+
+	// 总预览
+	public function allPreview( $pPreviewJson ) {
+
+		$data = $this->jsonConv( $pPreviewJson );
+		$zipId = array_shift( $data );
+
+		$list = $this->getXmlInfo( $zipId );
+		$xmlInfo = $this->getXmlDataInfo( $list['zipPath'] );
+
+		foreach ( $xmlInfo as $key=>$value ) {
+
+			// 连接数据库
+			$dataIndex = $this->in_data( $key, $data );
+			$dataIndex || $dataIndex === 0 
+				? $dataInstance = $this->dataConnect( $data[$dataIndex] )
+				: die( '数据库不匹配' );
+
+				dump( $dataInstance );
+			// 查询当前数据库-数据表
+			$dataName = array_keys( $value );
+			dump($dataName);
 			
-		if ( $pXml->xml['xmlCount'] == 1 ) {
-			$xmlContent = $this->zip->getZipFileContent( $pZipPath, array_shift( $pXml->xml['list'] ));
-		} else {
-			foreach ( $pXml->xml['list'] as $value )
-				$xmlContent = $this->zip->getZipFileContent( $pZipPath, $value );
 		}
 
-		return $xmlContent;
+		// dump($xmlInfo);
 
+		// foreach ( $ ) {
+
+		// }
+		dump($data);
+		
+
+		//数据库名
+		//	表名
+		//		字段名
+
+		// $this->xmlFields( $xmlInfo );
 	}
+
+	// 判断二维数组中是否存在某些字段
+	private function in_data( $field, $pArr ) {
+		foreach ( $pArr as $key=>$value ){
+			if ( array_search( $field, $value ) ) {
+				return $key;
+			}
+		}
+		return false;
+	}
+
+
+	// 提取 XML 表个数目 字段数目
+	// public function xmlFields( $pXmlInfo ) {
+	// 	// dump( $pXmlInfo );
+	// 	$datas = array_keys( $pXmlInfo );
+	// 	$dataCount = count( $dataNum );
+
+	// 	foreach ( $datas as $value ) {
+
+	// 		$tables = array_keys( $pXmlInfo[$value] );
+	// 		$arr[$value]['count'] = count( $tables );
+	// 		$arr[$value]['table'] = $tables;
+	// 		foreach ( $tables as $val ) {
+
+	// 			$fileds = array_keys( $pXmlInfo[$value][$val] );
+	// 			$arr[$value][$val][] = $fileds;
+	// 		}
+
+
+
+	// 	}
+	// 	// dump($fileds);
+	// 	// dump( $datas );
+	// 	dump( $arr );
+
+	// 	// dump( $datas );
+	// 	// dump( $dataCount );
+	// 	// $tableCount = count( $pXmlInfo );
+	// 	// $fieldCount = count( $pXmlInfo );
+	// }
 
 //------------------------------------------------------------------------------------------------
 
 // 测试连接数据库 --------------------------------------------------------------------------------
 
-    // 连接单个数据库
+    // 测试连接单个数据库
     public function linkData( $pParams ) {
     	$params = $this->jsonConv( $pParams );
-    	$data = $this->getDataInstance( $params['type'] );
-    	$data->setParam( $params );
-    	$data->connection() ? $bool = true : $bool = false;
+    	// $data = $this->getDataInstance( $params['type'] );
+    	// $data->setParam( $params );
+    	// $data->connection() ? $bool = true : $bool = false;
+    	$bool = $this->dataConnect( $params ) ? true : false;
     	$return[$params['type']] = $bool;
     	$ajaxReturn['code'] = 200;
     	$ajaxReturn['data'] = $return;
     	return $ajaxReturn;
     }
 
-    // 连接多个数据库
+    // 测试连接多个数据库
     public function linkMoreData( $pParams ) {
     	$ajaxReturn = array();
     	$params = $this->jsonConv( $pParams );
@@ -131,6 +175,13 @@ dump($list);
     	}
     	$ajaxReturn['code'] = 200;
     	return $ajaxReturn;
+    }
+
+    // 连接数据库
+    public function dataConnect( $pParams ) {
+    	$data = $this->getDataInstance( $pParams['type'] );
+    	$data->setParam( $pParams );
+    	return $data->connection() ? $data : false;
     }
 
     // 获取数据库实例
