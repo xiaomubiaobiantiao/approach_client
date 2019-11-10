@@ -53,13 +53,29 @@ class UpdateDataController extends Controller
 		// $params = array( 'type'=>'sqlserver', 'server'=>'.', 'user'=>'sa', 'pass'=>'123123' );
 		$data = $this->DataService->dataConnect( $params );
 
-		$a = $data->in_database( 'hicisdata_new_test' );
+		$dataName = 'hicisdata_new_test';
+		$tableName = 'PAT_INFOR';
+
+		$a = $data->in_database( $dataName );
 		dump($a);
 
-		$a = $data->in_table( 'PAT_INFOR' );
-		dump($a);		
+		$b = $data->in_table( $tableName );
+		dump($b);
 
-		$data->tableFiles( 'PAT_INFOR' );
+		$c = $data->tableFiles( $tableName );
+
+		if ( $a == false ) die( '数据库不存在' );
+
+		if ( $b == false ) die( '数据表不存在' );
+
+		$tmp = array(
+			$dataName => array(
+				$tableName => $c
+			)
+		);
+		
+
+		dump($tmp);
 
 		
 	}
