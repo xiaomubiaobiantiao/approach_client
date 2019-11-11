@@ -56,7 +56,7 @@ class DataService
 		$files = $this->getZipFileList( $packInfo['download'] );
 
 		$list = $this->searchXmlInfo( $files, $packInfo['download'] );
-
+		// dump($list);
 		if ( $list['xmlCount'] < 1 ) die( '这个版本没有数据库需要更新' );
 
 		if ( empty( $list['xmlType'] )) die( 'xml 文件中没有数据库需要更新' );
@@ -76,7 +76,8 @@ class DataService
 
 		$list = $this->getXmlInfo( $zipId );
 		$xmlInfo = $this->getXmlDataInfo( $list['zipPath'] );
-
+		// dump($xmlInfo);
+		die();
 		foreach ( $xmlInfo as $key=>$value ) {
 
 			// 连接数据库

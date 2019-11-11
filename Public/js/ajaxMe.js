@@ -66,6 +66,7 @@ SendAjax.prototype = {
         } else {
             $( '#preview' ).css( 'background', '#ea68a2' );
             alert( '全部连接成功' );
+            
         }
 
     },

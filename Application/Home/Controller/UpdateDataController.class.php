@@ -48,23 +48,9 @@ class UpdateDataController extends Controller
 	}
 
 	public function test() {
-
-		$params = array( 'type'=>'sqlserver', 'server'=>'.', 'user'=>'sa', 'pass'=>'123123', 'database'=>'hicisdata_new_test');
-		// $params = array( 'type'=>'sqlserver', 'server'=>'.', 'user'=>'sa', 'pass'=>'123123' );
-		$data = $this->DataService->dataConnect( $params );
-
-		$a = $data->in_database( 'hicisdata_new_test' );
-		dump($a);
-
-		$a = $data->in_table( 'PAT_INFOR' );
-		dump($a);		
-
-		$data->tableFiles( 'PAT_INFOR' );
-
-		
+		$test = new \Home\Common\Utility\GetDataToXmlUtility();
+		$test->linkGetData();
 	}
-
-	// public function 
 
 	// 测试连接数据库
 	public function testLink() {
@@ -86,16 +72,11 @@ class UpdateDataController extends Controller
 
 	// 更新数据库预览
 	public function dataPreview() {
+
 		$test = $this->DataService->getJson();
 		$returnAjax = $this->DataService->allPreview( $test );
-		// dump($test);
-		
-		
-
-
-		
 		// dump($returnAjax);
-		// dump($test);
+
 	}
 
 	

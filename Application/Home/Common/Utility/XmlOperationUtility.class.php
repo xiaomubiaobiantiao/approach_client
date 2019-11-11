@@ -11,8 +11,8 @@ class XmlOperationUtility
 {
 
 
-	public $xml = array();
-	public $content = '';
+	private $xml = array();
+	private $content = '';
 
 	// 入口函数 1 - 传入文件目录, 匹配 xml 文件, 计算 xml 文件个数
 	
@@ -31,13 +31,9 @@ class XmlOperationUtility
 	public function _secondPerForm( Pclzip $pZip, $pZipPath ) {
 
 		$list = $this->getFileContent( $pZip, $pZipPath, $this->xml['xmlGroup'] );
-		// if ( count( $list ) > 1 ) {
+
 			$contentList = $this->parsXmlArr( $list );
 			$arrContentList = $this->xmlCovArr( $contentList );//dump($overList);die();
-		// } else {
-		// 	$contentList = $this->parsXml( $list );
-		// 	$overList = $this->xmlCov( $contentList );
-		// }
 
 		return $arrContentList;
 
@@ -56,7 +52,6 @@ class XmlOperationUtility
 		return $dataType;
 
 	}
-
 
 	// 获取压缩包内文件的内容
 	
@@ -91,11 +86,13 @@ class XmlOperationUtility
 
 	public function xmlCov( $pArr ) {
 
-		foreach ( $pArr['table'] as $key=>$value ) {//dump($value);
-			foreach ( $value['column'] as $val ) {
-				$tmpArr[$value['@attributes']['name']][$val['@attributes']['cname']] = $val['@attributes'];
-			}
+		foreach ( $pArr as $key=>$value ) {
+			$dump($key);dump($value);
+			// foreach ( $value['database'] as $val ) {
+			// 	$tmpArr[$value['@attributes']['name']][$val['@attributes']['cname']] = $val['@attributes'];
+			// }
 		}
+
 		return $tmpArr;
 
 	}
@@ -103,10 +100,12 @@ class XmlOperationUtility
 	// 去掉多个 xml 文件中的 xml 标识符的数组
 
 	public function xmlCovArr( $pArr ) {
-
-		foreach ( $pArr as $key=>$value )
+		// dump($pArr);die();
+		foreach ( $pArr as $key=>$value ) { dump($value);
 			$tmpArr[$key] = $this->xmlCov( $value );
-
+		}
+		// dump( $tmpArr );
+		die();
 		return $tmpArr;
 
 	}
@@ -157,6 +156,10 @@ class XmlOperationUtility
 
 	    return $number >= $length ? 'error' : $array[$number];
 	}
+
+
+
+
 
 
 }

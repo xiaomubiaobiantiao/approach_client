@@ -1,0 +1,1294 @@
+[ 2019-11-11T15:18:46+08:00 ] ::1 /index.php/Home/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2019-11-11T15:18:47+08:00 ] ::1 /index.php/Home/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2019-11-11T15:18:47+08:00 ] ::1 /index.php/Home/Update/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2019-11-11T15:18:49+08:00 ] ::1 /index.php/Home/Update/update.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, none given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateController.class.php on line 92 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [8] Undefined variable: pContainer D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 17 行.
+NOTIC: [8] Undefined variable: pContainer D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 18 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pContainer D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 19 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 19 行.
+NOTIC: [8] Undefined variable: pContainer D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 20 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 20 行.
+
+[ 2019-11-11T15:18:49+08:00 ] ::1 /index.php/Home/Update/update.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, none given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateController.class.php on line 92 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [8] Undefined variable: pContainer D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 17 行.
+NOTIC: [8] Undefined variable: pContainer D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 18 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pContainer D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 19 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 19 行.
+NOTIC: [8] Undefined variable: pContainer D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 20 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 20 行.
+
+[ 2019-11-11T15:18:53+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2019-11-11T15:18:55+08:00 ] ::1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 55 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2019-11-11T15:18:57+08:00 ] ::1 /index.php/Home/UpdateData/test.html?sname=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 36 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::in_database() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 45 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 67 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 79 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 51 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 90 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::in_database() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 84 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 67 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 86 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 79 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 87 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 90 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 86 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 79 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 87 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 90 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::in_database() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 84 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 67 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 86 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 79 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 87 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 90 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 86 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 79 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 87 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 90 行.
+NOTIC: [4096] Argument 2 passed to Home\Common\Utility\GetDataToXmlUtility::arrToXml() must be an instance of Home\Common\Utility\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php on line 65 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\GetDataToXmlUtility.class.php 第 97 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002424s ]
+
+[ 2019-11-11T15:19:17+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2019-11-11T15:19:18+08:00 ] ::1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 55 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2019-11-11T15:19:36+08:00 ] ::1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 63 行.
+NOTIC: [8] Undefined index: table D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 99 行.
+
+[ 2019-11-11T15:19:45+08:00 ] ::1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 63 行.
+NOTIC: [8] Undefined index: table D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 99 行.
+
+[ 2019-11-11T15:22:58+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2019-11-11T15:23:00+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 55 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2019-11-11T15:23:15+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 63 行.
+NOTIC: [8] Undefined index: table D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 99 行.
+
+[ 2019-11-11T15:27:35+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+
+[ 2019-11-11T15:28:16+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+
+[ 2019-11-11T15:28:26+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+
+[ 2019-11-11T15:29:02+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2019-11-11T15:29:04+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 55 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002025s ]
+
+[ 2019-11-11T15:29:21+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [8] Undefined variable: result D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php 第 76 行.
+
+[ 2019-11-11T15:29:42+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+
+[ 2019-11-11T15:31:23+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+
+[ 2019-11-11T15:31:36+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+
+[ 2019-11-11T15:31:47+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+
+[ 2019-11-11T15:32:27+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+
+[ 2019-11-11T15:32:54+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+
+[ 2019-11-11T15:33:47+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 63 行.
+NOTIC: [8] Undefined index: table D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 94 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 99 行.
+
+[ 2019-11-11T15:36:28+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 63 行.
+
+[ 2019-11-11T15:51:17+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 63 行.
+
+[ 2019-11-11T15:52:54+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 63 行.
+
+[ 2019-11-11T15:59:19+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 139 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 139 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 139 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 139 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 60 行.
+NOTIC: [2] DOMDocument::load() expects parameter 1 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 72 行.
+NOTIC: [8] Undefined variable: arrContentList D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 39 行.
+
+[ 2019-11-11T16:00:31+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2019-11-11T16:00:32+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 139 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 139 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 139 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 139 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 55 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2019-11-11T16:00:51+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 139 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 139 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 139 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 139 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 60 行.
+NOTIC: [2] DOMDocument::load() expects parameter 1 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 72 行.
+NOTIC: [8] Undefined variable: arrContentList D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 39 行.
+
+[ 2019-11-11T16:01:34+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 60 行.
+NOTIC: [2] DOMDocument::load() expects parameter 1 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 72 行.
+
+[ 2019-11-11T16:02:01+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 60 行.
+NOTIC: [2] DOMDocument::load() expects parameter 1 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 72 行.
+
+[ 2019-11-11T16:02:26+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2019-11-11T16:02:28+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 55 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2019-11-11T16:02:34+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] array_shift() expects parameter 1 to be array, boolean given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 75 行.
+NOTIC: [2] array_map() [<a href='function.array-map'>function.array-map</a>]: Argument #2 should be an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [2] array_map() [<a href='function.array-map'>function.array-map</a>]: Argument #2 should be an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 47 行.
+NOTIC: [8] Undefined variable: dataType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 53 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 24 行.
+
+[ 2019-11-11T16:02:41+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] array_shift() expects parameter 1 to be array, boolean given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 75 行.
+NOTIC: [2] array_map() [<a href='function.array-map'>function.array-map</a>]: Argument #2 should be an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [2] array_map() [<a href='function.array-map'>function.array-map</a>]: Argument #2 should be an array D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 47 行.
+NOTIC: [8] Undefined variable: dataType D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 53 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 24 行.
+
+[ 2019-11-11T16:02:58+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 60 行.
+NOTIC: [2] DOMDocument::load() expects parameter 1 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 72 行.
+
+[ 2019-11-11T16:04:12+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 141 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 60 行.
+NOTIC: [2] DOMDocument::load() expects parameter 1 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 72 行.
+NOTIC: [8] Undefined variable: items D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 75 行.
+NOTIC: [8] Undefined variable: arrContentList D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 39 行.
+
+[ 2019-11-11T16:04:33+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 142 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 142 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 142 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 142 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 60 行.
+NOTIC: [2] DOMDocument::load() expects parameter 1 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 72 行.
+NOTIC: [8] Undefined variable: items D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 76 行.
+NOTIC: [8] Undefined variable: arrContentList D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 39 行.
+
+[ 2019-11-11T16:05:27+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 142 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 142 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 142 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 142 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 60 行.
+NOTIC: [8] Undefined variable: items D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 76 行.
+NOTIC: [8] Undefined variable: arrContentList D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 39 行.
+
+[ 2019-11-11T16:06:53+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 142 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 142 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 142 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 142 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 60 行.
+NOTIC: [2] DOMDocument::load() [<a href='domdocument.load'>domdocument.load</a>]: I/O warning : failed to load external entity &quot;file:///C:/Users/maker/Desktop/downlPack/Application.zip/Database/aba_mysql.xml&quot; D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 72 行.
+NOTIC: [8] Undefined variable: items D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 76 行.
+NOTIC: [8] Undefined variable: arrContentList D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 39 行.
+
+[ 2019-11-11T16:10:15+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2019-11-11T16:10:16+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 137 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 137 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 137 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 137 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 55 行.
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2019-11-11T16:10:31+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 137 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 137 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 137 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 137 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 60 行.
+NOTIC: [8] Undefined variable: arrContentList D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 39 行.
+
+[ 2019-11-11T16:11:17+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 130 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 130 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 130 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 130 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+
+[ 2019-11-11T16:12:41+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+
+[ 2019-11-11T16:12:55+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+
+[ 2019-11-11T16:13:27+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+
+[ 2019-11-11T16:13:53+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+
+[ 2019-11-11T16:14:25+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+
+[ 2019-11-11T16:15:13+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+
+[ 2019-11-11T16:15:27+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+NOTIC: [8] Undefined index: column D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+NOTIC: [8] Undefined index: column D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+NOTIC: [8] Undefined index: column D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+
+[ 2019-11-11T16:15:46+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+
+[ 2019-11-11T16:16:15+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 131 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+
+[ 2019-11-11T16:17:46+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+
+[ 2019-11-11T16:24:52+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+
+[ 2019-11-11T16:25:26+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 95 行.
+
+[ 2019-11-11T16:25:47+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 132 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+
+[ 2019-11-11T16:26:18+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 96 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 96 行.
+NOTIC: [8] Undefined variable: tmpArr D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 96 行.
+
+[ 2019-11-11T16:26:49+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+NOTIC: [8] Undefined variable: dump D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+
+[ 2019-11-11T16:27:04+08:00 ] 127.0.0.1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 133 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+NOTIC: [8] Undefined variable: dump D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 90 行.
+
