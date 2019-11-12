@@ -42,6 +42,13 @@ class SqlserverData implements Database
 		return $this->dataConnect;
 	}
 
+	// 设置数据表名称
+	public function setDatabase( string $pDatabase ){
+		$this->database = $pDatabase;
+		$this->connect = 'DRIVER={SQL Server};SERVER='.$this->server.';DATABASE='.$this->database;
+		$this->connection();
+	}
+
 	// 执行Sql语句
 	public function exec( $pSql ) {
 		return odbc_exec( $this->dataConnect, $pSql );
@@ -65,24 +72,21 @@ class SqlserverData implements Database
 
 	// 查看 数据库 是否存在
 	public function in_database( string $pDataName ) {
-		// dump( '数据库'.$pDataName);
+
 		$sql = "select * from master.dbo.sysdatabases where name = '$pDataName'";
-		// $sql = "select * from master.dbo.sysdatabases where name = 'hicisdata_new_test'";
 		$result = $this->exec( $sql );
 		$tmp = $this->fetchConnect( $result );
-// dump($tmp);
 		return is_null( $tmp ) ? false : true;
 		
 	}
 	
 	// 查看 数据表 是否存在
 	public function in_table( string $pTableName ) {
-		// dump( '数据表'.$pDataName);
 
-		$sql = "select * from $pTableName";
-		$tmp = $this->exec( $sql );
-
-		return false == $tmp ? false : true;
+		$sql = "select * from sysobjects where id = object_id(N'[$pTableName]') and OBJECTPROPERTY(id, N'IsUserTable') = 1";
+		$result = $this->exec( $sql );
+		$tmp = $this->fetchConnect( $result );
+		return is_null( $tmp ) ? false : true;
 
 	}
 
@@ -116,13 +120,12 @@ class SqlserverData implements Database
 
 		$result = $this->exec( $sql );
 		$tmp = $this->fetchConnect( $result );
-		// dump($tmp);
+		// dump($tmp);die();
 		return $this->tableAssoc( $tmp );
 
 	}
 
 	// 将索引数组的索引键改为关联键
-	
 	public function tableAssoc( array $pFiles ) {
 		foreach ( $pFiles as $value )
 			$tmp[$value[key($value)]] = $value;

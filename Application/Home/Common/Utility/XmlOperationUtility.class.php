@@ -87,10 +87,13 @@ class XmlOperationUtility
 	public function xmlCov( $pArr ) {
 
 		foreach ( $pArr as $key=>$value ) {
-			$dump($key);dump($value);
-			// foreach ( $value['database'] as $val ) {
-			// 	$tmpArr[$value['@attributes']['name']][$val['@attributes']['cname']] = $val['@attributes'];
-			// }
+			foreach ( $value as $value_1 ) {
+				foreach ( $value_1['table'] as $key_1=>$val ) {
+					foreach ( $val['column'] as $val_1 ) {
+						$tmpArr[$value_1['@attributes']['name']][$val['@attributes']['tname']][$val_1['@attributes']['cname']] = $val_1['@attributes'];
+					}
+				}
+			}
 		}
 
 		return $tmpArr;
@@ -100,12 +103,9 @@ class XmlOperationUtility
 	// 去掉多个 xml 文件中的 xml 标识符的数组
 
 	public function xmlCovArr( $pArr ) {
-		// dump($pArr);die();
-		foreach ( $pArr as $key=>$value ) { dump($value);
+
+		foreach ( $pArr as $key=>$value )
 			$tmpArr[$key] = $this->xmlCov( $value );
-		}
-		// dump( $tmpArr );
-		die();
 		return $tmpArr;
 
 	}
