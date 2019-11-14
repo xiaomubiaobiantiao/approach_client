@@ -47,15 +47,19 @@ class UpdateDataController extends Controller
 
 	}
 
-	public function test() {
-		$test = new \Home\Common\Utility\GetDataToXmlUtility();
-		$test->linkGetData();
+	// 接收预览JSON数据并转换为数组传送给页面 - 以便thinkphp用标签配置
+	public function priview() {
+
+		$data = $this->DataService->postJson();
+		$this->assign( 'list', $data );
+		$this->display( 'UpdateData/priview' );
+
 	}
 
 	// 测试连接数据库
 	public function testLink() {
 
-		$returnAjax = $this->DataService->linkData( $this->DataService->getJson() );
+		$returnAjax = $this->DataService->linkData( $this->DataService->ajaxJson() );
 		// dump($returnAjax);
 		$this->ajaxReturn( $returnAjax );
 
@@ -64,23 +68,38 @@ class UpdateDataController extends Controller
 	// 测试连接多个数据库
 	public function testLinkAll() {
 
-		$returnAjax = $this->DataService->linkMoreData( $this->DataService->getJson() );
+		$returnAjax = $this->DataService->linkMoreData( $this->DataService->ajaxJson() );
 		// dump( $returnAjax );
 		$this->ajaxReturn( $returnAjax );
 
 	}
 
-	// 更新数据库预览
+	// 接收数据库配置信息和更新包id - 返回预览数据
 	public function dataPreview() {
 
-		$test = $this->DataService->getJson();
+		$test = $this->DataService->ajaxJson();
 		$returnAjax = $this->DataService->allPreview( $test );
-		// dump($returnAjax);
+		$return['code'] = 201;
+    	$return['data'] = $returnAjax;
+		$this->ajaxReturn( $return );
 
 	}
 
-	
+	// 更新 xml 数据到相应数据库
+	public function updateXmlToData() {
+		
+		$data = $this->DataService->postJson();
+		$this->DataService->updateData( $data );
+		dump($data);
+	}
 
+	// 获取数据库中数据信息并生成 xml 文件
+	public function getDataXml() {
+
+		$test = new \Home\Common\Utility\GetDataToXmlUtility();
+		$test->linkGetData();
+
+	}
 
 
 

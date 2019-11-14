@@ -79,18 +79,38 @@ class DataService
 
 		if ( empty( $xmlInfo )) die( '没有数据库需要更新' );
 
+		$prieview = $this->priviewData( $xmlInfo, $data );
+		return $this->packPrieview( $data, $prieview );
 
-		foreach ( $xmlInfo as $dataType=>$value ) {
+	}
+	
+	// 打包即将返回的预览数据
+	private function packPrieview( $pData, $pPrieview ) {
+
+		$tmp['data'] = $pData;
+		$tmp['prieview'] = $pPrieview;
+
+		$prieviewReturn['data'] = json_encode( $tmp );
+		$prieviewReturn['prieview'] = $pPrieview;
+
+		return $prieviewReturn;
+		
+	}
+
+	// 预览 - 匹配 xml 与 数据库字段 - 建立返回页面的数据结构 - 项目急用 - 暂时写法
+	private function priviewData( $pXmlInfo, $pData ) {
+		foreach ( $pXmlInfo as $dataType=>$value ) {
 			// 当前数据库的类型 dump($dataType);
 
 			// 匹配数据库类型并连接数据库
-			$dataInstance = $this->match_linkData( $dataType, $data );
+			$dataInstance = $this->match_linkData( $dataType, $pData );
 			
 			// 连接数据库 - 成功/失败		
 			if ( is_object( $dataInstance )) {
 				$return[$dataType][] = true;
 			} else {
 				$return[$dataType][] = false;
+				// 日志用
 				$logs[$dataType] = false;
 			}
 
@@ -102,6 +122,7 @@ class DataService
 				$bool = $dataInstance->in_database( $dataName );
 				$return[$dataType][1][$dataName][] = $bool;
 
+				// 日志用
 				if ( false == $bool ) $logs[$dataName] = $bool;
 
 				foreach ( $val as $tableName=>$field ) {
@@ -116,26 +137,36 @@ class DataService
 					// 获取数据表字段信息
 					$fieldInfo = $dataInstance->tableFiles( $tableName );
 
-					// 获取字段信息的的 名称 和 数目
-					$xmlResult = $this->getFieldAndCount( $field );
-					$return[$dataType][1][$dataName][1][$tableName][1]['xmlCount'] = $xmlResult[0];
-					$return[$dataType][1][$dataName][1][$tableName][1]['xmlField'] = $xmlResult[1];
+					// 获取xml字段信息的的 名称 和 数目
+					$xmlField = $this->getFieldAndCount( $field );
+					$return[$dataType][1][$dataName][1][$tableName][1]['xmlCount'] = $xmlField[1];
+					$return[$dataType][1][$dataName][1][$tableName][1]['xmlField'] = $xmlField[0];
 
-					// 获取字段信息的的 名称 和 数目
-					$fieldResult = $this->getFieldAndCount( $fieldInfo );
-					$return[$dataType][1][$dataName][1][$tableName][1]['dataCount'] = $fieldResult[0];
-					$return[$dataType][1][$dataName][1][$tableName][1]['dataField'] = $fieldResult[1];
+					// 获取data字段信息的的 名称 和 数目
+					$dataField = $this->getFieldAndCount( $fieldInfo );
+					$return[$dataType][1][$dataName][1][$tableName][1]['dataCount'] = $dataField[1];
+					$return[$dataType][1][$dataName][1][$tableName][1]['dataField'] = $dataField[0];
 
+					//测试用 - 上线需要删掉下面两行 array_shift 和 array_shift ******
 					// array_shift($xmlField);
-					array_pop($dataField);
+					array_shift($dataField[0]);
+
 					// 数据表和XML里相同的字段
 					// $intersect = array_intersect( $xmlField, $dataField );//dump( $intersect );
 					// 数据表里存在 XML里不存在的字段
 					// $dataDiff = array_diff( $dataField, $intersect );//dump( $dataDiff );
 					// XML里存在 数据表里不存在的字段 - 需要添加
-					$xmlDiff = array_diff( $xmlField, $dataField );
+					$xmlDiff = array_diff( $xmlField[0], $dataField[0] );
 					$return[$dataType][1][$dataName][1][$tableName][1]['addField'] = $xmlDiff;
-					
+					$return[$dataType][1][$dataName][1][$tableName][1]['addFieldCount'] = count($xmlDiff);
+
+					// 配置前端字段展示列表 - 字段值为 false 需要添加的字段, true 数据库存在, 不需要添加的字段
+					foreach ( $xmlField[0] as $value ) {
+						$num = array_search( $value, $xmlDiff );
+						$return[$dataType][1][$dataName][1][$tableName][1]['list'][$value] = $num || $num === 0 ? 'false' : 'true';
+					}
+
+					// 日志用
 					if ( count( $fieldInfo ) === 0 ) $logs[$dataType] = false;
 
 				}
@@ -145,9 +176,16 @@ class DataService
 		}
 		if ( false == is_null( $logs )) die( '添加错误日志' );
 		// dump( $logs );
-		dump( $return );
+		// dump( $return );
 		
-		// $this->xmlFields( $xmlInfo );
+		return $return;
+		
+
+	}
+
+	// 更新 - 更新数据
+	public function updateData( $pData ) {
+		dump( $pData );
 	}
 
 	// 获取字段信息的的 名称 和 数目
@@ -156,6 +194,7 @@ class DataService
 		$tmp[] = array_keys( $pArr );
 		// 字段数目
 		$tmp[] = count( $pArr );
+		// dump($tmp);die();
 		return $tmp;
 	}
 
@@ -223,23 +262,10 @@ class DataService
     // 获取数据库实例
     public function getDataInstance( $pClassName ) {
 
-    	// dump( $pClassName );
     	$className = $pClassName.'Data';
     	return $this->container->$className;
 
     }
-
-    // json 转换数组
-	private function jsonConv( $pJson ) {
-
-		return is_array( $pJson ) ? $pJson : json_decode( $pJson, true );
-
-	}
-
-	// 判断是否为 json 格式 - 暂时未用
- //    private function is_not_json($str){ 
- //    	return is_null(json_decode($str));
-	// }
 
 
 //------------------------------------------------------------------------------------------------
@@ -247,16 +273,29 @@ class DataService
 // Json ------------------------------------------------------------------------------------------
 
 	// 获取 JSON 数据
-	public function getJson() {
+	public function ajaxJson() {
 
 		return file_get_contents( 'php://input' );
 		
 	}
 
+	// json 转换数组
+	private function jsonConv( $pJson ) {
+
+		return is_array( $pJson ) ? $pJson : json_decode( $pJson, true );
+
+	}
 
 
 //------------------------------------------------------------------------------------------------
 
+	// 获取 post 表单提交数据
+	public function postJson() {
+
+		$post = $_POST;
+		return $this->jsonConv( $post );
+
+	}
 
 
 

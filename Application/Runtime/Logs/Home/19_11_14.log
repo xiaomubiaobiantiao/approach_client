@@ -1,0 +1,303 @@
+[ 2019-11-14T10:05:03+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2019-11-14T10:05:29+08:00 ] ::1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2019-11-14T10:05:30+08:00 ] ::1 /index.php/Home/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2019-11-14T10:05:30+08:00 ] ::1 /index.php/Home/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2019-11-14T10:05:32+08:00 ] ::1 /index.php/Home/Update/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 24 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::readFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Update\UpdateParentService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Supply\File\FileBase::checkAllFile() should not be called statically, assuming $this from incompatible context D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Restore\RestoreParentService.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 159 行.
+NOTIC: [8] Undefined variable: backuplist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\576d5f8398b296757fe584e4732da22b.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2019-11-14T10:05:32+08:00 ] ::1 /index.php/Home/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2019-11-14T10:05:33+08:00 ] ::1 /index.php/Home/UpdateData/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [8] Undefined index: add_time D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\676e983d2423311bfc3fba979d96aa9f.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2019-11-14T10:05:35+08:00 ] ::1 /index.php/Home/UpdateData/dataType.html?version_id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 134 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 134 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 134 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 134 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\c359b6577b1e85c844cfe6812df5054e.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2019-11-14T10:05:38+08:00 ] ::1 /index.php/Home/UpdateData/testLinkAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 35 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 36 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 35 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 36 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 35 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 36 行.
+
+[ 2019-11-14T10:05:43+08:00 ] ::1 /index.php/Home/UpdateData/dataPreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+NOTIC: [2] strcmp() expects parameter 2 to be string, array given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Model\PackModel.class.php 第 112 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 134 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 134 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 134 行.
+NOTIC: [2048] Only variables should be passed by reference D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 134 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::_secondPerForm() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 48 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 31 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Utility\XmlOperationUtility::getFileContent() must be an instance of Home\Common\Utility\Pclzip, instance of Home\Common\Utility\PclZipController given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Utility\XmlOperationUtility.class.php 第 58 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::match_linkData() must be an instance of Home\Service\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 106 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 197 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 35 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 36 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\MysqlData::setDatabase() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 120 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 46 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\MysqlData::in_database() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 122 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 74 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\MysqlData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 132 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 84 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\MysqlData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 138 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 94 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\MysqlData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 132 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 84 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\MysqlData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 138 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 94 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\MysqlData::setDatabase() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 120 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 46 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\MysqlData::in_database() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 122 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 74 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\MysqlData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 132 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 84 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\MysqlData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 138 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 94 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\MysqlData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 132 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 84 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\MysqlData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 138 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\MysqlData.class.php 第 94 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::match_linkData() must be an instance of Home\Service\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 106 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 197 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 35 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 36 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\OracleData::setDatabase() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 120 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 40 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\OracleData::in_database() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 122 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 74 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\OracleData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 132 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 84 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\OracleData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 138 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 94 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\OracleData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 132 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 84 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\OracleData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 138 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 94 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\OracleData::setDatabase() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 120 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 40 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\OracleData::in_database() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 122 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 74 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\OracleData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 132 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 84 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\OracleData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 138 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 94 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\OracleData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 132 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 84 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\OracleData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 138 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\OracleData.class.php 第 94 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::match_linkData() must be an instance of Home\Service\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 106 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 197 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 35 行.
+NOTIC: [8] Undefined index: database D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 36 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::setDatabase() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 120 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 46 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::in_database() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 122 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 74 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 132 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 84 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 138 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 94 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 132 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 84 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 138 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 94 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::setDatabase() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 120 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 46 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::in_database() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 122 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 74 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 132 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 84 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 138 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 94 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::in_table() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 132 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 84 行.
+NOTIC: [4096] Argument 1 passed to Home\Common\Data\SqlserverData::tableFiles() must be an instance of Home\Common\Data\string, string given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php on line 138 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Common\Data\SqlserverData.class.php 第 94 行.
+NOTIC: [8] Undefined variable: logs D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 177 行.
+
+[ 2019-11-14T10:05:43+08:00 ] ::1 /index.php/Home/UpdateData/priview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\7d0905f8dfaac513bb86249138285b05.php 第 58 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\7d0905f8dfaac513bb86249138285b05.php 第 60 行.
+NOTIC: [8] Undefined variable: datalist D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Runtime\Cache\Home\7d0905f8dfaac513bb86249138285b05.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001962s ]
+
+[ 2019-11-14T10:06:00+08:00 ] ::1 /index.php/Home/UpdateData/updateXmlToData.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Conf\config.php 第 74 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\Data\DataService::__construct() must be an array, object given, called in D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Controller\UpdateDataController.class.php on line 20 and defined D:\phpStudy\PHPTutorial\WWW\approach_client\Application\Home\Service\Data\DataService.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002094s ]
+

@@ -10,14 +10,12 @@
 <script type="text/javascript" src="/Public/js/loadJs.js"></script>
 
 <style> 
-/*.forminfo { margin-left:22%;width:50%; }*/
 .forminfo a { color:blue;line-height: 36px; margin-left:100px; }
 .forminfo .datadiv { border-bottom: 1px solid black; margin: 0px 0px 0px 140px; float:left; }
 .forminfo .formbody { align-content: center; }
 .forminfo .button { margin: 35px 0px 35px 0px; float:center; }
 .forminfo .dfinput { margin-top: 10px; }
 .forminfo li i { padding-left: 0px; margin-left: 20px; }
-/*.forminfo li label { line-height: 50px; }*/
 li label { margin-top:8px; color:gray;}
 .forminfo .li_o label { margin-left: 30%; color:red; width:120px; }
 .forminfo .btn { width:100px; }
@@ -45,8 +43,8 @@ li label { margin-top:8px; color:gray;}
     <div class="itab">
     <ul> 
     <li><a href="#tab1" class="selected">配置数据库</a></li>
-<!--     <li><a href="#tab2">sqlserver</a></li>
-    <li><a href="#tab3">mysql</a></li>  -->
+
+
     </ul>
     </div> 
     
@@ -56,7 +54,7 @@ li label { margin-top:8px; color:gray;}
 
     <div id="zipId" style="display: none" ><?php echo ($datalist['zipId']); ?></div>
     <ul class="forminfo" >
-        <?php if(is_array($datalist['xmlType'])): foreach($datalist['xmlType'] as $key=>$vo): ?><from id="<?php echo ($vo); ?>" action="" method='POST' >
+        <?php if(is_array($datalist['xmlType'])): foreach($datalist['xmlType'] as $key=>$vo): ?><from id="<?php echo ($vo); ?>" name="<?php echo ($vo); ?>" action="<?php echo U('UpdateData/test');?>" method='POST' >
             <div class="datadiv" >
             <li class="li_o" >
                 <label class="type" ><?php echo ($vo); ?></label>
@@ -64,15 +62,15 @@ li label { margin-top:8px; color:gray;}
             </li>
             <li>
                 <label>服务器：</label>
-                <input name="server" type="text" class="dfinput" value="" /><i></i>
+                <input name="server" type="text" class="dfinput" value="." /><i></i>
             </li>
             <li>
                 <label>登陆名：</label>
-                <input name="user" type="text" class="dfinput" value="" /><i></i>
+                <input name="user" type="text" class="dfinput" value="sa" /><i></i>
             </li>
             <li>
                 <label>密码：</label>
-                <input name="pass" type="text" class="dfinput" value="" /><i></i>
+                <input name="pass" type="text" class="dfinput" value="123123" /><i></i>
             </li>
 
             <li class="button" >
@@ -83,40 +81,23 @@ li label { margin-top:8px; color:gray;}
         
     </ul>
 
-<!--     <from action="<?php echo U('UpdateData/test');?>" method='POST'>
-            <input type="text" value="111"/>
-            <input type="submit" value='提交' />
-        </from> -->
-<form  name="form1"  method="post" action="<?php echo U('UpdateData/test');?>">     
-姓名:<input type="text" name="sname" size="25">    
-<input type="submit" value="提交" />  
-</form> 
 
     <div id="bottom-buttons" >
         <button id="update" class="btn" onclick="submitData('<?php echo U('UpdateData/testLinkAll');?>');" >一键连接</button></li>
-        <button id="preview" class="btn" onclick="updatePreview('<?php echo U('UpdateData/dataPreview');?>');" >更新预览</button></li>
+        <button id="preview" class="btn" onclick="updatePreview('<?php echo U('UpdateData/dataPreview');?>');" value="1" >更新预览</button></li>
     </div>
 
     </div> 
     
-    <!--
-    <div id="tab2" class="tabson">
-    
-    <div class="formtext">系统 <b>当前版本</b> <?php echo ($datalist[3]); ?></div>
+    <!-- 隐藏域 -->
+    <form id="jumpData" name="form1"  method="" action="">
+        <input type="text" id="diJson" value="" name ="data" hidden >
+        <input type="submit" value="提交" hidden />
+    </form> 
 
-    <ul class="forminfo">
-    
-  
-    <li><label>文章标题</label><input name="" type="text" class="dfinput" /><i>标题不能超过30个字符</i></li>
-    <li><label>关键字</label><input name="" type="text" class="dfinput" /><i>多个关键字用,隔开</i></li>
-    
-    </ul>
 
     </div>
-    -->
-    <!-- ========================================================================================== -->
 
-    </div>
 
     <script type="text/javascript">
         function submitData( url, id ){
@@ -126,8 +107,11 @@ li label { margin-top:8px; color:gray;}
 
     <script type="text/javascript">
         function updatePreview( url ) {
-            var zipId = $('#zipId').text();
-            new Preview( url, zipId );
+            var butVal = $( '#preview' ).val();
+            if ( butVal == 2 ) {
+                var zipId = $('#zipId').text();
+                new Preview( url, zipId );
+            }
         }
     </script>
 

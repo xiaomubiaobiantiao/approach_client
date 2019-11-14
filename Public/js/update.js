@@ -24,6 +24,7 @@ Update.prototype = {
     linkDataAll:function() {
         var str = this.getFromAllData();
         str === false ? this.updateMessage( '信息输入不完整' ) : new SendAjax( this.url, str );
+        // window.parent.aa = str;
     },
 
 

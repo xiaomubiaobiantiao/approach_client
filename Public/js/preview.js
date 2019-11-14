@@ -11,7 +11,6 @@ Preview.prototype = {
 
     statPreview:function() {
         var str = this.getFromAllData();
-        // alert(str);
         new SendAjax( this.url, str );
     },
 

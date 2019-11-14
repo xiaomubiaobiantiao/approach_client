@@ -31,7 +31,6 @@ class Supply
 
 	}
 
-	// 指定实例名称
 	public function specifiedInstance( $pClassName ) {
 
 		$value = self::$classCollection[$pClassName];
