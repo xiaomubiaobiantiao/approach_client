@@ -42,7 +42,7 @@ class XmlOperationUtility
 	// xml 数据库文件分类
 
 	private function xmlType( $pFiles ) {
-		
+
 		foreach ( $pFiles as $key=>$value ) {
 			$tmpList = explode( '.', $value );
 			$str = $this->cut_str( $tmpList[0], '_', -1 );
@@ -131,7 +131,7 @@ class XmlOperationUtility
 	
 	private function xmlCallback( $pVar ) {
 
-		if ( strpos( $pVar, 'Database' ) !== false && 'xml' == end( explode( '.', $pVar )))
+		if ( strpos( $pVar, DATABASE_PATH ) !== false && 'xml' == end( explode( '.', $pVar )))
 			return $pVar;
 
 	}

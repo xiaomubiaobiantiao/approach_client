@@ -13,11 +13,22 @@ class DataService
 {
 
 
-	public function __construct( Array $pContainer ) {
+	public function __construct( $pContainer ) {
 		$this->container = $pContainer;
 		$this->dataExtract = $pContainer->dataExtract;
 		$this->zip = $pContainer->zip;
 		$this->xml = $pContainer->xml;
+		$this->log = $pContainer->dataLog;
+		$this->createDataLog( $pContainer->fileBase );
+	}
+
+	// 创建数据更新日志文件
+	private function createDataLog( $pFileBase ) {
+		if ( file_exists( DATABASE_LOG_PATH ) && file_exists( DATABASE_ERROR_LOG_PATH ))
+			return;
+		$pFileBase->createDir( dirname( DATABASE_LOG_PATH ));
+		$pFileBase->createFile( DATABASE_LOG_PATH );
+		$pFileBase->createFile( DATABASE_ERROR_LOG_PATH );
 	}
 
 	// 提取压缩包列表
@@ -80,15 +91,16 @@ class DataService
 		if ( empty( $xmlInfo )) die( '没有数据库需要更新' );
 
 		$prieview = $this->priviewData( $xmlInfo, $data );
-		return $this->packPrieview( $data, $prieview );
+		return $this->packPrieview( $data, $prieview, $xmlInfo );
 
 	}
 	
 	// 打包即将返回的预览数据
-	private function packPrieview( $pData, $pPrieview ) {
+	private function packPrieview( $pData, $pPrieview, $pXmlInfo ) {
 
 		$tmp['data'] = $pData;
 		$tmp['prieview'] = $pPrieview;
+		$tmp['xmlInfo'] = $pXmlInfo;
 
 		$prieviewReturn['data'] = json_encode( $tmp );
 		$prieviewReturn['prieview'] = $pPrieview;
@@ -100,7 +112,7 @@ class DataService
 	// 预览 - 匹配 xml 与 数据库字段 - 建立返回页面的数据结构 - 项目急用 - 暂时写法
 	private function priviewData( $pXmlInfo, $pData ) {
 		foreach ( $pXmlInfo as $dataType=>$value ) {
-			// 当前数据库的类型 dump($dataType);
+			// 当前数据库的类型
 
 			// 匹配数据库类型并连接数据库
 			$dataInstance = $this->match_linkData( $dataType, $pData );
@@ -110,12 +122,12 @@ class DataService
 				$return[$dataType][] = true;
 			} else {
 				$return[$dataType][] = false;
-				// 日志用
+				// 日志备用
 				$logs[$dataType] = false;
 			}
 
 			foreach ( $value as $dataName=>$val ) {
-				// 当前数据库的名称 dump($dataName);
+				// 当前数据库的名称
 				
 				$dataInstance->setDatabase( $dataName );
 				// 检测数据库名称 - 成功/失败
@@ -126,12 +138,13 @@ class DataService
 				if ( false == $bool ) $logs[$dataName] = $bool;
 
 				foreach ( $val as $tableName=>$field ) {
-					// 当前数据表的名称 dump($dataName);
+					// 当前数据表的名称
 					
 					// 检测数据表 - 成功/失败
 					$bool = $dataInstance->in_table( $tableName );
 					$return[$dataType][1][$dataName][1][$tableName][] = $bool;
 
+					// 日志备用
 					if ( false == $bool ) $logs[$tableName] = $bool;
 
 					// 获取数据表字段信息
@@ -166,26 +179,164 @@ class DataService
 						$return[$dataType][1][$dataName][1][$tableName][1]['list'][$value] = $num || $num === 0 ? 'false' : 'true';
 					}
 
-					// 日志用
-					if ( count( $fieldInfo ) === 0 ) $logs[$dataType] = false;
+					// 日志备用
+					// if ( count( $fieldInfo ) === 0 ) $logs[$dataType] = false;
 
 				}
 			}
 
 
 		}
-		if ( false == is_null( $logs )) die( '添加错误日志' );
-		// dump( $logs );
-		// dump( $return );
+
+		// 日志备用
+		// if ( false == is_null( $logs )) die( '添加错误日志' );
 		
 		return $return;
 		
 
 	}
 
-	// 更新 - 更新数据
-	public function updateData( $pData ) {
-		dump( $pData );
+	// 更新 - 更新数据 - 项目急用 - 暂时写法
+	public function updateDataExec( $pData ) {
+		// dump($pData['xmlInfo']);die();
+		foreach ( $pData['prieview'] as $dataType=>$value ) {
+			// 当前数据库的类型 dump($dataType);
+
+			// 匹配数据库类型并连接数据库
+			$dataInstance = $this->match_linkData( $dataType, $pData['data'] );
+			
+			// 连接数据库 - 成功/失败		
+			if ( is_object( $dataInstance )) {
+				$return[$dataType][] = true;
+			} else {
+				$return[$dataType][] = false;
+				// 日志备用
+				$logs[$dataType] = false;
+			}
+
+			foreach ( $value[1] as $dataName=>$val ) {
+				// 当前数据库的名称 dump($dataName);
+				
+				// $dataInstance->setDatabase( $dataName );
+				$dataInstance->setDatabase( 'test' );
+				// 检测数据库名称 - 成功/失败
+				$bool = $dataInstance->in_database( $dataName );
+
+				// 日志备用
+				if ( false == $bool ) $logs[$dataName] = $bool;
+				
+				foreach ( $val[1] as $tableName=>$tableInfo ) {
+					// 当前数据表的名称 dump($tableName);
+					
+					$bool = $dataInstance->in_table( $tableName );
+
+					// 日志备用
+					if ( false == $bool ) $logs[$tableName] = $bool;
+
+					foreach ( $tableInfo[1]['addField'] as $field ) {
+
+						$tmpField = $pData['xmlInfo'][$dataType][$dataName][$tableName][$field];
+						$sqlArr = $this->toSql( $tableName, $tmpField );
+
+						$this->addFields( $dataInstance, $dataType, $dataName, $sqlArr, $field );
+						// $this->in_fields( $dataInstance, $dataType, $dataName, $field );
+					}
+
+				}
+
+			}
+
+		}
+
+		// 不用返回, 只为方便代码浏览
+		return $this->addFieldError;
+
+	}
+
+	// 添加字段
+	private function addFields( database $pData, $pDataType, $pDataName, array $pSql, $pField ) {
+		static $num = 0;echo $num;
+		foreach ( $pSql as $value ) {
+
+			$result = $pData->exec( $value );
+			dump( $result );
+			$strInfo = $pDataType.'|'.$pDataName.'|'.$value.'|'.$pField;
+			// 写入日志 - 添加字段失败时会返回 bool 值的 false
+			if ( false == $result ) {
+				// 建立返回值数组
+				count( $pSql ) == 1
+					? $this->addFieldError[] = $strInfo
+					: $this->addFieldError[$num][] = $strInfo;
+				$this->log->inforReceive( $strInfo, 1 );
+			} else {
+				$this->log->successReceive( $strInfo, 1 );
+			}
+
+		}
+		$num ++;
+	}
+
+	// 查询字段 - 暂时未用
+	private function in_fields( database $pData, $pDataType, $pDataName, string $pField ) {
+
+		$result = $pData->in_field( 'Table_1', $pField );
+		
+		// 写入日志 - 查询不成功会返回 bool 值的 false
+		$strInfo = $pDataType.'|'.$pDataName.'|'.$pField;
+		if ( false == $result ) {
+			$this->searchFieldError[] = $strInfo;
+			$this->log->inforReceive( $strInfo, 2 );
+		} else {
+			$this->log->successReceive( $strInfo, 2 );
+		}
+
+	}	
+
+	// 拼接更新字段的SQL信息
+	private function toSql( string $pTableName, array $pField ) {
+		// dump($pTableName);
+		// dump( $pField );
+		$pTableName = 'Table_1';
+		// 不能指定列宽的数据类型
+		$ints = array( 'datetime', 'ntext', 'tinyint', 'Smallint', 'int', 'bigint' );
+		$is_type = array_search( $pField['type'], $ints );
+
+		$type = false == $is_type
+			? $pField['type'].'('.$pField['length'].')'
+			: $pField['type'];
+
+		$field = $pField['cname'];
+
+		$isnull = 'false' == $pField['isnull'] ? 'not null' : 'null';
+
+		$default = empty( $pField['defaults'] ) ? "default ''" : $pField['defaults'];
+
+
+		// $sql = "alter table $pTableName add $field $type $isnull $default";dump($sql);
+		// $sql = "alter table $pTableName add $field $type identity(1,1) $isnull";dump($sql);
+		// $sql = "alter table $pTableName add constraint $field primary key NONCLUSTERED($field)";
+		// dump($sql);
+		// die();
+
+		if ( 'false' == $pField['ispk'] && 'false' == $pField['autoAdd'] ) {
+			// alter table | 表名 | add | 字段名 | varchar | (10) | not null | defaults
+			$sql[] = "alter table $pTableName add $field $type $isnull $default";
+		} else if ( 'true' == $pField['ispk'] && 'true' == $pField['autoAdd'] ) {
+			// alter table | 表名 | add | 字段名 | varchar | (10) | identity(1,1) | not null
+			// alter table | 表名 | add constraint | 索引名 | primary key NONCLUSTERED( | 字段名 | )
+			$sql[] = "alter table $pTableName add $field $type identity(1,1) $isnull";
+			$sql[] = "alter table $pTableName add constraint $field primary key NONCLUSTERED($field)";
+		} else if ( 'true' == $pField['ispk'] ) {
+			// alter table | 表名 | add | 字段名 | varchar | (10) | not null | defaults
+			$sql[] = "alter table $pTableName add $field $type $isnull $default";
+			$sql[] = "alter table $pTableName add constraint $field primary key NONCLUSTERED($field)";
+		} else if ( 'true' == $pField['autoAdd'] ) {
+			// alter table | 表名 | add | 字段名 | varchar | (10) | identity(1,1) | not null
+			$sql[] = "alter table $pTableName add $field $type identity(1,1) $isnull";
+		} 
+
+		return $sql;
+
 	}
 
 	// 获取字段信息的的 名称 和 数目
@@ -208,7 +359,6 @@ class DataService
 		die( '数据库不匹配' );
 
 	}
-
 
 	// 判断二维数组中是否存在某些字段
 	private function in_data( $field, $pArr ) {
@@ -259,7 +409,6 @@ class DataService
 
     }
 
-    // 获取数据库实例
     public function getDataInstance( $pClassName ) {
 
     	$className = $pClassName.'Data';
@@ -293,7 +442,7 @@ class DataService
 	public function postJson() {
 
 		$post = $_POST;
-		return $this->jsonConv( $post );
+		return $this->jsonConv( $post['data'] );
 
 	}
 

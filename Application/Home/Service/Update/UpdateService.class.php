@@ -80,18 +80,15 @@ class UpdateService extends Process
 		//	? $unpackPath = $this->downFile( $packInfo['download'], UPLOAD_PATH )
 		//	: $unpackPath = $packInfo['relative_path'];
 
-		$this->zipContent( UPLOAD_PATH.$packInfo['pack_name'] );
-		die();
 		//根据ID解压文件到默认文件夹,自带创建目录的功能
 		$this->unZip( UPLOAD_PATH.$packInfo['pack_name'], UNPACK_TMP_PATH );
 
 		//检测压缩包文件 和 项目的文件
 		$PathObj = new GetPath( array( UNPACK_TMP_PATH, UPDATE_PATH ));
+
 		// $PathObj = new GetPath( array( UNPACK_TMP_PATH.'/zz_files/', UPDATE_PATH ));
 	
 		$this->dataOperationProcess( $PathObj->fileOperation['update']['data'] );
-		
-		// die();
 
 		//如果版本信息不存在 创建版本信息
 		if ( false == is_file( OLD_VERSION_PATH ))

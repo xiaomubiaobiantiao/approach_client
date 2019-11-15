@@ -6,12 +6,12 @@
  * DateTime: 19-6-27 09:37:00
  */
 namespace Home\Common\Data;
-use Home\Interfaces\Database;
+use Home\Interfaces\DatabasExtension;
 
-class SqlserverData implements Database
+class SqlserverData implements DatabasExtension
 {
 
-	// 初始化数据库参数
+	// 初始化数据库参数 - 备用
 	// public $server = '';
 	// public $user = '';
 	// public $pass = '';
@@ -27,7 +27,7 @@ class SqlserverData implements Database
 	// }
 
 	// 设置数据库参数
-	public function setParam( array $pParams ) {
+	public function setParam( $pParams ) {
 		// dump( $pParams );
 		$this->server = $pParams['server'];
 		$this->user = $pParams['user'];
@@ -42,7 +42,7 @@ class SqlserverData implements Database
 		return $this->dataConnect;
 	}
 
-	// 设置数据表名称
+	// 设置数据库名称
 	public function setDatabase( string $pDatabase ){
 		$this->database = $pDatabase;
 		$this->connect = 'DRIVER={SQL Server};SERVER='.$this->server.';DATABASE='.$this->database;
@@ -71,7 +71,7 @@ class SqlserverData implements Database
 
 
 	// 查看 数据库 是否存在
-	public function in_database( string $pDataName ) {
+	public function in_database( $pDataName ) {
 
 		$sql = "select * from master.dbo.sysdatabases where name = '$pDataName'";
 		$result = $this->exec( $sql );
@@ -81,12 +81,28 @@ class SqlserverData implements Database
 	}
 	
 	// 查看 数据表 是否存在
-	public function in_table( string $pTableName ) {
+	public function in_table( $pTableName ) {
 
 		$sql = "select * from sysobjects where id = object_id(N'[$pTableName]') and OBJECTPROPERTY(id, N'IsUserTable') = 1";
 		$result = $this->exec( $sql );
 		$tmp = $this->fetchConnect( $result );
 		return is_null( $tmp ) ? false : true;
+
+	}
+
+	// 查询字段是否存在
+	public function in_field( $pTableName, $pFieldName ) {
+		
+		$sql = "select * from syscolumns where id=object_id('$pTableName') and name='$pFieldName'";
+		return $this->exec( $sql );
+
+	}
+
+	// 添加字段 - 暂时未用
+	public function addField( $pTableName, $pFieldInfo ) {
+		dump( $pTableName );
+		dump( $pFieldInfo );die();
+		
 
 	}
 
@@ -139,10 +155,7 @@ class SqlserverData implements Database
 		dump( $tmp );
 	}
 
-	// 查询字段是否存在
-	public function in_files( string $pFieldName ) {
-		
-	}
+	
 
 
 

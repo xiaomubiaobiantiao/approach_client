@@ -89,11 +89,17 @@ class UpdateDataController extends Controller
 	public function updateXmlToData() {
 		
 		$data = $this->DataService->postJson();
-		$this->DataService->updateData( $data );
-		dump($data);
+		$result = $this->DataService->updateDataExec( $data );
+		if ( empty($result )) {
+			echo '更成完成！';
+		} else {
+			echo '更新失败：下列字段未更新成功！';
+			dump( $result );
+		}
+
 	}
 
-	// 获取数据库中数据信息并生成 xml 文件
+	// 获取数据库中数据信息并生成 xml 文件 - 开发用
 	public function getDataXml() {
 
 		$test = new \Home\Common\Utility\GetDataToXmlUtility();

@@ -6,9 +6,9 @@
  * DateTime: 19-6-27 09:37:00
  */
 namespace Home\Common\Data;
-use Home\Interfaces\Database;
+use Home\Interfaces\DatabasExtension;
 
-class OracleData implements Database
+class OracleData implements DatabasExtension
 {
 
 	// 初始化数据库参数
@@ -27,7 +27,7 @@ class OracleData implements Database
 	// }
 
 	// 设置数据库参数
-	public function setParam( array $pParams ) {
+	public function setParam( $pParams ) {
 		// dump( $pParams );
 		$this->server = $pParams['server'];
 		$this->user = $pParams['user'];
@@ -36,7 +36,7 @@ class OracleData implements Database
 		$this->connect = 'DRIVER={SQL Server};SERVER='.$pParams['server'].';DATABASE='.$pParams['database'];
 	}
 
-	// 设置数据表名称
+	// 设置数据库名称
 	public function setDatabase( string $pDatabase ){
 		$this->database = $pDatabase;
 		$this->connect = 'DRIVER={SQL Server};SERVER='.$this->server.';DATABASE='.$this->database;
@@ -71,7 +71,7 @@ class OracleData implements Database
 
 
 	// 查看 数据库 是否存在
-	public function in_database( string $pDataName ) {
+	public function in_database( $pDataName ) {
 		
 		$sql = "select * from master.dbo.sysdatabases where name = '$pDataName'";
 		$result = $this->exec( $sql );
@@ -81,13 +81,28 @@ class OracleData implements Database
 	}
 	
 	// 查看 数据表 是否存在
-	public function in_table( string $pTableName ) {
+	public function in_table( $pTableName ) {
 
 		$sql = "select * from $pTableName";
 		$tmp = $this->exec( $sql );
 
 		return false == $tmp ? false : true;
 
+	}
+
+	// 查询字段是否存在
+	public function in_field( $pTableName, $pFieldName ) {
+		
+		$sql = "select * from syscolumns where id=object_id('$pTableName') and name='$pFieldName'";
+		return $this->exec( $sql );
+
+	}
+
+	// 添加字段
+	public function addField( $pTableName, $pFieldInfo ) {
+
+		$sql = "";
+		
 	}
 
 	// 获取指定数据表中所有字段
@@ -140,10 +155,6 @@ class OracleData implements Database
 		dump( $tmp );
 	}
 
-	// 查询字段是否存在
-	public function in_files( string $pFieldName ) {
-		
-	}
 
 
 

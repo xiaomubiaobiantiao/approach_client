@@ -37,7 +37,8 @@ class FileBase
 
 	//创建文件
 	public function createFile( $pFilePath ) {
-		return touch( $pFilePath );
+		if ( false == file_exists( $pFilePath ) )
+			return touch( $pFilePath );
 	}
 
 	/**

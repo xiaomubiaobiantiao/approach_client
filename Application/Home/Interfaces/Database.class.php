@@ -13,5 +13,11 @@ interface Database
 
 	public function connection();
 
+	public function setParam( $pParams );
+
+	public function exec( $pSql );
+
+	public function fetchConnect( $pResources );
+
 
 }

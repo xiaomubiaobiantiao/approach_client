@@ -11,22 +11,27 @@ class GetDataToXmlUtility
 {
 
 	private $info = array();
-	private $path = 'C:\Users\maker\Desktop\test.xml';
+	private $path = 'C:\Users\maker\Desktop\ccc.xml';
 
 	public function __construct() {
 		$this->info = array( 
-			'hicisdata_new_test' => array(
+			'ReportServer' => array(
+
 				'tableName' => array(
-					'PAT_INFOR',
-					'PatOPSCUTINFOR'
+
+					'ActiveSubscriptions',
+
+					'Batch'
+
 				)
-			),
-			'role_dzl' => array(
-				'tableName' => array(
-					'MakeSum',
-					'Role_dict'
-				)
+
 			)
+			// 'role_dzl' => array(
+			// 	'tableName' => array(
+			// 		'MakeSum',
+			// 		'Role_dict'
+			// 	)
+			// )
 		);
 	}
 
@@ -88,7 +93,6 @@ class GetDataToXmlUtility
 			}
 		}
 
-		// dump( $tmp );
 		return $tmp;
 
 	}

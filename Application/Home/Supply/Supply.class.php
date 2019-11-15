@@ -10,13 +10,20 @@ class Supply
 {
 
 	private static $classCollection = array(
+
 		'dataExtract' => '\Home\Service\Data\DataExtractService',
+		'dataLog' => '\Home\Service\Data\DataLogService',
+
 		'zip' => '\Home\Common\Utility\PclZipController',
 		'xml' => '\Home\Common\Utility\XmlOperationUtility',
 		'dataType' => '\Home\Common\Utility\DataTypeUtility',
+
 		'sqlserverData' => '\Home\Common\Data\SqlserverData',
 		'mysqlData' => '\Home\Common\Data\MysqlData',
-		'oracleData' => '\Home\Common\Data\OracleData'
+		'oracleData' => '\Home\Common\Data\OracleData',
+
+		'fileBase' => '\Home\Common\Utility\FileBaseUtility'
+
 	);
 
 	public function  __get( $pClassName ) {

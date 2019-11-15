@@ -51,17 +51,19 @@ class PclZipController //extends Controller
 	 */
 	public function unpackZip( $pPath, $pToPath ) {
 		
-		//如果需要解压的路径不存在 尝试创建路径
-		//if ( FALSE == is_dir( $pToPath ))
-		//	FileBase::createDir( dirname( $pToPath ));
-		
 		//要解压缩文件的路径
 		$zip = new PclZip( $pPath );
 		
-		if ( $zip->extract( $pToPath, './backup/' ) == 0 )
+		if ( $zip->extract( $pToPath, 'Files' ) == 0 ) {
 			return false;	//$zip->errorInfo( true ) 报错信息-备用
+		}
+		
+		// 新增的 Database 需要删除 - 未完待续 - 解决方案:
+		// 1.查找 pclzip 只解压部份文件
+		// 2.解压后删除 Database 文件夹
 		
 		return true;
+
 
 	}
 

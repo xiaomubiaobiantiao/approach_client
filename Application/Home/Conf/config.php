@@ -11,6 +11,9 @@ $path = 'E:/approach_test/';
 /* 被更新项目使用的常量 */
 define( 'UPDATE_PATH', $path );
 
+// 文件在更新包中的路径
+define( 'FILES_PATH', 'Files/' );
+
 //文件压缩包备份的路径 里面包含需要备份的文件和更新时追加的文件的记录文档
 define( 'BACKUP_PATH', UPDATE_PATH.'Public/files/backup_pack/' );
 
@@ -32,8 +35,6 @@ define( 'LOCAL_RESTORE_ERROR', UPDATE_PATH.'Public/files/logs/restore/restor_err
 //记录恢复次数日志的名称
 define( 'LOCAL_RESTORE_RECORD', UPDATE_PATH.'Public/files/logs/restore/restor_record.txt' );
 
-//记录数据库相关操作的日志
-define( 'DATABASE_LOG', UPDATE_PATH.'Public/files/logs/data_log.txt' );
 
 
 
@@ -70,15 +71,22 @@ define( 'IGNORE_FILES', '.git,version.txt' );
 
 /* 数据库字段更新配置信息 */
 
-// XML文件在更新包中的位置 -- 暂时未用
-define( 'Database/' );
+// 数据库类型, 用来区分压缩包里的 xml 文件是否是用来更新的 -- 暂时未用
+// define( 'DATABASE_TYPE', 'oracle,mysql,sqlserver' );
 
+// 数据库更新文件在更新包中的路径
+define( 'DATABASE_PATH', 'Database' );
+
+// 记录数据库相关操作的日志路径
+//define( 'DATABASE_LOG_PATH', UPDATE_PATH.'Public/files/logs/data_log.txt' );
+define( 'DATABASE_LOG_PATH', UPDATE_PATH.'Public/datas/logs/data_log.txt' );
+define( 'DATABASE_ERROR_LOG_PATH', UPDATE_PATH.'Public/datas/logs/data_error_log.txt' );
 //下面这两项是不能更改的, 或者说根据 更新包 的数据库更新路径而更改的
 //因为没有判定数据库目录的方式, 所以要手动设定, 不需要更改
-//数据库更新目录的名称
-define( 'DATABASE_UPDATE_NAME', 'data_base' );//暂时未用
-//数据库更新目录的存放位置
-define( 'DATABASE_UPDATE', rtrim( UNPACK_TMP_PATH, '/' ).'/'.DATABASE_UPDATE_NAME );//暂时未用
+//数据库更新目录的名称 - 暂时未用
+// define( 'DATABASE_UPDATE_NAME', 'data_base' );
+//数据库更新目录的存放位置 - 暂时未用
+// define( 'DATABASE_UPDATE', rtrim( UNPACK_TMP_PATH, '/' ).'/'.DATABASE_UPDATE_NAME );
 
 
 /* end */

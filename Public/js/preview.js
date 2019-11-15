@@ -3,7 +3,6 @@ var Preview = function( url, zipId )
 {
     this.url = url;
     this.zipId = zipId;
-    alert(this.url);
     this.statPreview();
 }
 

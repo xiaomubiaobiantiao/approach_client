@@ -1,33 +1,33 @@
 <?php
 /**
- * Êı¾İ¿âÁ¬½ÓÀà
+ * æ•°æ®åº“è¿æ¥ç±»
  * Created by Sublime Text
  * @author Michael
  * DateTime: 19-6-27 09:37:00
  */
 namespace Home\Common\Data;
-use Home\Interfaces\Database;
+use Home\Interfaces\DatabasExtension;
 
-class MysqlData implements Database
+class MysqlData implements DatabasExtension
 {
 
-	// ³õÊ¼»¯Êı¾İ¿â²ÎÊı
+	// åˆå§‹åŒ–æ•°æ®åº“å‚æ•°
 	// public $server = '';
 	// public $user = '';
 	// public $pass = '';
 	// public $database = '';
 	// public $connect = '';
 
-	// // Êı¾İ¿âÁ¬½Ó
+	// // æ•°æ®åº“è¿æ¥
 	public $dataConnect = '';
 
-	// ³õÊ¼»¯ - ±¸ÓÃ
+	// åˆå§‹åŒ– - å¤‡ç”¨
 	// public function __construct( array $pParams ) {
 	// 	$this->setParam( $pParams );
 	// }
 
-	// ÉèÖÃÊı¾İ¿â²ÎÊı
-	public function setParam( array $pParams ) {
+	// è®¾ç½®æ•°æ®åº“å‚æ•°
+	public function setParam( $pParams ) {
 		// dump( $pParams );
 		$this->server = $pParams['server'];
 		$this->user = $pParams['user'];
@@ -36,32 +36,32 @@ class MysqlData implements Database
 		$this->connect = 'DRIVER={SQL Server};SERVER='.$pParams['server'].';DATABASE='.$pParams['database'];
 	}
 
-	// Á¬½ÓÊı¾İ¿â
+	// è¿æ¥æ•°æ®åº“
 	public function connection() {
 		$this->dataConnect = odbc_connect( $this->connect, $this->user, $this->pass );
 		return $this->dataConnect;
 	}
 
-	// ÉèÖÃÊı¾İ±íÃû³Æ
+	// è®¾ç½®æ•°æ®åº“åç§°
 	public function setDatabase( string $pDatabase ){
 		$this->database = $pDatabase;
 		$this->connect = 'DRIVER={SQL Server};SERVER='.$this->server.';DATABASE='.$this->database;
 		$this->connection();
 	}
 
-	// Ö´ĞĞSqlÓï¾ä
+	// æ‰§è¡ŒSqlè¯­å¥
 	public function exec( $pSql ) {
 		return odbc_exec( $this->dataConnect, $pSql );
 	}
 	
-	// Ñ­»·±éÀúÄÚÈİ
+	// å¾ªç¯éå†å†…å®¹
 	public function fetchConnect( $pResources ) {
 		while( $row = odbc_fetch_array( $pResources ))
 			$result[] = $row;
 		return $result;
 	}
 
-	// ²é¿´×ÜĞĞÊı
+	// æŸ¥çœ‹æ€»è¡Œæ•°
 	public function numRows( $pResources ) {
 		return odbc_num_rows( $pResources );
 	}
@@ -69,9 +69,8 @@ class MysqlData implements Database
 
 
 
-
-	// ²é¿´ Êı¾İ¿â ÊÇ·ñ´æÔÚ
-	public function in_database( string $pDataName ) {
+	// æŸ¥çœ‹ æ•°æ®åº“ æ˜¯å¦å­˜åœ¨
+	public function in_database( $pDataName ) {
 		
 		$sql = "select * from master.dbo.sysdatabases where name = '$pDataName'";
 		$result = $this->exec( $sql );
@@ -80,8 +79,8 @@ class MysqlData implements Database
 		
 	}
 	
-	// ²é¿´ Êı¾İ±í ÊÇ·ñ´æÔÚ
-	public function in_table( string $pTableName ) {
+	// æŸ¥çœ‹ æ•°æ®è¡¨ æ˜¯å¦å­˜åœ¨
+	public function in_table( $pTableName ) {
 
 		$sql = "select * from $pTableName";
 		$tmp = $this->exec( $sql );
@@ -90,10 +89,27 @@ class MysqlData implements Database
 
 	}
 
-	// »ñÈ¡Ö¸¶¨Êı¾İ±íÖĞËùÓĞ×Ö¶Î
+	// æŸ¥è¯¢å­—æ®µæ˜¯å¦å­˜åœ¨
+	public function in_field( $pTableName, $pFieldName ) {
+
+		$sql = "select * from syscolumns where id=object_id('$pTableName') and name='$pFieldName'";
+		$result = $this->exec( $sql );
+		$tmp = $this->fetchConnect( $result );
+		return is_null( $tmp ) ? false : true;
+
+	}
+
+	// æ·»åŠ å­—æ®µ
+	public function addField( $pTableName, $pFieldInfo ) {
+
+		$sql = "";
+		
+	}
+
+	// è·å–æŒ‡å®šæ•°æ®è¡¨ä¸­æ‰€æœ‰å­—æ®µ
 	public function tableFiles( string $pTableName ) {
 
-		//»ñÈ¡Ö¸¶¨±íÏÂËùÓĞ×Ö¶ÎÃûºÍĞÅÏ¢ - ¸ø xml ´ò°üÓÃ - ÔÚÕâÀïÓÃ²»ÉÏ
+		//è·å–æŒ‡å®šè¡¨ä¸‹æ‰€æœ‰å­—æ®µåå’Œä¿¡æ¯ - ç»™ xml æ‰“åŒ…ç”¨ - åœ¨è¿™é‡Œç”¨ä¸ä¸Š
 		// $sql = "select * from syscolumns where id=object_id('$pTableName')";
 		// 
 		// $sql = "select name from syscolumns where id=object_id('$pTableName')";
@@ -125,7 +141,7 @@ class MysqlData implements Database
 
 	}
 
-	// ½«Ë÷ÒıÊı×éµÄË÷Òı¼ü¸ÄÎª¹ØÁª¼ü
+	// å°†ç´¢å¼•æ•°ç»„çš„ç´¢å¼•é”®æ”¹ä¸ºå…³è”é”®
 	
 	public function tableAssoc( array $pFiles ) {
 		foreach ( $pFiles as $value )
@@ -133,17 +149,13 @@ class MysqlData implements Database
 		return $tmp;
 	}
 
-	// ½«Êı¾İÒ»Ö×»ñÈ¡µÄ×Ö¶Î ×ª»»³É 1 Î¬Êı×é - ÔİÊ±Î´ÓÃ
+	// å°†æ•°æ®ä¸€è‚¿è·å–çš„å­—æ®µ è½¬æ¢æˆ 1 ç»´æ•°ç»„ - æš‚æ—¶æœªç”¨
 	public function tablesFileArray( array $pFiles ) {
 		foreach ( $pFiles as $value )
 			$tmp[$value['name']] = $value['name'];
 		dump( $tmp );
 	}
 
-	// ²éÑ¯×Ö¶ÎÊÇ·ñ´æÔÚ
-	public function in_files( string $pFieldName ) {
-		
-	}
 
 
 }

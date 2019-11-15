@@ -38,9 +38,28 @@ class PackService // extends CommonService
 
 	//返回所有压缩包信息
 	public function getUpdatePack() {
+		$this->searchZip();
 		$datalist[] = $this->getSystemTypeList();
 		$datalist[] = $this->getDataList();
 		return $datalist;
+	}
+
+	// 检测压缩包是否存在并设置值
+	public function searchZip() {
+
+		$pack = $this->getDataList();
+
+		foreach ( $pack as $value ) {
+			//获取更新本地地址
+			$packInfo = $this->packInfo( $value['id'] );
+			//组合下载后更新包的路径
+			$localPath = rtrim( UPLOAD_PATH, '/' ).'/'.$packInfo['pack_name'];
+			//检测本地更新包是否存在
+			$i = false == PackLog::scanFile( $localPath ) ? 0 : 1;
+			$this->PackModel->setStatusValue( $value['id'], $i );
+
+		}
+
 	}
 
 	//获取单个分类的相关数据

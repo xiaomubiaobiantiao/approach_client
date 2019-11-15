@@ -1,6 +1,6 @@
 <?php
 /**
- * 数据库连接类
+ * 数据库连接类 - 已废弃
  * Created by Sublime Text
  * @author Michael
  * DateTime: 19-6-27 09:37:00
