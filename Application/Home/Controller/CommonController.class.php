@@ -27,10 +27,10 @@ class CommonController extends Controller
 		$this->display( 'Common/error' );
 	}
 
-	//自定义输出提示
+	//自定义输出提示 - 暂时未用
 	public function customMessage( $pMessagesArr ) {
 		$this->assign( 'data', $pMessagesArr );
-		$this->display( 'Common/error' );
+		$this->display( 'Common/message' );
 	}
 
 	//jquery弹出窗口

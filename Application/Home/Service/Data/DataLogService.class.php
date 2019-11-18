@@ -35,6 +35,7 @@ class DataLogService extends Logs
      */
 	public function inforReceive ( $pFunctionName = '', $pParam = '' ) {
 		$message = parent::inforReceive( $pFunctionName, $pParam );
+		$this->writeLog( $message, LOCAL_LOG );
 		$this->writeLog( $message, DATABASE_LOG_PATH );
 		$this->writeLog( $message, DATABASE_ERROR_LOG_PATH );
 	}
@@ -48,6 +49,7 @@ class DataLogService extends Logs
      */
 	public function successReceive( $pParam = '', $pStr = '' ) {
 		$message = parent::successReceive( $pParam, $pStr );
+		$this->writeLog( $message, LOCAL_LOG );
 		$this->writeLog( $message, DATABASE_LOG_PATH );
 	}
 

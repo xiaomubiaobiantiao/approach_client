@@ -90,12 +90,8 @@ class UpdateDataController extends Controller
 		
 		$data = $this->DataService->postJson();
 		$result = $this->DataService->updateDataExec( $data );
-		if ( empty($result )) {
-			echo '更成完成！';
-		} else {
-			echo '更新失败：下列字段未更新成功！';
-			dump( $result );
-		}
+		$this->assign( 'list', $result );
+		$this->display( 'UpdateData/lastView' );
 
 	}
 

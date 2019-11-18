@@ -164,14 +164,18 @@ class DataService
 					// array_shift($xmlField);
 					array_shift($dataField[0]);
 
-					// 数据表和XML里相同的字段
-					// $intersect = array_intersect( $xmlField, $dataField );//dump( $intersect );
+					// 数据表和XML里相同的字段 - 需要更新
+					$xmlIntersect = array_intersect( $xmlField[0], $dataField[0] );//dump( $intersect );
+					$return[$dataType][1][$dataName][1][$tableName][1]['updateField'] = $xmlIntersect;
+					$return[$dataType][1][$dataName][1][$tableName][1]['updateFieldCount'] = count( $xmlIntersect );
 					// 数据表里存在 XML里不存在的字段
 					// $dataDiff = array_diff( $dataField, $intersect );//dump( $dataDiff );
 					// XML里存在 数据表里不存在的字段 - 需要添加
 					$xmlDiff = array_diff( $xmlField[0], $dataField[0] );
 					$return[$dataType][1][$dataName][1][$tableName][1]['addField'] = $xmlDiff;
-					$return[$dataType][1][$dataName][1][$tableName][1]['addFieldCount'] = count($xmlDiff);
+					$return[$dataType][1][$dataName][1][$tableName][1]['addFieldCount'] = count( $xmlDiff );
+
+
 
 					// 配置前端字段展示列表 - 字段值为 false 需要添加的字段, true 数据库存在, 不需要添加的字段
 					foreach ( $xmlField[0] as $value ) {
@@ -185,12 +189,11 @@ class DataService
 				}
 			}
 
-
 		}
 
 		// 日志备用
 		// if ( false == is_null( $logs )) die( '添加错误日志' );
-		
+	
 		return $return;
 		
 
@@ -218,7 +221,7 @@ class DataService
 				// 当前数据库的名称 dump($dataName);
 				
 				// $dataInstance->setDatabase( $dataName );
-				$dataInstance->setDatabase( 'test' );
+				$dataInstance->setDatabase( 'test' );//需要将库名 改成活动的 - 目前测试, 是写死的
 				// 检测数据库名称 - 成功/失败
 				$bool = $dataInstance->in_database( $dataName );
 
@@ -233,14 +236,25 @@ class DataService
 					// 日志备用
 					if ( false == $bool ) $logs[$tableName] = $bool;
 
+					// 打开需要添加的字段信息 并 执行添加字段 sql
 					foreach ( $tableInfo[1]['addField'] as $field ) {
 
 						$tmpField = $pData['xmlInfo'][$dataType][$dataName][$tableName][$field];
-						$sqlArr = $this->toSql( $tableName, $tmpField );
+						$sqlArr = $this->addToSql( $tableName, $tmpField );
 
-						$this->addFields( $dataInstance, $dataType, $dataName, $sqlArr, $field );
-						// $this->in_fields( $dataInstance, $dataType, $dataName, $field );
+						$result = $this->addFields( $dataInstance, $dataType, $dataName, $tableName, $sqlArr, $field );
+						if ( false == $result ) continue;
+						// $this->in_fields( $dataInstance, $dataType, $tableName, $dataName, $field );
 					}
+
+					// 打开需要更新的字段信息 并 执行添加字段 sql
+					// foreach ( $tableInfo[1]['updateField'] as $updateField ) {
+					// 	$tmpUpdateField = $pData['xmlInfo'][$dataType][$dataName][$tableName][$updateField];
+					// 	$sqlArr = $this->updateToSql( $tableName, $tmpUpdateField );
+
+					// 	$result = $this->updateFields( $dataInstance, $dataType, $dataName, $tableName, $sqlArr, $updateField );
+					// 	if ( false == $result ) continue;
+					// }
 
 				}
 
@@ -248,38 +262,68 @@ class DataService
 
 		}
 
-		// 不用返回, 只为方便代码浏览
+		$this->calculateErrorInfo();
+
+		// 不用返回也可以, 只为方便代码浏览
 		return $this->addFieldError;
+		// return $this->updateFieldError;
 
 	}
 
 	// 添加字段
-	private function addFields( database $pData, $pDataType, $pDataName, array $pSql, $pField ) {
-		static $num = 0;echo $num;
+	private function addFields( database $pData, $pDataType, $pDataName, $pTableName, array $pSql, $pField ) {
+		// static $num = 0;echo $num;
 		foreach ( $pSql as $value ) {
 
 			$result = $pData->exec( $value );
-			dump( $result );
-			$strInfo = $pDataType.'|'.$pDataName.'|'.$value.'|'.$pField;
+			// dump( $result );
+			$strInfo = $pDataType.' | '.$pDataName.' | '.$pTableName.' | '.$value.' | '.$pField;
 			// 写入日志 - 添加字段失败时会返回 bool 值的 false
 			if ( false == $result ) {
 				// 建立返回值数组
-				count( $pSql ) == 1
-					? $this->addFieldError[] = $strInfo
-					: $this->addFieldError[$num][] = $strInfo;
+				$strUpInfo = '类型：'.$pDataType.' -> '.$pDataName.' 数据库 -> '.$pTableName.' 表 -> '.$pField.' 字段添加失败!';
+				$this->updateFieldError['up'][] = $strUpInfo;
+
+				$this->updateFieldError['down'][] = $strInfo;
+
 				$this->log->inforReceive( $strInfo, 1 );
 			} else {
 				$this->log->successReceive( $strInfo, 1 );
 			}
-
+			return false;
 		}
-		$num ++;
+		// $num ++;
+	}
+
+	// 更新字段
+	private function updateFields( database $pData, $pDataType, $pDataName, $pTableName, array $pSql, $pField ) {
+		// static $num = 0;echo $num;
+		foreach ( $pSql as $value ) {
+
+			$result = $pData->exec( $value );
+			// dump( $result );
+			$strInfo = $pDataType.' | '.$pDataName.' | '.$pTableName.' | '.$value.' | '.$pField;
+			// 写入日志 - 添加字段失败时会返回 bool 值的 false
+			if ( false == $result ) {
+				// 建立返回值数组
+				$strUpInfo = '类型：'.$pDataType.' -> '.$pDataName.' 数据库 -> '.$pTableName.' 表 -> '.$pField.' 字段更新失败!';
+				$this->addFieldError['up'][] = $strUpInfo;
+
+				$this->addFieldError['down'][] = $strInfo;
+
+				$this->log->inforReceive( $strInfo, 1 );
+			} else {
+				$this->log->successReceive( $strInfo, 1 );
+			}
+			return false;
+		}
+		// $num ++;
 	}
 
 	// 查询字段 - 暂时未用
 	private function in_fields( database $pData, $pDataType, $pDataName, string $pField ) {
 
-		$result = $pData->in_field( 'Table_1', $pField );
+		$result = $pData->in_field( 'Table_1', $pField ); //需要将Table_1 改成活动的
 		
 		// 写入日志 - 查询不成功会返回 bool 值的 false
 		$strInfo = $pDataType.'|'.$pDataName.'|'.$pField;
@@ -292,11 +336,33 @@ class DataService
 
 	}	
 
-	// 拼接更新字段的SQL信息
-	private function toSql( string $pTableName, array $pField ) {
+	// 计算添加字段的错误信息
+	private function calculateErrorInfo() {
+
+		$errorNum = count( $this->addFieldError['up'] );
+
+		if ( $errorNum == 0 ) {
+			$this->addFieldError['status'] = true;
+		} else {
+			$this->addFieldError['status'] = false;
+			$this->addFieldError['count'] = $errorNum;
+			$this->addFieldError['logs'] = $this->readLog();
+		}
+
+	}
+
+	// 读取日志
+	private function readLog() {
+		$fileBase = $this->container->fileBase;
+		$logContent = $fileBase->getFileLastLines( LOCAL_LOG, 100 );
+		return $logContent;
+	}
+
+	// 拼接添加字段的SQL信息
+	private function addToSql( string $pTableName, array $pField ) {
 		// dump($pTableName);
 		// dump( $pField );
-		$pTableName = 'Table_1';
+		$pTableName = 'Table_1';//需要将Table_1 改成活动的
 		// 不能指定列宽的数据类型
 		$ints = array( 'datetime', 'ntext', 'tinyint', 'Smallint', 'int', 'bigint' );
 		$is_type = array_search( $pField['type'], $ints );
@@ -311,25 +377,82 @@ class DataService
 
 		$default = empty( $pField['defaults'] ) ? "default ''" : $pField['defaults'];
 
+		$default = $pField['defaults'];
 
+		// 共三条
 		// $sql = "alter table $pTableName add $field $type $isnull $default";dump($sql);
 		// $sql = "alter table $pTableName add $field $type identity(1,1) $isnull";dump($sql);
 		// $sql = "alter table $pTableName add constraint $field primary key NONCLUSTERED($field)";
 		// dump($sql);
 		// die();
 
+		// 非主键自增时 执行的 sql ( 普通添加 )
 		if ( 'false' == $pField['ispk'] && 'false' == $pField['autoAdd'] ) {
 			// alter table | 表名 | add | 字段名 | varchar | (10) | not null | defaults
 			$sql[] = "alter table $pTableName add $field $type $isnull $default";
+		// 主键自增时 执行的 sql
 		} else if ( 'true' == $pField['ispk'] && 'true' == $pField['autoAdd'] ) {
 			// alter table | 表名 | add | 字段名 | varchar | (10) | identity(1,1) | not null
 			// alter table | 表名 | add constraint | 索引名 | primary key NONCLUSTERED( | 字段名 | )
 			$sql[] = "alter table $pTableName add $field $type identity(1,1) $isnull";
 			$sql[] = "alter table $pTableName add constraint $field primary key NONCLUSTERED($field)";
+		// 只是主键时 执行的 sql
 		} else if ( 'true' == $pField['ispk'] ) {
 			// alter table | 表名 | add | 字段名 | varchar | (10) | not null | defaults
 			$sql[] = "alter table $pTableName add $field $type $isnull $default";
 			$sql[] = "alter table $pTableName add constraint $field primary key NONCLUSTERED($field)";
+		// 只是自增时 执行的 sql
+		} else if ( 'true' == $pField['autoAdd'] ) {
+			// alter table | 表名 | add | 字段名 | varchar | (10) | identity(1,1) | not null
+			$sql[] = "alter table $pTableName add $field $type identity(1,1) $isnull";
+		} 
+
+		return $sql;
+
+	}
+
+	// 拼接添加字段的SQL信息
+	private function updateToSql( string $pTableName, array $pField ) {
+		// dump($pTableName);
+		// dump( $pField );
+		$pTableName = 'Table_1';//需要将Table_1 改成活动的
+		// 不能指定列宽的数据类型
+		$ints = array( 'datetime', 'ntext', 'tinyint', 'Smallint', 'int', 'bigint' );
+		$is_type = array_search( $pField['type'], $ints );
+
+		$type = false == $is_type
+			? $pField['type'].'('.$pField['length'].')'
+			: $pField['type'];
+
+		$field = $pField['cname'];
+
+		$isnull = 'false' == $pField['isnull'] ? 'not null' : 'null';
+
+		$default = $pField['defaults'];
+
+		// 共三条
+		// $sql = "alter table $pTableName add $field $type $isnull $default";dump($sql);
+		// $sql = "alter table $pTableName add $field $type identity(1,1) $isnull";dump($sql);
+		// $sql = "alter table $pTableName add constraint $field primary key NONCLUSTERED($field)";
+		// dump($sql);
+		// die();
+
+		// 非主键自增时 执行的 sql ( 普通添加 )
+		if ( 'false' == $pField['ispk'] && 'false' == $pField['autoAdd'] ) {
+			// alter table | 表名 | add | 字段名 | varchar | (10) | not null | defaults
+			$sql[] = "alter table $pTableName add $field $type $isnull $default";
+		// 主键自增时 执行的 sql
+		} else if ( 'true' == $pField['ispk'] && 'true' == $pField['autoAdd'] ) {
+			// alter table | 表名 | add | 字段名 | varchar | (10) | identity(1,1) | not null
+			// alter table | 表名 | add constraint | 索引名 | primary key NONCLUSTERED( | 字段名 | )
+			$sql[] = "alter table $pTableName add $field $type identity(1,1) $isnull";
+			$sql[] = "alter table $pTableName add constraint $field primary key NONCLUSTERED($field)";
+		// 只是主键时 执行的 sql
+		} else if ( 'true' == $pField['ispk'] ) {
+			// alter table | 表名 | add | 字段名 | varchar | (10) | not null | defaults
+			$sql[] = "alter table $pTableName add $field $type $isnull $default";
+			$sql[] = "alter table $pTableName add constraint $field primary key NONCLUSTERED($field)";
+		// 只是自增时 执行的 sql
 		} else if ( 'true' == $pField['autoAdd'] ) {
 			// alter table | 表名 | add | 字段名 | varchar | (10) | identity(1,1) | not null
 			$sql[] = "alter table $pTableName add $field $type identity(1,1) $isnull";

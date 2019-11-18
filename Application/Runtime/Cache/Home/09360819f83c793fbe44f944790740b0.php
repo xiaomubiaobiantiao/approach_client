@@ -43,7 +43,10 @@ $(function(){
             <li><cite></cite><a href="<?php echo U('Home/Update/index');?>" target='rightFrame'>文件更新</a><i></i></li>
             <li><cite></cite><a href="<?php echo U('Home/UpdateData/index');?>" target='rightFrame'>數据更新</a><i></i></li>
             <li><cite></cite><a href="<?php echo U('Home/Pack/index');?>" target='rightFrame'>软件包管理</a><i></i></li>
-            <li><cite></cite><a href="<?php echo U('Home/UpdateData/getDataXml');?>" target='rightFrame'>获取xml文件</a><i></i></li>
+            <li><cite></cite><a href="<?php echo U('Home/Logs/index');?>" target='rightFrame'>查看日志</a><i></i></li>
+            <li><cite></cite><a href="<?php echo U('Home/UpdateData/getDataXml');?>" target='rightFrame'>获取xml文件</a><i></i></
+            <li><cite></cite><a href="<?php echo U('Home/UpdateData/updateXmlToData');?>" target='rightFrame'>测试页</a><i></i></
+            li>
         </ul>
     </dd>
 

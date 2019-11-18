@@ -233,22 +233,22 @@ class UpdateService extends Process
 		//查看日志是否更新成功
 		$this->scanLog( LOCAL_LOG );
 		
-		// //删除临时目录和备份目录里的所有文件
-		// $this->deleteTmpFile( array( BACKUP_TMP_PATH, UNPACK_TMP_PATH ));
+		// 删除临时目录和备份目录里的所有文件
+		$this->deleteTmpFile( array( BACKUP_TMP_PATH, UNPACK_TMP_PATH ));
 
-		// //搜索垃圾回收是否清理完成
-		// $this->scanRecycle( array( BACKUP_TMP_PATH, UNPACK_TMP_PATH ));
+		// 搜索垃圾回收是否清理完成
+		$this->scanRecycle( array( BACKUP_TMP_PATH, UNPACK_TMP_PATH ));
 
-		//查看版本信息是否创建或更新完成
+		// 查看版本信息是否创建或更新完成
 		$this->scanVersion( OLD_VERSION_PATH );
 		
 		/*-------------------------------------------------------------------------------------*/
 
-		//添加一条操作信息到记录日志
+		// 添加一条操作信息到记录日志
 		$this->recordInfo( LOCAL_UPDATE_RECORD );
 
 		// if ( false == empty( $PathObj->fileOperation['update']['data'] ))
-		// 	$this->dataOperationProcess( $PathObj->fileOperation['update']['date'] );
+		// $this->dataOperationProcess( $PathObj->fileOperation['update']['date'] );
 
 
 	}
@@ -326,8 +326,6 @@ class UpdateService extends Process
 
 		//读取文件 SQL 内容
 		//$data->loadDataFile();
-		
-
 
 		
 	}

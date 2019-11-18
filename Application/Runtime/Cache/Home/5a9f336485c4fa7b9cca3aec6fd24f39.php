@@ -35,7 +35,10 @@
     <p>看到这个提示，就自认倒霉吧!</p> -->
     <h2><?php echo ($data[0]); ?></h2>
     <p><?php echo ($data[1]); ?></p>
-    <div class="reindex"><a href="<?php echo U( 'Index/main' );?>" target="_parent">返回首页</a></div>
+    <div class="reindex" style="width:400px;" >
+        <a href="<?php echo U( 'Index/main' );?>" target="_parent">返回首页</a>
+        <a href="<?php echo U( 'Index/main' );?>" target="_parent">继续更新数据</a>
+    </div>
     
     </div>
 

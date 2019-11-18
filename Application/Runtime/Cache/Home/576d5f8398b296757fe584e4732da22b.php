@@ -29,10 +29,9 @@
     }
     .progress .progress-bar{
         position: relative;
-        -webkit-animation: animate-positive 6s;
-        animation: animate-positive 6s;
+        animation: animate-positive 4s;
     }
-    .progress .progress-bar:after{
+   /* .progress .progress-bar:after{
         content: "";
         display: inline-block;
         width: 9px;
@@ -40,22 +39,11 @@
         position: absolute;
         top: -10px;
         bottom: -10px;
-        right: -1px;
+        right: -2px;
         z-index: 1;
         transform: rotate(35deg);
-    }
-    .progress .progress-value{
-        display: block;
-        font-size: 16px;
-        font-weight: 600;
-        color: #333;
-        position: absolute;
-        top: -30px;
-        right: -25px;
-    }
-    @-webkit-keyframes animate-positive{
-        0%{ width: 0; }
-    }
+    }*/
+    
     @keyframes animate-positive {
         0%{ width: 0; }
     }
@@ -260,38 +248,39 @@ $(document).ready(function(e) {
 
     <script type="text/javascript">
 
-    function progress() {
+    // function progress() {
         
-        // 获取当前页面的高度
+    //     // 获取当前页面的高度
         var height=$('body').css('height');
-        //append遮罩层元素
+    //     //append遮罩层元素
         $('body').append
         ("<div id=background style='height:"+height+"';></div>")
-        //显示弹出框
-        //$("#hide").slideDown("slow");
+    //     //显示弹出框
+    //     //$("#hide").slideDown("slow");
         $("#hide").show();
-        /* 输入值 */
-        magic_number(101);
+    //     /* 输入值 */
+    //     magic_number(101);
 
-    }
+    // }
 
     /* 输入值 */
     //magic_number(101);
 
     /* 向 id=number的 div 同步时间 - 多少秒内读多少数字 */
-    function magic_number(value) { 
-        var num = $("#number"); 
-        num.animate({count: value}, { 
-            duration: 6100, /* 秒数 */
-            step: function() { 
-                var value = String(parseInt(this.count));
-                num.text( value + '%' );
-                if ( value == 100 ) {
-                    window.location.href = "/index.php/Home/Common/message.html";
-                }
-            } 
-        }); 
-    };
+    // function magic_number(value) { 
+    //     var num = $("#number"); 
+    //     num.animate({count: value}, { 
+    //         duration: 6100, /* 秒数 */
+    //         step: function() { 
+    //             var value = String(parseInt(this.count));
+    //             num.text( value + '%' );
+    //             if ( value == 100 ) {
+    //                 value = 0;
+    //                 //window.location.href = "/index.php/Home/Common/message.html";
+    //             }
+    //         } 
+    //     }); 
+    // };
     </script>
 
 

@@ -71,9 +71,10 @@ class UpdateController extends Controller
 
 		//跳转到提示页面
 		//$this->redirect('Common/message');
-		echo 123;die();
-		$message = new \Home\Controller\CommonController();
-		$message->customMessage( array( 'ab','cd' ) );
+		// echo 123;die();
+		// 自定义提示输出 - 暂时未用
+		// $message = new \Home\Controller\CommonController();
+		// $message->customMessage( array( 'ab','cd' ));
 	}
 
 	//恢复备份文件 - 还原

@@ -26,6 +26,39 @@ class FileBase
 		return file_get_contents( $pFile );
 	}
 
+	/**
+	 * 取文件末尾 n 行
+	 * @param string $file 文件路径
+	 * @param int $line 末尾几行
+	 * @return mixed 成功则返回字符串
+	 */
+	/**
+	 * [getFileLastLines 取文件末尾 n 行]
+	 * @param  [string]   $pFile  [write in path]
+	 * @param  [type]     $pLine  [write content]
+	 * @return [mixed]            [成功则返回字符串]
+	 */
+	public function getFileLastLines( $pFile,$pLine = 1 ){
+
+		$fp = fopen( $pFile, 'r' );
+		$pos = -2;		//偏移量
+		$eof = " ";		//行尾标识
+		$data = array();
+		while ( $pLine > 0 ){					//逐行遍历
+			while ( $eof != "\n" ){ 			//不是行尾
+				fseek( $fp, $pos, SEEK_END );	//fseek成功返回0，失败返回-1  
+				$eof = fgetc( $fp );			//读取一个字符并赋给行尾标识
+				$pos--;							//向前偏移
+			}
+			$eof = " ";
+			$data[] = fgets( $fp );				//读取一行	
+			$pLine--;
+		}
+		fclose( $fp );
+		return $data;
+
+	}
+
 	//获取文件修改时间
 	public function scanFileInfo( $pFile ) {
 		if ( false == self::checkFile( $pFile ))

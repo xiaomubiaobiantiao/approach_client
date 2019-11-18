@@ -54,38 +54,6 @@
     </div> 
     
     <div id="tab1" class="tabson">
-    
-    <!-- <div class="formtext">系统 <b>当前版本</b> <?php echo ($datalist[3]); ?></div> -->
-
-    <!-- <div id="zipId" style="display: none" ><?php echo ($datalist['zipId']); ?></div> -->
-    <!-- <ul class="forminfo" >
-        <?php if(is_array($datalist['xmlType'])): foreach($datalist['xmlType'] as $key=>$vo): ?><from id="<?php echo ($vo); ?>" name="<?php echo ($vo); ?>" action="<?php echo U('UpdateData/test');?>" method='POST' >
-            <div class="datadiv" >
-            <li class="li_o" >
-                <label class="type" ><?php echo ($vo); ?></label>
-                <input name="type" type="text" class="dfinput" value="<?php echo ($vo); ?>" style="display:none" />
-            </li>
-            <li>
-                <label>服务器：</label>
-                <input name="server" type="text" class="dfinput" value="" /><i></i>
-            </li>
-            <li>
-                <label>登陆名：</label>
-                <input name="user" type="text" class="dfinput" value="" /><i></i>
-            </li>
-            <li>
-                <label>密码：</label>
-                <input name="pass" type="text" class="dfinput" value="" /><i></i>
-            </li>
-
-            <li class="button" >
-                <label><b></b></label>
-                <button id="update" class="btn" value="<?php echo ($vo); ?>" onclick="submitData('<?php echo U('UpdateData/testLink');?>', this.value);" >连接数据库</button></li>
-            </div>
-        </from><?php endforeach; endif; ?>
-        
-    </ul>
- -->
 
     <ul class="forminfo" >
     <?php if(is_array($list['prieview'])): foreach($list['prieview'] as $dataType=>$vo): ?><div class="datadiv">
